@@ -1,0 +1,567 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIG_FALSE	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+AIG_NODE	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+BV_ADD	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_AND	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+BV_BUF	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_CONST	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+BV_DIV	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_EQUALITY	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+BV_GEQ	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+BV_GREATER	v3Type.h	/^   BV_NEQ, BV_GREATER, BV_LEQ, BV_LESS, V3_GATE_TOTAL                            \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_INV	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_LEQ	v3Type.h	/^   BV_NEQ, BV_GREATER, BV_LEQ, BV_LESS, V3_GATE_TOTAL                            \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_LESS	v3Type.h	/^   BV_NEQ, BV_GREATER, BV_LEQ, BV_LESS, V3_GATE_TOTAL                            \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_MERGE	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+BV_MODULO	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_MULT	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_MUX	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+BV_NAND	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_NEQ	v3Type.h	/^   BV_NEQ, BV_GREATER, BV_LEQ, BV_LESS, V3_GATE_TOTAL                            \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_NOR	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_OR	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_RED_AND	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+BV_RED_OR	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+BV_RED_XOR	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+BV_SHL	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_SHR	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_SLICE	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+BV_SUB	v3Type.h	/^   BV_ADD, BV_SUB, BV_MULT, BV_DIV, BV_MODULO, BV_SHL, BV_SHR,                   \/\/ BV_(ARITH)$/;"	e	enum:V3GateType
+BV_XNOR	v3Type.h	/^   BV_BUF, BV_INV, BV_OR, BV_NAND, BV_NOR, BV_XNOR,                              \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+BV_XOR	v3Type.h	/^   BV_RED_AND, BV_RED_OR, BV_RED_XOR, BV_MUX, BV_AND, BV_XOR,                    \/\/ BV_(RED, LOGIC)$/;"	e	enum:V3GateType
+C2PMapON	v3NtkHandler.h	/^      static inline const bool C2PMapON()  { return _extVerbosity & 16ul; }$/;"	f	class:V3NtkHandler
+P2CMapON	v3NtkHandler.h	/^      static inline const bool P2CMapON()  { return _extVerbosity & 8ul;  }$/;"	f	class:V3NtkHandler
+V3AigNtk	v3Ntk.h	/^typedef V3Ntk     V3AigNtk;$/;"	t
+V3AsyncDFFName	v3Type.h	/^const string V3AsyncDFFName   = "v3_Async_FF_Net_";$/;"	v
+V3AsyncMuxName	v3Type.h	/^const string V3AsyncMuxName   = "v3_Async_MUX_Net_";$/;"	v
+V3AuxExpansionName	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxExpansionName   = V3ExpansionName;$/;"	m	class:V3NtkHandler	file:
+V3AuxExpansionName	v3NtkHandler.h	/^      static string        V3AuxExpansionName;$/;"	m	class:V3NtkHandler
+V3AuxHierSeparator	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxHierSeparator   = V3HierSeparator;$/;"	m	class:V3NtkHandler	file:
+V3AuxHierSeparator	v3NtkHandler.h	/^      static string        V3AuxHierSeparator;$/;"	m	class:V3NtkHandler
+V3AuxNameBitPrefix	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxNameBitPrefix   = V3NameBitPrefix;$/;"	m	class:V3NtkHandler	file:
+V3AuxNameBitPrefix	v3NtkHandler.h	/^      static string        V3AuxNameBitPrefix;$/;"	m	class:V3NtkHandler
+V3AuxNameBitSuffix	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxNameBitSuffix   = V3NameBitSuffix;$/;"	m	class:V3NtkHandler	file:
+V3AuxNameBitSuffix	v3NtkHandler.h	/^      static string        V3AuxNameBitSuffix;$/;"	m	class:V3NtkHandler
+V3AuxNameInvPrefix	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxNameInvPrefix   = V3NameInvPrefix;$/;"	m	class:V3NtkHandler	file:
+V3AuxNameInvPrefix	v3NtkHandler.h	/^      static string        V3AuxNameInvPrefix;$/;"	m	class:V3NtkHandler
+V3AuxNetNamePrefix	v3NtkHandler.cpp	/^string V3NtkHandler::V3AuxNetNamePrefix   = V3NetNamePrefix;$/;"	m	class:V3NtkHandler	file:
+V3AuxNetNamePrefix	v3NtkHandler.h	/^      static string        V3AuxNetNamePrefix;$/;"	m	class:V3NtkHandler
+V3BVXId	v3Ntk.h	/^typedef uint32_t     V3BVXId;$/;"	t
+V3BitVecXVec	v3Ntk.h	/^typedef V3Vec<V3BitVecX*   >::Vec   V3BitVecXVec;$/;"	t
+V3BusId	v3Ntk.h	/^typedef uint32_t     V3BusId;$/;"	t
+V3BusIdHash	v3Ntk.h	/^typedef V3HashMap<uint64_t,   V3BusId>::Hash V3BusIdHash;$/;"	t
+V3BusPair	v3Ntk.h	/^typedef V3PairType   V3BusPair;$/;"	t
+V3BusPairVec	v3Ntk.h	/^typedef V3Vec<V3BusPair    >::Vec   V3BusPairVec;$/;"	t
+V3BvNtk	v3Ntk.cpp	/^V3BvNtk::V3BvNtk() : V3Ntk() {$/;"	f	class:V3BvNtk
+V3BvNtk	v3Ntk.cpp	/^V3BvNtk::V3BvNtk(const V3BvNtk& ntk) : V3Ntk(ntk) {$/;"	f	class:V3BvNtk
+V3BvNtk	v3Ntk.h	/^class V3BvNtk : public V3Ntk$/;"	c
+V3ConstHash	v3Ntk.h	/^typedef V3HashMap<string,     V3BVXId>::Hash V3ConstHash;$/;"	t
+V3ExpansionName	v3Type.h	/^const string V3ExpansionName  = "@";$/;"	v
+V3FSMMap	v3NtkHandler.h	/^typedef V3Map<string, V3FSMExtract*>::Map V3FSMMap;$/;"	t
+V3GateType	v3Type.h	/^enum V3GateType {$/;"	g
+V3GateTypeStr	v3Type.h	/^const string V3GateTypeStr[] = {$/;"	v
+V3Handler	v3NtkHandler.cpp	/^V3Handler::V3Handler() {$/;"	f	class:V3Handler
+V3Handler	v3NtkHandler.h	/^class V3Handler$/;"	c
+V3HandlerVec	v3NtkHandler.h	/^typedef V3Vec<V3NtkHandler*>::Vec         V3HandlerVec;$/;"	t
+V3HierSeparator	v3Type.h	/^const string V3HierSeparator  = ".";$/;"	v
+V3IdxStrHash	v3NtkHandler.h	/^typedef V3HashMap<uint32_t, string>::Hash V3IdxStrHash;$/;"	t
+V3InputTable	v3Ntk.h	/^typedef V3Vec<V3InputVec   >::Vec   V3InputTable;$/;"	t
+V3InputVec	v3Ntk.h	/^typedef V3Vec<V3NetType    >::Vec   V3InputVec;$/;"	t
+V3MiscType	v3Type.h	/^   V3MiscType(uint32_t t = 0, uint32_t m = 0) { type = t; misc = m; }$/;"	f	struct:V3MiscType
+V3MiscType	v3Type.h	/^struct V3MiscType {  \/\/ 4 Bytes$/;"	s
+V3MuxEqual	v3NtkHash.h	/^typedef V3PairHashEqual<uint64_t, uint32_t>  V3MuxEqual;$/;"	t
+V3MuxFcn	v3NtkHash.h	/^typedef V3PairHashFcn<uint64_t, uint32_t>    V3MuxFcn;$/;"	t
+V3MuxHash	v3NtkHash.h	/^typedef V3HashMap<V3MuxKey,   V3NetId, V3MuxFcn, V3MuxEqual>::Hash   V3MuxHash;$/;"	t
+V3MuxKey	v3NtkHash.h	/^typedef pair<uint64_t, uint32_t>             V3MuxKey;$/;"	t
+V3MuxNetType2HashKey	v3NtkHash.h	/^inline const V3MuxKey V3MuxNetType2HashKey(const V3NetType& fId, const V3NetType& tId, const V3NetType& sId) {$/;"	f
+V3NameBitPrefix	v3Type.h	/^const string V3NameBitPrefix  = "[";$/;"	v
+V3NameBitSuffix	v3Type.h	/^const string V3NameBitSuffix  = "]";$/;"	v
+V3NameInvPrefix	v3Type.h	/^const string V3NameInvPrefix  = "~";$/;"	v
+V3NetId	v3Type.h	/^struct V3NetId {  \/\/ 4 Bytes$/;"	s
+V3NetNamePrefix	v3Type.h	/^const string V3NetNamePrefix  = "v3_Internal_Net_";$/;"	v
+V3NetStrHash	v3NtkHandler.h	/^typedef V3HashMap<uint32_t, string>::Hash V3NetStrHash;$/;"	t
+V3NetTable	v3Ntk.h	/^typedef V3Vec<V3NetVec     >::Vec   V3NetTable;$/;"	t
+V3NetType	v3Type.h	/^   V3NetType(const V3NetId& i) { id = i; }$/;"	f	union:V3NetType
+V3NetType	v3Type.h	/^   V3NetType(uint32_t i = V3NtkUD) { value = i; }$/;"	f	union:V3NetType
+V3NetType	v3Type.h	/^union V3NetType {  \/\/ 4 Bytes$/;"	u
+V3NetType2HashKey	v3NtkHash.h	/^inline const uint32_t V3NetType2HashKey(const V3NetType& id) { return id.value; }$/;"	f
+V3NetUD	v3Ntk.h	/^const V3NetId        V3NetUD = V3NetId::makeNetId();$/;"	v
+V3NetVec	v3Ntk.h	/^typedef V3Vec<V3NetId      >::Vec   V3NetVec;$/;"	t
+V3Ntk	v3Ntk.cpp	/^V3Ntk::V3Ntk() {$/;"	f	class:V3Ntk
+V3Ntk	v3Ntk.h	/^class V3Ntk$/;"	c
+V3NtkHandler	v3NtkHandler.cpp	/^V3NtkHandler::V3NtkHandler(V3NtkHandler* const p, V3Ntk* const ntk) : _handler(p) {$/;"	f	class:V3NtkHandler
+V3NtkHandler	v3NtkHandler.h	/^class V3NtkHandler$/;"	c
+V3NtkHierData	v3NtkHandler.h	/^            V3NtkHierData(V3NtkHandler* const n, const uint32_t& p) : _handler(n), _parentId(p) { _p2cMap.clear(); }$/;"	f	class:V3NtkHierInfo::V3NtkHierData
+V3NtkHierData	v3NtkHandler.h	/^      class V3NtkHierData {$/;"	c	class:V3NtkHierInfo
+V3NtkHierInfo	v3NtkHandler.h	/^      V3NtkHierInfo() { _hierInfo.clear(); _refIdMap.clear(); }$/;"	f	class:V3NtkHierInfo
+V3NtkHierInfo	v3NtkHandler.h	/^class V3NtkHierInfo {$/;"	c
+V3NtkInput	v3NtkInput.cpp	/^V3NtkInput::V3NtkInput(const bool& isAig, const string& name) : V3NtkHandler(0, createV3Ntk(!isAig)) {$/;"	f	class:V3NtkInput
+V3NtkInput	v3NtkInput.h	/^class V3NtkInput : public V3NtkHandler$/;"	c
+V3NtkModule	v3Ntk.h	/^      V3NtkModule(const V3NetVec& i, const V3NetVec& o) { _ref = 0; _inputs = i; _outputs = o; }$/;"	f	class:V3NtkModule
+V3NtkModule	v3Ntk.h	/^class V3NtkModule$/;"	c
+V3NtkModuleVec	v3Ntk.h	/^typedef V3Vec<V3NtkModule* >::Vec   V3NtkModuleVec;$/;"	t
+V3NtkSimplify	v3NtkSimplify.cpp	/^V3NtkSimplify::V3NtkSimplify(V3NtkHandler* const handler) : V3NtkHandler(handler) {$/;"	f	class:V3NtkSimplify
+V3NtkSimplify	v3NtkSimplify.h	/^class V3NtkSimplify : public V3NtkHandler$/;"	c
+V3NtkUD	v3Type.h	/^const uint32_t V3NtkUD     = V3IntMAX;$/;"	v
+V3OrderedNetType2HashKey	v3NtkHash.h	/^inline const uint64_t V3OrderedNetType2HashKey(const V3NetType& id1, const V3NetType& id2) {$/;"	f
+V3PairType	v3Type.h	/^   V3PairType(uint32_t m, uint32_t l) { bus[0] = m; bus[1] = l; }$/;"	f	struct:V3PairType
+V3PairType	v3Type.h	/^   V3PairType(uint64_t p) { pair = p; }$/;"	f	struct:V3PairType
+V3PairType	v3Type.h	/^struct V3PairType {  \/\/ 8 Bytes$/;"	s
+V3PropertyMap	v3NtkHandler.h	/^typedef V3Map<string, V3Property*>::Map   V3PropertyMap;$/;"	t
+V3RepIdHash	v3Ntk.h	/^typedef V3HashMap<uint32_t,   V3NetId>::Hash V3RepIdHash;$/;"	t
+V3Str2BoolFuncPtr	v3NtkInput.h	/^typedef const bool(*V3Str2BoolFuncPtr) (const string&);$/;"	t
+V3StrIdxHash	v3NtkHandler.h	/^typedef V3HashMap<string, uint32_t>::Hash V3StrIdxHash;$/;"	t
+V3StrNetHash	v3NtkHandler.h	/^typedef V3HashMap<string, V3NetId>::Hash  V3StrNetHash;$/;"	t
+V3StringVec	v3NtkInput.h	/^typedef V3Vec<string     >::Vec  V3StringVec;$/;"	t
+V3TypeVec	v3Ntk.h	/^typedef V3Vec<V3MiscType   >::Vec   V3TypeVec;$/;"	t
+V3UI32Hash	v3NtkHash.h	/^typedef V3HashMap<uint32_t,   V3NetId                      >::Hash   V3UI32Hash;$/;"	t
+V3UI64Hash	v3NtkHash.h	/^typedef V3HashMap<uint64_t,   V3NetId                      >::Hash   V3UI64Hash;$/;"	t
+V3UI64LSB	v3Type.h	24;"	d
+V3UI64MSB	v3Type.h	23;"	d
+V3UI64Pair	v3Type.h	22;"	d
+V3UI64Type	v3Type.h	21;"	d
+V3UnorderedNetType2HashKey	v3NtkHash.h	/^inline const uint64_t V3UnorderedNetType2HashKey(const V3NetType& id1, const V3NetType& id2) {$/;"	f
+V3_FF	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+V3_GATE_TOTAL	v3Type.h	/^   BV_NEQ, BV_GREATER, BV_LEQ, BV_LESS, V3_GATE_TOTAL                            \/\/ BV_EXTERNAL_ONLY$/;"	e	enum:V3GateType
+V3_INDENT	v3Type.h	/^const string   V3_INDENT   = "   ";$/;"	v
+V3_MODULE	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+V3_NTK_C	v3Ntk.cpp	10;"	d	file:
+V3_NTK_C	v3NtkBdd.cpp	10;"	d	file:
+V3_NTK_CMD_C	v3NtkCmd.cpp	10;"	d	file:
+V3_NTK_CMD_H	v3NtkCmd.h	10;"	d
+V3_NTK_CONSTRUCT_C	v3NtkConstruct.cpp	10;"	d	file:
+V3_NTK_DUPLICATE_C	v3NtkDuplicate.cpp	10;"	d	file:
+V3_NTK_H	v3Ntk.h	10;"	d
+V3_NTK_HANDLER_C	v3NtkHandler.cpp	10;"	d	file:
+V3_NTK_HANDLER_H	v3NtkHandler.h	10;"	d
+V3_NTK_HASH_H	v3NtkHash.h	10;"	d
+V3_NTK_INPUT_C	v3NtkInput.cpp	10;"	d	file:
+V3_NTK_INPUT_H	v3NtkInput.h	10;"	d
+V3_NTK_REWRITE_C	v3NtkRewrite.cpp	10;"	d	file:
+V3_NTK_REWRITE_H	v3NtkRewrite.h	10;"	d
+V3_NTK_SIMPLIFY_C	v3NtkSimplify.cpp	10;"	d	file:
+V3_NTK_SIMPLIFY_H	v3NtkSimplify.h	10;"	d
+V3_NTK_STRASH_C	v3NtkStrash.cpp	10;"	d	file:
+V3_NTK_STRASH_H	v3NtkStrash.h	10;"	d
+V3_NTK_TRAVERSE_C	v3NtkTraverse.cpp	10;"	d	file:
+V3_NTK_UTIL_H	v3NtkUtil.h	10;"	d
+V3_PI	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+V3_PIO	v3Type.h	/^   V3_PI = 0, V3_PIO, V3_FF, V3_MODULE, AIG_NODE, AIG_FALSE,                     \/\/ PI, PIO, FF, MODULE, AIG GATES$/;"	e	enum:V3GateType
+V3_REWRITE_CONST_PROP_ENABLED	v3NtkRewrite.cpp	18;"	d	file:
+V3_REWRITE_STRASH_DUAL_REPR	v3NtkRewrite.cpp	17;"	d	file:
+V3_TYPE_H	v3Type.h	10;"	d
+V3_XD	v3Type.h	/^   BV_MERGE, BV_EQUALITY, BV_GEQ, BV_SLICE, BV_CONST, V3_XD,                     \/\/ BV_(MODEL), BV_(COMP)$/;"	e	enum:V3GateType
+_ConstList	v3Ntk.h	/^      V3NetVec       _ConstList;    \/\/ V3NetId of BV_CONST (AIG_FALSE)$/;"	m	class:V3Ntk
+_FFList	v3Ntk.h	/^      V3NetVec       _FFList;       \/\/ V3NetId of FF$/;"	m	class:V3Ntk
+_IOList	v3Ntk.h	/^      V3NetVec       _IOList[3];    \/\/ V3NetId of PI \/ PO \/ PIO$/;"	m	class:V3Ntk
+_V3BusIdHash	v3Ntk.cpp	/^V3BusIdHash  V3BvNtk::_V3BusIdHash = V3BusIdHash();$/;"	m	class:V3BvNtk	file:
+_V3BusIdHash	v3Ntk.h	/^      static V3BusIdHash   _V3BusIdHash;  \/\/ Global Hash for V3BusId of V3Slice for All V3BvNtk$/;"	m	class:V3BvNtk
+_V3BusIdVec	v3Ntk.cpp	/^V3BusPairVec V3BvNtk::_V3BusIdVec  = V3BusPairVec();$/;"	m	class:V3BvNtk	file:
+_V3BusIdVec	v3Ntk.h	/^      static V3BusPairVec  _V3BusIdVec;   \/\/ Global Vec for V3BusId to (MSB, LSB) Mapping$/;"	m	class:V3BvNtk
+_V3ConstHash	v3Ntk.cpp	/^V3ConstHash  V3BvNtk::_V3ConstHash = V3ConstHash();$/;"	m	class:V3BvNtk	file:
+_V3ConstHash	v3Ntk.h	/^      static V3ConstHash   _V3ConstHash;  \/\/ Global Hash for V3BitVecX of V3Const for All V3BvNtk$/;"	m	class:V3BvNtk
+_V3ValueVec	v3Ntk.cpp	/^V3BitVecXVec V3BvNtk::_V3ValueVec  = V3BitVecXVec();$/;"	m	class:V3BvNtk	file:
+_V3ValueVec	v3Ntk.h	/^      static V3BitVecXVec  _V3ValueVec;   \/\/ Global Vec for V3BVXId to V3BitVecX  Mapping$/;"	m	class:V3BvNtk
+_c2pMap	v3NtkSimplify.h	/^      V3NetVec    _c2pMap;    \/\/ V3NetId Mapping From Current to Parent Ntk$/;"	m	class:V3NtkSimplify
+_curHandlerId	v3NtkHandler.h	/^      uint32_t       _curHandlerId;    \/\/ Id of Current Ntk Handler $/;"	m	class:V3Handler
+_curRefIdVec	v3NtkHandler.h	/^      V3UI32Vec      _curRefIdVec;     \/\/ Current Ref Indices from Base Ntk$/;"	m	class:V3Handler
+_cutSignals	v3Ntk.h	/^      V3NetVec       _cutSignals;   \/\/ Signals on Current Cut$/;"	m	class:V3Ntk
+_extVerbosity	v3NtkHandler.cpp	/^unsigned char V3NtkHandler::_extVerbosity = 0;$/;"	m	class:V3NtkHandler	file:
+_extVerbosity	v3NtkHandler.h	/^      static unsigned char _extVerbosity;$/;"	m	class:V3NtkHandler
+_fsm	v3NtkHandler.h	/^      V3FSMMap             _fsm;          \/\/ FSM List$/;"	m	class:V3NtkHandler
+_globalClk	v3Ntk.h	/^      V3NetId        _globalClk;    \/\/ Global Clock Signal (Specified in RTL)$/;"	m	class:V3Ntk
+_globalMisc	v3Ntk.h	/^      uint32_t       _globalMisc;   \/\/ Global Misc Data for V3NetId in Ntk$/;"	m	class:V3Ntk
+_handler	v3NtkHandler.h	/^            V3NtkHandler* const  _handler;$/;"	m	class:V3NtkHierInfo::V3NtkHierData
+_handler	v3NtkHandler.h	/^      V3NtkHandler* const  _handler;      \/\/ Parent Ntk Handler$/;"	m	class:V3NtkHandler
+_hierInfo	v3NtkHandler.h	/^      V3Vec<V3NtkHierData*>::Vec _hierInfo;$/;"	m	class:V3NtkHierInfo
+_inputData	v3Ntk.h	/^      V3InputTable   _inputData;    \/\/ Fanin Table for V3NetId   (V3NetId, V3BVXId, V3BusId)$/;"	m	class:V3Ntk
+_inputs	v3Ntk.h	/^      V3NetVec    _inputs;$/;"	m	class:V3NtkModule
+_instRef	v3NtkHandler.h	/^      uint32_t             _instRef;$/;"	m	class:V3NtkHandler
+_intVerbosity	v3NtkHandler.cpp	/^unsigned char V3NtkHandler::_intVerbosity = 0;$/;"	m	class:V3NtkHandler	file:
+_intVerbosity	v3NtkHandler.h	/^      static unsigned char _intVerbosity;$/;"	m	class:V3NtkHandler
+_isBddBuilt	v3Ntk.h	/^      bool           _isBddBuilt;   \/\/ MODIFICATION FOR SoCV BDD$/;"	m	class:V3Ntk
+_lastHandlerId	v3NtkHandler.h	/^      uint32_t       _lastHandlerId;   \/\/ Id of Last Ntk Handler $/;"	m	class:V3Handler
+_lastRefIdVec	v3NtkHandler.h	/^      V3UI32Vec      _lastRefIdVec;    \/\/ Last Ref Indices from Base Ntk$/;"	m	class:V3Handler
+_nameHash	v3NtkHandler.h	/^      V3StrNetHash         _nameHash;     \/\/ Hash Table for V3NetId from External Signal Name$/;"	m	class:V3NtkHandler
+_netHash	v3NtkHandler.h	/^      V3NetStrHash         _netHash;      \/\/ Hash Table for External Signal Name from V3NetId$/;"	m	class:V3NtkHandler
+_netWidth	v3Ntk.h	/^      V3UI32Vec            _netWidth;     \/\/ Width of Bit-Vector V3NetId$/;"	m	class:V3BvNtk
+_ntk	v3NtkHandler.h	/^      V3Ntk*               _ntk;          \/\/ Ntk Derived From Parent$/;"	m	class:V3NtkHandler
+_ntkHandlerList	v3NtkHandler.h	/^      V3HandlerVec   _ntkHandlerList;  \/\/ Ntk Handler List$/;"	m	class:V3Handler
+_ntkModule	v3Ntk.h	/^      V3NtkModuleVec _ntkModule;    \/\/ Module Instance for Hierarchical Ntk$/;"	m	class:V3Ntk
+_ntkName	v3NtkHandler.h	/^      string               _ntkName;      \/\/ Name of Input Ntk  (Need not to be unique)$/;"	m	class:V3NtkHandler
+_outIndexHash	v3NtkHandler.h	/^      V3IdxStrHash         _outIndexHash; \/\/ Hash Table for Output Names from Output Indices$/;"	m	class:V3NtkHandler
+_outNameHash	v3NtkHandler.h	/^      V3StrIdxHash         _outNameHash;  \/\/ Hash Table for Primary Outputs from Output Names$/;"	m	class:V3NtkHandler
+_outputs	v3Ntk.h	/^      V3NetVec    _outputs;$/;"	m	class:V3NtkModule
+_p2cMap	v3NtkHandler.h	/^            V3NetVec             _p2cMap;$/;"	m	class:V3NtkHierInfo::V3NtkHierData
+_p2cMap	v3NtkSimplify.h	/^      V3NetVec    _p2cMap;    \/\/ V3NetId Mapping From Parent to Current Ntk$/;"	m	class:V3NtkSimplify
+_parentId	v3NtkHandler.h	/^            const uint32_t       _parentId;$/;"	m	class:V3NtkHierInfo::V3NtkHierData
+_property	v3NtkHandler.h	/^      V3PropertyMap        _property;     \/\/ Property List$/;"	m	class:V3NtkHandler
+_ref	v3Ntk.h	/^      size_t      _ref;$/;"	m	class:V3NtkModule
+_refCount	v3NtkHandler.h	/^      uint32_t             _refCount;$/;"	m	class:V3NtkHandler
+_refIdMap	v3NtkHandler.h	/^      V3Vec<V3PairType>::Vec     _refIdMap;$/;"	m	class:V3NtkHierInfo
+_typeMisc	v3Ntk.h	/^      V3TypeVec      _typeMisc;     \/\/ GateType with Misc Data$/;"	m	class:V3Ntk
+applyAuxNetNamePrefix	v3NtkHandler.cpp	/^V3NtkHandler::applyAuxNetNamePrefix(const string& name) {$/;"	f	class:V3NtkHandler
+attachToNtk	v3NtkDuplicate.cpp	/^V3Ntk* const attachToNtk(V3NtkHandler* const handler, V3Ntk* const ntk, const V3NetVec& targetNets, V3NetVec& p2cMap, V3NetVec& c2pMap, V3PortableType& netHash) {$/;"	f
+bfsIndexFaninConeFF	v3NtkTraverse.cpp	/^void bfsIndexFaninConeFF(V3Ntk* const ntk, V3NetVec& ffList, const V3NetId& pId, V3BoolVec& m) {$/;"	f
+bfsIndexFaninConeFF	v3NtkTraverse.cpp	/^void bfsIndexFaninConeFF(V3Ntk* const ntk, V3NetVec& ffList, const V3NetVec& sourceNets) {$/;"	f
+buildBdd	v3NtkBdd.cpp	/^void V3Ntk::buildBdd(const V3NetId& netId) {$/;"	f	class:V3Ntk
+buildNtkBdd	v3NtkBdd.cpp	/^void V3Ntk::buildNtkBdd() {$/;"	f	class:V3Ntk
+bus	v3Type.h	/^      uint32_t    bus[2];$/;"	m	union:V3PairType::__anon1
+clear	v3NtkHandler.h	/^      inline void clear() { clearMap(); _hierInfo.clear(); clearRefId(); }$/;"	f	class:V3NtkHierInfo
+clearCutSignals	v3Ntk.h	/^      inline void clearCutSignals() { _cutSignals.clear(); }$/;"	f	class:V3Ntk
+clearMap	v3NtkHandler.h	/^      inline void clearMap() { for (uint32_t i = 0; i < getNtkSize(); ++i) delete _hierInfo[i]; }$/;"	f	class:V3NtkHierInfo
+clearRefId	v3NtkHandler.h	/^      inline void clearRefId() { _refIdMap.clear(); }$/;"	f	class:V3NtkHierInfo
+computeFanout	v3NtkTraverse.cpp	/^void computeFanout(V3Ntk* const ntk, V3NetTable& outputTable, const V3NetVec& targetNets) {$/;"	f
+computeLevel	v3NtkTraverse.cpp	/^const uint32_t computeLevel(V3Ntk* const ntk, V3UI32Vec& levelData, const V3NetVec& targetNets) {$/;"	f
+copyV3Ntk	v3NtkConstruct.cpp	/^V3Ntk* const copyV3Ntk(V3Ntk* const& ntk) {$/;"	f
+cp	v3Type.h	/^   uint32_t    cp :  1;$/;"	m	struct:V3NetId
+createAigAndGate	v3NtkConstruct.cpp	/^const bool createAigAndGate(V3AigNtk* const ntk, const V3NetId& id, const V3NetId& id1, const V3NetId& id2) {$/;"	f
+createAigFalseGate	v3NtkConstruct.cpp	/^const bool createAigFalseGate(V3AigNtk* const ntk, const V3NetId& id) {$/;"	f
+createBvConstGate	v3NtkConstruct.cpp	/^const bool createBvConstGate(V3BvNtk* const ntk, const V3NetId& id, const string& value_exp) {$/;"	f
+createBvMuxGate	v3NtkConstruct.cpp	/^const bool createBvMuxGate(V3BvNtk* const ntk, const V3NetId& id, const V3NetId& fId, const V3NetId& tId, const V3NetId& sId) {$/;"	f
+createBvPairGate	v3NtkConstruct.cpp	/^const bool createBvPairGate(V3BvNtk* const ntk, const V3GateType& type, const V3NetId& id, $/;"	f
+createBvReducedGate	v3NtkConstruct.cpp	/^const bool createBvReducedGate(V3BvNtk* const ntk, const V3GateType& type, const V3NetId& id, const V3NetId& id1) {$/;"	f
+createBvSliceGate	v3NtkConstruct.cpp	/^const bool createBvSliceGate(V3BvNtk* const ntk, const V3NetId& id, const V3NetId& id1, uint32_t msb, uint32_t lsb) {$/;"	f
+createClock	v3Ntk.cpp	/^V3Ntk::createClock(const V3NetId& id) {$/;"	f	class:V3Ntk
+createConst	v3Ntk.cpp	/^V3Ntk::createConst(const V3NetId& id) {$/;"	f	class:V3Ntk
+createGate	v3Ntk.cpp	/^V3Ntk::createGate(const V3GateType& type, const V3NetId& id) {$/;"	f	class:V3Ntk
+createIOExtensionGate	v3NtkConstruct.cpp	/^const bool createIOExtensionGate(V3BvNtk* const ntk, const V3NetId& id, const V3NetId& id1) {$/;"	f
+createInout	v3Ntk.cpp	/^V3Ntk::createInout(const V3NetId& id) {$/;"	f	class:V3Ntk
+createInout	v3NtkConstruct.cpp	/^const bool createInout(V3Ntk* const ntk, const V3NetId& id) {$/;"	f
+createInput	v3Ntk.cpp	/^V3Ntk::createInput(const V3NetId& id) {$/;"	f	class:V3Ntk
+createInput	v3NtkConstruct.cpp	/^const bool createInput(V3Ntk* const ntk, const V3NetId& id) {$/;"	f
+createLatch	v3Ntk.cpp	/^V3Ntk::createLatch(const V3NetId& id) {$/;"	f	class:V3Ntk
+createModule	v3Ntk.cpp	/^V3Ntk::createModule(V3NtkModule* const module) {$/;"	f	class:V3Ntk
+createModule	v3NtkConstruct.cpp	/^const bool createModule(V3Ntk* const ntk, const V3NetVec& inputs, const V3NetVec& outputs, $/;"	f
+createNet	v3Ntk.cpp	/^V3BvNtk::createNet(const uint32_t& width) {$/;"	f	class:V3BvNtk
+createNet	v3Ntk.cpp	/^V3Ntk::createNet(const uint32_t& width) {$/;"	f	class:V3Ntk
+createNet	v3NtkConstruct.cpp	/^const V3NetId createNet(V3Ntk* const ntk, uint32_t width) {$/;"	f
+createNet	v3NtkInput.cpp	/^V3NtkInput::createNet(const string& netName, uint32_t width) {$/;"	f	class:V3NtkInput
+createNetExtensionGate	v3NtkConstruct.cpp	/^const V3NetId createNetExtensionGate(V3BvNtk* const ntk, const V3NetId& id, const uint32_t& width) {$/;"	f
+createOutput	v3Ntk.cpp	/^V3Ntk::createOutput(const V3NetId& id) {$/;"	f	class:V3Ntk
+createOutput	v3NtkConstruct.cpp	/^const bool createOutput(V3Ntk* const ntk, const V3NetId& id) {$/;"	f
+createV3AndGate	v3NtkConstruct.cpp	/^const bool createV3AndGate(V3Ntk* const ntk, const V3NetId& id, const V3NetId& id1, const V3NetId& id2) {$/;"	f
+createV3BufGate	v3NtkConstruct.cpp	/^const bool createV3BufGate(V3Ntk* const ntk, const V3NetId& id, const V3NetId& id1) {$/;"	f
+createV3FFGate	v3NtkConstruct.cpp	/^const bool createV3FFGate(V3Ntk* const ntk, const V3NetId& id, const V3NetId& id1, const V3NetId& init_id) {$/;"	f
+createV3Ntk	v3NtkConstruct.cpp	/^V3Ntk* const createV3Ntk(const bool& isBv) {$/;"	f
+decInstRef	v3NtkHandler.h	/^      inline void decInstRef() { assert (_instRef); --_instRef; }$/;"	f	class:V3NtkHandler
+decRefCount	v3NtkHandler.h	/^      inline void decRefCount() { assert (_refCount); --_refCount; }$/;"	f	class:V3NtkHandler
+dfsComputeFanout	v3NtkTraverse.cpp	/^void dfsComputeFanout(V3Ntk* const ntk, const V3NetId& pId, V3BoolVec& m, V3NetTable& outputTable) {$/;"	f
+dfsComputeLevel	v3NtkTraverse.cpp	/^void dfsComputeLevel(V3Ntk* const ntk, V3NetVec& orderMap, V3UI32Vec& levelData) {$/;"	f
+dfsGeneralOrder	v3NtkTraverse.cpp	/^void dfsGeneralOrder(V3Ntk* const ntk, const V3NetId& pId, V3BoolVec& m, V3NetVec& orderMap) {$/;"	f
+dfsMarkFaninCone	v3NtkTraverse.cpp	/^void dfsMarkFaninCone(V3Ntk* const ntk, const V3NetId& pId, V3BoolVec& m) {$/;"	f
+dfsMarkFaninCone	v3NtkTraverse.cpp	/^void dfsMarkFaninCone(V3Ntk* const ntk, const V3NetId& pId, const V3BoolVec& insensitiveList, V3BoolVec& m) {$/;"	f
+dfsMarkFaninCone	v3NtkTraverse.cpp	/^void dfsMarkFaninCone(V3Ntk* const ntk, const V3NetTable& idGroup, V3BoolTable& v) {$/;"	f
+dfsNtkForGeneralOrder	v3NtkTraverse.cpp	/^const uint32_t dfsNtkForGeneralOrder(V3Ntk* const ntk, V3NetVec& orderMap, const V3NetVec& targetNets, const bool& allNets) {$/;"	f
+dfsNtkForReductionOrder	v3NtkTraverse.cpp	/^const uint32_t dfsNtkForReductionOrder(V3Ntk* const ntk, V3NetVec& orderMap, const V3NetVec& targetNets, const bool& reduceLatch) {$/;"	f
+dfsNtkForSimulationOrder	v3NtkTraverse.cpp	/^const uint32_t dfsNtkForSimulationOrder(V3Ntk* const ntk, V3NetVec& orderMap, const V3NetVec& targetNets, const bool& allNets) {$/;"	f
+dfsOrder	v3NtkBdd.cpp	/^void V3Ntk::dfsOrder(const V3NetId& id, V3NetVec& nets) {$/;"	f	class:V3Ntk
+dfsSimulationOrder	v3NtkTraverse.cpp	/^void dfsSimulationOrder(V3Ntk* const ntk, const V3NetId& pId, V3BoolVec& m, V3NetVec& orderMap) {$/;"	f
+duplicateGeneralInit	v3NtkDuplicate.cpp	/^void duplicateGeneralInit(V3Ntk* const ntk, V3NetVec& p2cMap, V3NetVec& orderMap, const bool& reduceON) {$/;"	f
+duplicateInputGates	v3NtkDuplicate.cpp	/^void duplicateInputGates(V3NtkHandler* const handler, V3Ntk* const ntk, V3NetVec& p2cMap, V3NetVec& c2pMap) {$/;"	f
+duplicateInputNets	v3NtkDuplicate.cpp	/^void duplicateInputNets(V3NtkHandler* const handler, V3Ntk* const ntk, V3NetVec& p2cMap, V3NetVec& c2pMap, V3NetVec& orderMap) {$/;"	f
+duplicateNet	v3NtkDuplicate.cpp	/^const V3NetId duplicateNet(V3Ntk* const ntk, V3Ntk* const pNtk, const V3NetId& pId, V3NetVec& p2cMap, V3NetVec& c2pMap) {$/;"	f
+duplicateNtk	v3NtkDuplicate.cpp	/^V3Ntk* const duplicateNtk(V3NtkHandler* const handler, V3NetVec& p2cMap, V3NetVec& c2pMap) {$/;"	f
+duplicateNtk	v3NtkDuplicate.cpp	/^void duplicateNtk(V3NtkHandler* const handler, V3Ntk* const ntk, V3NetVec& p2cMap, V3NetVec& c2pMap, V3NetVec& orderMap, V3PortableType& netHash, V3NtkHierInfo& hierInfo, const uint32_t& flattenLevel) {$/;"	f
+duplicateReductionInit	v3NtkDuplicate.cpp	/^void duplicateReductionInit(V3Ntk* const ntk, const V3NetVec& targetNets, V3NetVec& p2cMap, V3NetVec& orderMap) {$/;"	f
+elaborateAigAndOrAndGate	v3NtkDuplicate.cpp	/^const V3NetId elaborateAigAndOrAndGate(V3AigNtk* const ntk, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+elaborateAigGate	v3NtkDuplicate.cpp	/^const V3NetId elaborateAigGate(V3AigNtk* const ntk, const V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+elaborateBvGate	v3NtkDuplicate.cpp	/^const V3NetId elaborateBvGate(V3BvNtk* const ntk, const V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+elaborateNtk	v3NtkDuplicate.cpp	/^V3Ntk* const elaborateNtk(V3NtkHandler* const handler, const V3NetVec& targetNets, V3NetVec& p2cMap, V3NetVec& c2pMap, V3PortableType& netHash) {$/;"	f
+exec	v3NtkCmd.cpp	/^V3DuplicateNtkCmd::exec(const string& option) {$/;"	f	class:V3DuplicateNtkCmd
+exec	v3NtkCmd.cpp	/^V3ListNtkCmd::exec(const string& option) {$/;"	f	class:V3ListNtkCmd
+exec	v3NtkCmd.cpp	/^V3NetInfoCmd::exec(const string& option)$/;"	f	class:V3NetInfoCmd
+exec	v3NtkCmd.cpp	/^V3PlotNtkCmd::exec(const string& option) {$/;"	f	class:V3PlotNtkCmd
+exec	v3NtkCmd.cpp	/^V3PrintNetCmd::exec(const string& option) {$/;"	f	class:V3PrintNetCmd
+exec	v3NtkCmd.cpp	/^V3PrintNtkCmd::exec(const string& option) {$/;"	f	class:V3PrintNtkCmd
+exec	v3NtkCmd.cpp	/^V3PrintVerbosityCmd::exec(const string& option) {$/;"	f	class:V3PrintVerbosityCmd
+exec	v3NtkCmd.cpp	/^V3ReadAIGCmd::exec(const string& option) {$/;"	f	class:V3ReadAIGCmd
+exec	v3NtkCmd.cpp	/^V3ReadBTORCmd::exec(const string& option) {$/;"	f	class:V3ReadBTORCmd
+exec	v3NtkCmd.cpp	/^V3ReadRTLCmd::exec(const string& option) {$/;"	f	class:V3ReadRTLCmd
+exec	v3NtkCmd.cpp	/^V3ReduceNtkCmd::exec(const string& option) {$/;"	f	class:V3ReduceNtkCmd
+exec	v3NtkCmd.cpp	/^V3RefNtkCmd::exec(const string& option) {$/;"	f	class:V3RefNtkCmd
+exec	v3NtkCmd.cpp	/^V3RewriteNtkCmd::exec(const string& option) {$/;"	f	class:V3RewriteNtkCmd
+exec	v3NtkCmd.cpp	/^V3SetNtkCmd::exec(const string& option) {$/;"	f	class:V3SetNtkCmd
+exec	v3NtkCmd.cpp	/^V3SetVerbosityCmd::exec(const string& option) {$/;"	f	class:V3SetVerbosityCmd
+exec	v3NtkCmd.cpp	/^V3StrashNtkCmd::exec(const string& option) {$/;"	f	class:V3StrashNtkCmd
+exec	v3NtkCmd.cpp	/^V3WorkNtkCmd::exec(const string& option) {$/;"	f	class:V3WorkNtkCmd
+exec	v3NtkCmd.cpp	/^V3WriteAIGCmd::exec(const string& option) {$/;"	f	class:V3WriteAIGCmd
+exec	v3NtkCmd.cpp	/^V3WriteBTORCmd::exec(const string& option) {$/;"	f	class:V3WriteBTORCmd
+exec	v3NtkCmd.cpp	/^V3WriteRTLCmd::exec(const string& option) {$/;"	f	class:V3WriteRTLCmd
+existFSM	v3NtkHandler.h	/^      inline const bool existFSM(const string& s) const { return _fsm.end() != _fsm.find(s); }$/;"	f	class:V3NtkHandler
+existNetName	v3NtkHandler.cpp	/^V3NtkHandler::existNetName(const string& s) const {$/;"	f	class:V3NtkHandler
+existProperty	v3NtkHandler.h	/^      inline const bool existProperty(const string& s) const { return _property.end() != _property.find(s); }$/;"	f	class:V3NtkHandler
+flattenNtk	v3NtkDuplicate.cpp	/^V3Ntk* const flattenNtk(V3NtkHandler* const handler, V3NetVec& c2pMap, V3NtkHierInfo& hierInfo, const uint32_t& flattenLevel) {$/;"	f
+freeNetId	v3Ntk.h	/^inline void V3Ntk::freeNetId(const V3NetId& id) {$/;"	f	class:V3Ntk
+getAuxFSMName	v3NtkHandler.cpp	/^V3NtkHandler::getAuxFSMName() const {$/;"	f	class:V3NtkHandler
+getAuxPropertyName	v3NtkHandler.cpp	/^V3NtkHandler::getAuxPropertyName() const {$/;"	f	class:V3NtkHandler
+getClock	v3Ntk.h	/^      inline const V3NetId& getClock() const { return _globalClk; }$/;"	f	class:V3Ntk
+getConst	v3Ntk.h	/^      inline const V3NetId& getConst(const uint32_t& i) const { assert (i < getConstSize()); return _ConstList[i]; }$/;"	f	class:V3Ntk
+getConstSize	v3Ntk.h	/^      inline const uint32_t getConstSize() const { return _ConstList.size(); }$/;"	f	class:V3Ntk
+getConstValue	v3Ntk.cpp	/^V3BvNtk::getConstValue(const V3BVXId& valueId) const {$/;"	f	class:V3BvNtk
+getConstWidth	v3Ntk.cpp	/^V3BvNtk::getConstWidth(const V3BVXId& valueId) const {$/;"	f	class:V3BvNtk
+getCurHandler	v3NtkHandler.h	/^      inline V3NtkHandler* const getCurHandler() const { $/;"	f	class:V3Handler
+getCurHandlerId	v3NtkHandler.h	/^      inline const uint32_t getCurHandlerId() const { return _curHandlerId; }$/;"	f	class:V3Handler
+getCurrentNetId	v3NtkHandler.cpp	/^V3NtkHandler::getCurrentNetId(const V3NetId& id, const uint32_t& index) const {$/;"	f	class:V3NtkHandler
+getCurrentNetId	v3NtkSimplify.cpp	/^V3NtkSimplify::getCurrentNetId(const V3NetId& id, const uint32_t& index) const {$/;"	f	class:V3NtkSimplify
+getCutSignal	v3Ntk.h	/^      inline const V3NetId& getCutSignal(const uint32_t& i) const { return _cutSignals[i]; }$/;"	f	class:V3Ntk
+getCutSize	v3Ntk.h	/^      inline const uint32_t getCutSize() const { return _cutSignals.size(); }$/;"	f	class:V3Ntk
+getFSM	v3NtkHandler.h	/^      inline V3FSMExtract* const getFSM(const string& s) const { assert (existFSM(s)); return _fsm.find(s)->second; }$/;"	f	class:V3NtkHandler
+getGateType	v3Ntk.h	/^inline const V3GateType V3Ntk::getGateType(const V3NetId& id) const {$/;"	f	class:V3Ntk
+getHandler	v3NtkHandler.cpp	/^V3Handler::getHandler(const uint32_t& ntkId) const {$/;"	f	class:V3Handler
+getHandler	v3NtkHandler.h	/^      inline V3NtkHandler* const getHandler() const { return _handler; }$/;"	f	class:V3NtkHandler
+getHandler	v3NtkHandler.h	/^      inline V3NtkHandler* const getHandler(const uint32_t& i) const {$/;"	f	class:V3NtkHierInfo
+getHandlerCount	v3NtkHandler.h	/^      inline const uint32_t getHandlerCount() const { return _ntkHandlerList.size(); }$/;"	f	class:V3Handler
+getInout	v3Ntk.h	/^      inline const V3NetId& getInout(const uint32_t& i) const { assert (i < getInoutSize()); return _IOList[2][i]; }$/;"	f	class:V3Ntk
+getInoutName	v3NtkHandler.cpp	/^V3NtkHandler::getInoutName(const uint32_t& index) const {$/;"	f	class:V3NtkHandler
+getInoutSize	v3Ntk.h	/^      inline const uint32_t getInoutSize() const { return _IOList[2].size(); }$/;"	f	class:V3Ntk
+getInput	v3Ntk.h	/^      inline const V3NetId& getInput(const uint32_t& i) const { assert (i < getInputSize()); return _IOList[0][i]; }$/;"	f	class:V3Ntk
+getInputConstValue	v3Ntk.cpp	/^V3BvNtk::getInputConstValue(const V3NetId& id) const {$/;"	f	class:V3BvNtk
+getInputList	v3Ntk.h	/^      inline const V3NetVec& getInputList() const { return _inputs; }$/;"	f	class:V3NtkModule
+getInputName	v3NtkHandler.cpp	/^V3NtkHandler::getInputName(const uint32_t& index) const {$/;"	f	class:V3NtkHandler
+getInputNetId	v3Ntk.h	/^inline const V3NetId& V3Ntk::getInputNetId(const V3NetId& id, const uint32_t& i) const {$/;"	f	class:V3Ntk
+getInputNetSize	v3Ntk.h	/^inline const uint32_t V3Ntk::getInputNetSize(const V3NetId& id) const {$/;"	f	class:V3Ntk
+getInputSize	v3Ntk.h	/^      inline const uint32_t getInputSize() const { return _IOList[0].size(); }$/;"	f	class:V3Ntk
+getInputSliceBit	v3Ntk.cpp	/^V3BvNtk::getInputSliceBit(const V3NetId& id, const bool& msb) const {$/;"	f	class:V3BvNtk
+getLatch	v3Ntk.h	/^      inline const V3NetId& getLatch(const uint32_t& i) const { assert (i < getLatchSize()); return _FFList[i]; }$/;"	f	class:V3Ntk
+getLatchSize	v3Ntk.h	/^      inline const uint32_t getLatchSize() const { return _FFList.size(); }$/;"	f	class:V3Ntk
+getMap	v3NtkHandler.h	/^      inline V3NetVec& getMap(const uint32_t& i) {$/;"	f	class:V3NtkHierInfo
+getMap	v3NtkHandler.h	/^      inline const V3NetVec& getMap(const uint32_t& i) const {$/;"	f	class:V3NtkHierInfo
+getModule	v3Ntk.h	/^inline V3NtkModule* const V3Ntk::getModule(const V3NetId& id) const {$/;"	f	class:V3Ntk
+getModule	v3Ntk.h	/^inline V3NtkModule* const V3Ntk::getModule(const uint32_t& i) const {$/;"	f	class:V3Ntk
+getModuleSize	v3Ntk.h	/^      inline const uint32_t getModuleSize() const { return _ntkModule.size(); }$/;"	f	class:V3Ntk
+getNetExpression	v3NtkHandler.cpp	/^V3NtkHandler::getNetExpression(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getNetFromName	v3NtkHandler.cpp	/^V3NtkHandler::getNetFromName(const string& s) const {$/;"	f	class:V3NtkHandler
+getNetId	v3NtkInput.cpp	/^V3NtkInput::getNetId(const string& netName) const {$/;"	f	class:V3NtkInput
+getNetName	v3NtkHandler.cpp	/^V3NtkHandler::getNetName(V3NetId& id, string& name) const {$/;"	f	class:V3NtkHandler
+getNetName	v3NtkHandler.cpp	/^V3NtkHandler::getNetName(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getNetNameOrFormedWithId	v3NtkHandler.cpp	/^V3NtkHandler::getNetNameOrFormedWithId(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getNetRecurExpression	v3NtkHandler.cpp	/^V3NtkHandler::getNetRecurExpression(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getNetSize	v3Ntk.h	/^      inline const uint32_t getNetSize() const { return _inputData.size(); }$/;"	f	class:V3Ntk
+getNetWidth	v3Ntk.cpp	/^V3BvNtk::getNetWidth(const V3NetId& id) const {$/;"	f	class:V3BvNtk
+getNetWidth	v3Ntk.cpp	/^V3Ntk::getNetWidth(const V3NetId& id) const {$/;"	f	class:V3Ntk
+getNtk	v3NtkHandler.h	/^      inline V3Ntk* const getNtk() const { return _ntk; }$/;"	f	class:V3NtkHandler
+getNtkName	v3NtkHandler.cpp	/^V3NtkHandler::getNtkName() const {$/;"	f	class:V3NtkHandler
+getNtkName	v3NtkInput.h	/^      inline const string getNtkName() const { return _ntkName; }$/;"	f	class:V3NtkInput
+getNtkRef	v3Ntk.h	/^      inline V3NtkHandler* const getNtkRef() const { return (V3NtkHandler*)(_ref & ~1ul); }$/;"	f	class:V3NtkModule
+getNtkSize	v3NtkHandler.h	/^      inline const uint32_t getNtkSize() const { return _hierInfo.size(); }$/;"	f	class:V3NtkHierInfo
+getOutput	v3Ntk.h	/^      inline const V3NetId& getOutput(const uint32_t& i) const { assert (i < getOutputSize()); return _IOList[1][i]; }$/;"	f	class:V3Ntk
+getOutputList	v3Ntk.h	/^      inline const V3NetVec& getOutputList() const { return _outputs; }$/;"	f	class:V3NtkModule
+getOutputName	v3NtkHandler.cpp	/^V3NtkHandler::getOutputName(const uint32_t& index) const {$/;"	f	class:V3NtkHandler
+getOutputSize	v3Ntk.h	/^      inline const uint32_t getOutputSize() const { return _IOList[1].size(); }$/;"	f	class:V3Ntk
+getParentId	v3NtkHandler.h	/^      inline const uint32_t getParentId(const uint32_t& i) const {$/;"	f	class:V3NtkHierInfo
+getParentNetId	v3NtkHandler.cpp	/^V3NtkHandler::getParentNetId(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getParentNetId	v3NtkSimplify.cpp	/^V3NtkSimplify::getParentNetId(const V3NetId& id) const {$/;"	f	class:V3NtkSimplify
+getPrimitive	v3NtkHandler.cpp	/^V3NtkHandler::getPrimitive() const {$/;"	f	class:V3NtkHandler
+getPrimitiveNetId	v3NtkHandler.cpp	/^V3NtkHandler::getPrimitiveNetId(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+getProperty	v3NtkHandler.h	/^      V3Property* const getProperty(const string& s) const {$/;"	f	class:V3NtkHandler
+getPropertyList	v3NtkHandler.h	/^      inline const V3PropertyMap& getPropertyList() const { return _property; }$/;"	f	class:V3NtkHandler
+getRefId	v3NtkHandler.h	/^      inline const V3PairType& getRefId(const uint32_t& i) const {$/;"	f	class:V3NtkHierInfo
+getRefSize	v3NtkHandler.h	/^      inline const uint32_t getRefSize() const { return _refIdMap.size(); }$/;"	f	class:V3NtkHierInfo
+getSliceBit	v3Ntk.cpp	/^V3BvNtk::getSliceBit(const V3BusId& busId, const bool& msb) const {$/;"	f	class:V3BvNtk
+getSliceWidth	v3Ntk.cpp	/^V3BvNtk::getSliceWidth(const V3BusId& busId) const {$/;"	f	class:V3BvNtk
+getV3ExtendNormal	v3Ntk.h	31;"	d
+getV3InvertNet	v3Ntk.h	17;"	d
+getV3NetIndex	v3Ntk.h	18;"	d
+hashV3BusId	v3Ntk.cpp	/^V3BvNtk::hashV3BusId(const uint32_t& msb, const uint32_t& lsb) {$/;"	f	class:V3BvNtk
+hashV3ConstBitVec	v3Ntk.cpp	/^V3BvNtk::hashV3ConstBitVec(const string& input_exp) {$/;"	f	class:V3BvNtk
+help	v3NtkCmd.cpp	/^V3DuplicateNtkCmd::help() const {$/;"	f	class:V3DuplicateNtkCmd
+help	v3NtkCmd.cpp	/^V3ListNtkCmd::help() const {$/;"	f	class:V3ListNtkCmd
+help	v3NtkCmd.cpp	/^V3NetInfoCmd::help() const$/;"	f	class:V3NetInfoCmd
+help	v3NtkCmd.cpp	/^V3PlotNtkCmd::help() const {$/;"	f	class:V3PlotNtkCmd
+help	v3NtkCmd.cpp	/^V3PrintNetCmd::help() const {$/;"	f	class:V3PrintNetCmd
+help	v3NtkCmd.cpp	/^V3PrintNtkCmd::help() const {$/;"	f	class:V3PrintNtkCmd
+help	v3NtkCmd.cpp	/^V3PrintVerbosityCmd::help() const {$/;"	f	class:V3PrintVerbosityCmd
+help	v3NtkCmd.cpp	/^V3ReadAIGCmd::help() const {$/;"	f	class:V3ReadAIGCmd
+help	v3NtkCmd.cpp	/^V3ReadBTORCmd::help() const {$/;"	f	class:V3ReadBTORCmd
+help	v3NtkCmd.cpp	/^V3ReadRTLCmd::help() const {$/;"	f	class:V3ReadRTLCmd
+help	v3NtkCmd.cpp	/^V3ReduceNtkCmd::help() const {$/;"	f	class:V3ReduceNtkCmd
+help	v3NtkCmd.cpp	/^V3RefNtkCmd::help() const {$/;"	f	class:V3RefNtkCmd
+help	v3NtkCmd.cpp	/^V3RewriteNtkCmd::help() const {$/;"	f	class:V3RewriteNtkCmd
+help	v3NtkCmd.cpp	/^V3SetNtkCmd::help() const {$/;"	f	class:V3SetNtkCmd
+help	v3NtkCmd.cpp	/^V3SetVerbosityCmd::help() const {$/;"	f	class:V3SetVerbosityCmd
+help	v3NtkCmd.cpp	/^V3StrashNtkCmd::help() const {$/;"	f	class:V3StrashNtkCmd
+help	v3NtkCmd.cpp	/^V3WorkNtkCmd::help() const {$/;"	f	class:V3WorkNtkCmd
+help	v3NtkCmd.cpp	/^V3WriteAIGCmd::help() const {$/;"	f	class:V3WriteAIGCmd
+help	v3NtkCmd.cpp	/^V3WriteBTORCmd::help() const {$/;"	f	class:V3WriteBTORCmd
+help	v3NtkCmd.cpp	/^V3WriteRTLCmd::help() const {$/;"	f	class:V3WriteRTLCmd
+id	v3Type.h	/^   V3NetId     id;$/;"	m	union:V3NetType
+id	v3Type.h	/^   uint32_t    id : 31;$/;"	m	struct:V3NetId
+incInstRef	v3NtkHandler.h	/^      inline void incInstRef() { ++_instRef; assert (_instRef); }$/;"	f	class:V3NtkHandler
+incRefCount	v3NtkHandler.h	/^      inline void incRefCount() { ++_refCount; assert (_refCount); }$/;"	f	class:V3NtkHandler
+initNtkCmd	v3NtkCmd.cpp	/^bool initNtkCmd() {$/;"	f
+initialize	v3Ntk.cpp	/^V3BvNtk::initialize() {$/;"	f	class:V3BvNtk
+initialize	v3Ntk.cpp	/^V3Ntk::initialize() {$/;"	f	class:V3Ntk
+isBddBuilt	v3Ntk.h	/^      const bool isBddBuilt() const { return _isBddBuilt; }$/;"	f	class:V3Ntk
+isLatestMiscData	v3Ntk.h	/^inline const bool V3Ntk::isLatestMiscData(const V3NetId& id) const {$/;"	f	class:V3Ntk
+isLegalFSMName	v3NtkHandler.cpp	/^V3NtkHandler::isLegalFSMName(const string& fsmName) const {$/;"	f	class:V3NtkHandler
+isLegalNetName	v3NtkHandler.cpp	/^V3NtkHandler::isLegalNetName(const string& name) {$/;"	f	class:V3NtkHandler
+isMutable	v3NtkHandler.h	/^      inline const bool isMutable() const { return !(_refCount || _instRef); }$/;"	f	class:V3NtkHandler
+isNtkRefBlackBoxed	v3Ntk.h	/^      inline const bool isNtkRefBlackBoxed() const { return (_ref & 1ul); }$/;"	f	class:V3NtkModule
+isNtkValid	v3NtkHandler.h	/^      inline const bool isNtkValid(const uint32_t& i) const { return i < _hierInfo.size(); }$/;"	f	class:V3NtkHierInfo
+isRefValid	v3NtkHandler.h	/^      inline const bool isRefValid(const uint32_t& i) const { return i < _refIdMap.size(); }$/;"	f	class:V3NtkHierInfo
+isV3BlackBoxed	v3Ntk.h	20;"	d
+isV3ConstType	v3Ntk.h	21;"	d
+isV3ExchangableType	v3Ntk.h	29;"	d
+isV3ExtendInvIn	v3Ntk.h	26;"	d
+isV3ExtendInvOut	v3Ntk.h	27;"	d
+isV3ExtendSwapIn	v3Ntk.h	25;"	d
+isV3ExtendType	v3Ntk.h	24;"	d
+isV3NetInverted	v3Ntk.h	19;"	d
+isV3PairType	v3Ntk.h	23;"	d
+isV3ReducedType	v3Ntk.h	22;"	d
+makeNetId	v3Type.h	/^   static V3NetId makeNetId(uint32_t i = V3NtkUD, uint32_t c = 0) { V3NetId j; j.cp = c; j.id = i; return j; }$/;"	f	struct:V3NetId
+misc	v3Type.h	/^   uint32_t    misc : 26;$/;"	m	struct:V3MiscType
+newMiscData	v3Ntk.h	/^      inline void newMiscData() { assert (_globalMisc < V3MiscType(0, V3NtkUD).misc); ++_globalMisc; }$/;"	f	class:V3Ntk
+operator !=	v3Type.h	/^   const bool operator != (const V3NetId& i) const { return !(*this == i); }$/;"	f	struct:V3NetId
+operator ==	v3Type.h	/^   const bool operator == (const V3NetId& i) const { return cp == i.cp && id == i.id; }$/;"	f	struct:V3NetId
+operator ~	v3Type.h	/^   V3NetId operator ~ () const { return makeNetId(id, cp ^ 1); }$/;"	f	struct:V3NetId
+pair	v3Type.h	/^      uint64_t    pair;$/;"	m	union:V3PairType::__anon1
+printCombLoops	v3NtkHandler.cpp	/^V3NtkHandler::printCombLoops() const {$/;"	f	class:V3NtkHandler
+printFaninRec	v3Ntk.cpp	/^void V3Ntk::printFaninRec(V3NtkHandler* const handler, const V3NetId& netId, const int& depth, const int& level) {$/;"	f	class:V3Ntk
+printFloatings	v3NtkHandler.cpp	/^V3NtkHandler::printFloatings() const {$/;"	f	class:V3NtkHandler
+printNet	v3NtkHandler.cpp	/^V3NtkHandler::printNet(const V3NetId& id) const {$/;"	f	class:V3NtkHandler
+printNetlist	v3NtkHandler.cpp	/^V3NtkHandler::printNetlist() const {$/;"	f	class:V3NtkHandler
+printNtkInAncestry	v3NtkHandler.cpp	/^V3Handler::printNtkInAncestry() const {$/;"	f	class:V3Handler
+printNtkInHierarchy	v3NtkHandler.cpp	/^V3Handler::printNtkInHierarchy() const {$/;"	f	class:V3Handler
+printNtkRelation	v3NtkHandler.cpp	/^V3Handler::printNtkRelation(const string& fileName) const {$/;"	f	class:V3Handler
+printPrimary	v3NtkHandler.cpp	/^V3NtkHandler::printPrimary() const {$/;"	f	class:V3NtkHandler
+printRecurHierarchy	v3NtkHandler.cpp	/^V3Handler::printRecurHierarchy(V3NtkHandler* const handler, const uint32_t& maxLevel, const uint32_t& level) const {$/;"	f	class:V3Handler
+printSummary	v3NtkHandler.cpp	/^V3NtkHandler::printSummary() const {$/;"	f	class:V3NtkHandler
+printUnreachables	v3NtkHandler.cpp	/^V3NtkHandler::printUnreachables() const {$/;"	f	class:V3NtkHandler
+printVerbose	v3NtkHandler.cpp	/^V3NtkHandler::printVerbose() const {$/;"	f	class:V3NtkHandler
+printVerbositySettings	v3NtkHandler.cpp	/^V3NtkHandler::printVerbositySettings() {$/;"	f	class:V3NtkHandler
+pushAndSetCurHandler	v3NtkHandler.cpp	/^V3Handler::pushAndSetCurHandler(V3NtkHandler* const handler) {$/;"	f	class:V3Handler
+pushNtk	v3NtkHandler.h	/^      inline void pushNtk(V3NtkHandler* const n, const uint32_t& p) { _hierInfo.push_back(new V3NtkHierData(n, p)); }$/;"	f	class:V3NtkHierInfo
+pushRefId	v3NtkHandler.h	/^      inline void pushRefId(const uint32_t& id, const uint32_t& i) { _refIdMap.push_back(V3PairType(id, i)); }$/;"	f	class:V3NtkHierInfo
+reduceON	v3NtkHandler.h	/^      static inline const bool reduceON()  { return _extVerbosity & 1ul;  }$/;"	f	class:V3NtkHandler
+removeLastInout	v3Ntk.h	/^      inline void removeLastInout() { _IOList[2].pop_back(); }$/;"	f	class:V3Ntk
+removeLastInput	v3Ntk.h	/^      inline void removeLastInput() { _IOList[0].pop_back(); }$/;"	f	class:V3Ntk
+removeLastLatch	v3Ntk.h	/^      inline void removeLastLatch() { _FFList.pop_back(); }$/;"	f	class:V3Ntk
+removeLastOutput	v3Ntk.h	/^      inline void removeLastOutput() { _IOList[1].pop_back(); }$/;"	f	class:V3Ntk
+removePrefixNetName	v3NtkInput.cpp	/^V3NtkInput::removePrefixNetName(V3Str2BoolFuncPtr toRemove) {$/;"	f	class:V3NtkInput
+renderFreeNetAsInput	v3NtkInput.cpp	/^V3NtkInput::renderFreeNetAsInput() {$/;"	f	class:V3NtkInput
+replaceFanin	v3Ntk.cpp	/^V3Ntk::replaceFanin(const V3RepIdHash& repIdHash) {$/;"	f	class:V3Ntk
+replaceOutput	v3Ntk.cpp	/^V3Ntk::replaceOutput(const uint32_t& index, const V3NetId& id) {$/;"	f	class:V3Ntk
+replaceV3Ntk	v3NtkConstruct.cpp	/^const bool replaceV3Ntk(V3Ntk* const ntk1, V3Ntk* const ntk2) {$/;"	f
+reportCombinationalLoops	v3NtkConstruct.cpp	/^const bool reportCombinationalLoops(V3Ntk* const ntk, const V3NetId& id, const V3UI32Vec levelData, V3Vec<V3PairType>::Vec& netLoop) {$/;"	f
+reportCombinationalLoops	v3NtkConstruct.cpp	/^const uint32_t reportCombinationalLoops(V3Ntk* const ntk) {$/;"	f
+reportIncompatibleModule	v3NtkConstruct.cpp	/^const bool reportIncompatibleModule(V3Ntk* const ntk, const V3NetVec& inputs, const V3NetVec& outputs, $/;"	f
+reportIncompatibleModule	v3NtkConstruct.cpp	/^const bool reportIncompatibleModule(V3NtkHandler* const handler1, V3NtkHandler* const handler2) {$/;"	f
+reportInconsistentRefNtk	v3NtkConstruct.cpp	/^const bool reportInconsistentRefNtk(V3Ntk* const ntk) {$/;"	f
+reportInvertingNet	v3Ntk.cpp	/^V3Ntk::reportInvertingNet(const V3NetId& id) const {$/;"	f	class:V3Ntk
+reportMultipleDrivenNet	v3Ntk.cpp	/^V3Ntk::reportMultipleDrivenNet(const V3GateType& type, const V3NetId& id) const {$/;"	f	class:V3Ntk
+reportNetWidthInconsistency	v3Ntk.cpp	/^V3Ntk::reportNetWidthInconsistency(const V3NetId& id1, const V3NetId& id2, const string& s) const {$/;"	f	class:V3Ntk
+reportUnexpectedFaninSize	v3Ntk.cpp	/^V3Ntk::reportUnexpectedFaninSize(const V3GateType& type, const V3NetId& id) const {$/;"	f	class:V3Ntk
+reportUnexpectedNetWidth	v3Ntk.cpp	/^V3Ntk::reportUnexpectedNetWidth(const V3NetId& id, const uint32_t& width, const string& s) const {$/;"	f	class:V3Ntk
+resetAuxRenaming	v3NtkHandler.cpp	/^V3NtkHandler::resetAuxRenaming() {$/;"	f	class:V3NtkHandler
+resetNetName	v3NtkHandler.cpp	/^V3NtkHandler::resetNetName(const uint32_t& index, const string& name) {$/;"	f	class:V3NtkHandler
+resetNetWidth	v3Ntk.cpp	/^V3BvNtk::resetNetWidth(const V3NetId& id, const uint32_t& width) {$/;"	f	class:V3BvNtk
+resetOutName	v3NtkHandler.cpp	/^V3NtkHandler::resetOutName(const uint32_t& index, const string& name) {$/;"	f	class:V3NtkHandler
+resetVerbositySettings	v3NtkHandler.h	/^      static inline void resetVerbositySettings() { _extVerbosity = 0; setReduce(1); setP2CMap(1); setC2PMap(1); }$/;"	f	class:V3NtkHandler
+rewriteAigGate	v3NtkRewrite.cpp	/^const bool rewriteAigGate(V3AigNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewriteBvGate	v3NtkRewrite.cpp	/^const bool rewriteBvGate(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewriteGetExpr	v3NtkRewrite.cpp	/^inline const string rewriteGetExpr(const string& width, const string& value) { return width + "'b" + value; }$/;"	f
+rewriteON	v3NtkHandler.h	/^      static inline const bool rewriteON() { return _extVerbosity & 4ul;  }$/;"	f	class:V3NtkHandler
+rewriteReturnAigNode	v3NtkRewrite.cpp	/^const V3NetId rewriteReturnAigNode(V3AigNtk* const ntk, V3PortableType& netHash, const bool& cpId, const V3NetType& in1, const V3NetType& in2) {$/;"	f
+rewriteReturnConst	v3NtkRewrite.cpp	/^const bool rewriteReturnConst(V3BvNtk* const ntk, V3GateType& type, V3PortableType& netHash, const bool& cpId, V3InputVec& inputs, const string& expr) {$/;"	f
+rewriteReturnNetId	v3NtkRewrite.cpp	/^const V3NetId rewriteReturnNetId(V3BvNtk* const ntk, const V3GateType& type, V3PortableType& netHash, const bool& cpId, const V3NetType& in1, const V3NetType& in2 = V3NetUD, const V3NetType& in3 = V3NetUD) {$/;"	f
+rewriteReturnTerminal	v3NtkRewrite.cpp	/^const bool rewriteReturnTerminal(V3Ntk* const ntk, V3GateType& type, V3InputVec& inputs, const V3NetId& id, const bool& cpId) {$/;"	f
+rewriteSwapNets	v3NtkRewrite.cpp	/^inline void rewriteSwapNets(V3NetType& in1, V3NetType& in2) { const V3NetType in = in1; in1 = in2; in2 = in; }$/;"	f
+rewrite_ADD	v3NtkRewrite.cpp	/^const bool rewrite_ADD(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_AIG_NODE	v3NtkRewrite.cpp	/^const bool rewrite_AIG_NODE(V3AigNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_AND	v3NtkRewrite.cpp	/^const bool rewrite_AND(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_CONST	v3NtkRewrite.cpp	/^const bool rewrite_CONST(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_DIV	v3NtkRewrite.cpp	/^const bool rewrite_DIV(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_EQUALITY	v3NtkRewrite.cpp	/^const bool rewrite_EQUALITY(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_GEQ	v3NtkRewrite.cpp	/^const bool rewrite_GEQ(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_MERGE	v3NtkRewrite.cpp	/^const bool rewrite_MERGE(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_MODULO	v3NtkRewrite.cpp	/^const bool rewrite_MODULO(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_MULT	v3NtkRewrite.cpp	/^const bool rewrite_MULT(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_MUX	v3NtkRewrite.cpp	/^const bool rewrite_MUX(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_RED_AND	v3NtkRewrite.cpp	/^const bool rewrite_RED_AND(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_RED_OR	v3NtkRewrite.cpp	/^const bool rewrite_RED_OR(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_RED_XOR	v3NtkRewrite.cpp	/^const bool rewrite_RED_XOR(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_SHL	v3NtkRewrite.cpp	/^const bool rewrite_SHL(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_SHR	v3NtkRewrite.cpp	/^const bool rewrite_SHR(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_SLICE	v3NtkRewrite.cpp	/^const bool rewrite_SLICE(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_SUB	v3NtkRewrite.cpp	/^const bool rewrite_SUB(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+rewrite_XOR	v3NtkRewrite.cpp	/^const bool rewrite_XOR(V3BvNtk* const ntk, V3GateType& type, V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+setAuxRenaming	v3NtkHandler.cpp	/^V3NtkHandler::setAuxRenaming() {$/;"	f	class:V3NtkHandler
+setBaseHandler	v3NtkHandler.cpp	/^V3Handler::setBaseHandler() {$/;"	f	class:V3Handler
+setBddOrder	v3NtkBdd.cpp	/^const bool V3Ntk::setBddOrder(V3NtkHandler* const handler, const bool& file) const {$/;"	f	class:V3Ntk
+setC2PMap	v3NtkHandler.h	/^      static inline void setC2PMap (const bool& t) { if (t) _extVerbosity |= 16ul; else _extVerbosity &= ~16ul; }$/;"	f	class:V3NtkHandler
+setCurHandlerFromId	v3NtkHandler.cpp	/^V3Handler::setCurHandlerFromId(const uint32_t& ntkId) {$/;"	f	class:V3Handler
+setCurHandlerFromPath	v3NtkHandler.cpp	/^V3Handler::setCurHandlerFromPath(const string& path) {$/;"	f	class:V3Handler
+setCutSignals	v3Ntk.h	/^      inline void setCutSignals(const V3NetVec& cut) { _cutSignals = cut; }$/;"	f	class:V3Ntk
+setExternalVerbosity	v3NtkHandler.h	/^      static inline void setExternalVerbosity() { _intVerbosity = _extVerbosity; }$/;"	f	class:V3NtkHandler
+setFSM	v3NtkHandler.cpp	/^V3NtkHandler::setFSM(const string& fsmName, V3FSMExtract* const fsmList) {$/;"	f	class:V3NtkHandler
+setInput	v3Ntk.cpp	/^V3Ntk::setInput(const V3NetId& id, const V3InputVec& inputs) {$/;"	f	class:V3Ntk
+setInternalVerbosity	v3NtkHandler.h	/^      static inline void setInternalVerbosity() { _extVerbosity = _intVerbosity; }$/;"	f	class:V3NtkHandler
+setLastHandler	v3NtkHandler.cpp	/^V3Handler::setLastHandler() {$/;"	f	class:V3Handler
+setLatestMiscData	v3Ntk.h	/^inline void V3Ntk::setLatestMiscData(const V3NetId& id) {$/;"	f	class:V3Ntk
+setNtkName	v3NtkHandler.h	/^      inline void setNtkName(const string& n) { assert (n.size()); _ntkName = n; }$/;"	f	class:V3NtkHandler
+setP2CMap	v3NtkHandler.h	/^      static inline void setP2CMap (const bool& t) { if (t) _extVerbosity |=  8ul; else _extVerbosity &= ~8ul;  }$/;"	f	class:V3NtkHandler
+setPrevHandler	v3NtkHandler.cpp	/^V3Handler::setPrevHandler() {$/;"	f	class:V3Handler
+setProperty	v3NtkHandler.cpp	/^V3NtkHandler::setProperty(V3Property* const p) {$/;"	f	class:V3NtkHandler
+setReduce	v3NtkHandler.h	/^      static inline void setReduce (const bool& t) { if (t) _extVerbosity |=  1ul; else _extVerbosity &= ~1ul;  }$/;"	f	class:V3NtkHandler
+setRewrite	v3NtkHandler.h	/^      static inline void setRewrite(const bool& t) { if (t) _extVerbosity |=  4ul; else _extVerbosity &= ~4ul;  }$/;"	f	class:V3NtkHandler
+setRootHandler	v3NtkHandler.cpp	/^V3Handler::setRootHandler() {$/;"	f	class:V3Handler
+setStrash	v3NtkHandler.h	/^      static inline void setStrash (const bool& t) { if (t) _extVerbosity |=  2ul; else _extVerbosity &= ~2ul;  }$/;"	f	class:V3NtkHandler
+strashAigGate	v3NtkStrash.cpp	/^const V3NetId strashAigGate(V3AigNtk* const ntk, const V3GateType& type, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashAigGate	v3NtkStrash.cpp	/^void strashAigGate(V3AigNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashAigNodeGate	v3NtkStrash.cpp	/^const V3NetId strashAigNodeGate(V3AigNtk* const ntk, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashAigNodeGate	v3NtkStrash.cpp	/^void strashAigNodeGate(V3AigNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvConstGate	v3NtkStrash.cpp	/^const V3NetId strashBvConstGate(V3BvNtk* const ntk, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvConstGate	v3NtkStrash.cpp	/^void strashBvConstGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvGate	v3NtkStrash.cpp	/^const V3NetId strashBvGate(V3BvNtk* const ntk, const V3GateType& type, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvGate	v3NtkStrash.cpp	/^void strashBvGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvMuxGate	v3NtkStrash.cpp	/^const V3NetId strashBvMuxGate(V3BvNtk* const ntk, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvMuxGate	v3NtkStrash.cpp	/^void strashBvMuxGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvPairTypeGate	v3NtkStrash.cpp	/^const V3NetId strashBvPairTypeGate(V3BvNtk* const ntk, const V3GateType& type, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvPairTypeGate	v3NtkStrash.cpp	/^void strashBvPairTypeGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvReducedTypeGate	v3NtkStrash.cpp	/^const V3NetId strashBvReducedTypeGate(V3BvNtk* const ntk, const V3GateType& type, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvReducedTypeGate	v3NtkStrash.cpp	/^void strashBvReducedTypeGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashBvSliceGate	v3NtkStrash.cpp	/^const V3NetId strashBvSliceGate(V3BvNtk* const ntk, const V3InputVec& inputs, V3PortableType& netHash) {$/;"	f
+strashBvSliceGate	v3NtkStrash.cpp	/^void strashBvSliceGate(V3BvNtk* const ntk, const V3NetId& id, V3PortableType& netHash) {$/;"	f
+strashON	v3NtkHandler.h	/^      static inline const bool strashON()  { return _extVerbosity & 2ul;  }$/;"	f	class:V3NtkHandler
+type	v3Type.h	/^   uint32_t    type : 6;$/;"	m	struct:V3MiscType
+updateInput	v3Ntk.h	/^      inline void updateInput(const uint32_t& i, const V3NetId& id) { assert (i < _inputs.size()); _inputs[i] = id; }$/;"	f	class:V3NtkModule
+updateModule	v3NtkConstruct.cpp	/^const bool updateModule(V3Ntk* const ntk, V3NtkModule* const module, $/;"	f
+updateNtkRef	v3Ntk.h	/^      inline void updateNtkRef(const V3NtkHandler* const h, const bool& b = false) {$/;"	f	class:V3NtkModule
+updateOutput	v3Ntk.h	/^      inline void updateOutput(const uint32_t& i, const V3NetId& id) { assert (i < _outputs.size()); _outputs[i] = id; }$/;"	f	class:V3NtkModule
+usage	v3NtkCmd.cpp	/^V3DuplicateNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3DuplicateNtkCmd
+usage	v3NtkCmd.cpp	/^V3ListNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3ListNtkCmd
+usage	v3NtkCmd.cpp	/^V3NetInfoCmd::usage(const bool& verbose) const$/;"	f	class:V3NetInfoCmd
+usage	v3NtkCmd.cpp	/^V3PlotNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3PlotNtkCmd
+usage	v3NtkCmd.cpp	/^V3PrintNetCmd::usage(const bool& verbose) const {$/;"	f	class:V3PrintNetCmd
+usage	v3NtkCmd.cpp	/^V3PrintNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3PrintNtkCmd
+usage	v3NtkCmd.cpp	/^V3PrintVerbosityCmd::usage(const bool& verbose) const {$/;"	f	class:V3PrintVerbosityCmd
+usage	v3NtkCmd.cpp	/^V3ReadAIGCmd::usage(const bool& verbose) const {$/;"	f	class:V3ReadAIGCmd
+usage	v3NtkCmd.cpp	/^V3ReadBTORCmd::usage(const bool& verbose) const {$/;"	f	class:V3ReadBTORCmd
+usage	v3NtkCmd.cpp	/^V3ReadRTLCmd::usage(const bool& verbose) const {$/;"	f	class:V3ReadRTLCmd
+usage	v3NtkCmd.cpp	/^V3ReduceNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3ReduceNtkCmd
+usage	v3NtkCmd.cpp	/^V3RefNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3RefNtkCmd
+usage	v3NtkCmd.cpp	/^V3RewriteNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3RewriteNtkCmd
+usage	v3NtkCmd.cpp	/^V3SetNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3SetNtkCmd
+usage	v3NtkCmd.cpp	/^V3SetVerbosityCmd::usage(const bool& verbose) const {$/;"	f	class:V3SetVerbosityCmd
+usage	v3NtkCmd.cpp	/^V3StrashNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3StrashNtkCmd
+usage	v3NtkCmd.cpp	/^V3WorkNtkCmd::usage(const bool& verbose) const {$/;"	f	class:V3WorkNtkCmd
+usage	v3NtkCmd.cpp	/^V3WriteAIGCmd::usage(const bool& verbose) const {$/;"	f	class:V3WriteAIGCmd
+usage	v3NtkCmd.cpp	/^V3WriteBTORCmd::usage(const bool& verbose) const {$/;"	f	class:V3WriteBTORCmd
+usage	v3NtkCmd.cpp	/^V3WriteRTLCmd::usage(const bool& verbose) const {$/;"	f	class:V3WriteRTLCmd
+validNetId	v3Ntk.h	/^      inline const bool validNetId(const V3NetId& id) const { return (id.id) < getNetSize(); }$/;"	f	class:V3Ntk
+value	v3Type.h	/^   uint32_t    value;$/;"	m	union:V3NetType
+~V3BvNtk	v3Ntk.cpp	/^V3BvNtk::~V3BvNtk() {$/;"	f	class:V3BvNtk
+~V3Handler	v3NtkHandler.cpp	/^V3Handler::~V3Handler() {$/;"	f	class:V3Handler
+~V3Ntk	v3Ntk.cpp	/^V3Ntk::~V3Ntk() {$/;"	f	class:V3Ntk
+~V3NtkHandler	v3NtkHandler.cpp	/^V3NtkHandler::~V3NtkHandler() {$/;"	f	class:V3NtkHandler
+~V3NtkHierData	v3NtkHandler.h	/^            ~V3NtkHierData() { _p2cMap.clear(); }$/;"	f	class:V3NtkHierInfo::V3NtkHierData
+~V3NtkHierInfo	v3NtkHandler.h	/^      ~V3NtkHierInfo() { clear(); }$/;"	f	class:V3NtkHierInfo
+~V3NtkInput	v3NtkInput.cpp	/^V3NtkInput::~V3NtkInput() {$/;"	f	class:V3NtkInput
+~V3NtkSimplify	v3NtkSimplify.cpp	/^V3NtkSimplify::~V3NtkSimplify() {$/;"	f	class:V3NtkSimplify

@@ -1,0 +1,998 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BAndCmd::exec	bddCmd.cpp	/^BAndCmd::exec(const string& option)$/;"	f	class:BAndCmd	signature:(const string& option)
+BAndCmd::help	bddCmd.cpp	/^BAndCmd::help() const$/;"	f	class:BAndCmd	signature:() const
+BAndCmd::usage	bddCmd.cpp	/^BAndCmd::usage(const bool& verbose) const$/;"	f	class:BAndCmd	signature:(const bool& verbose) const
+BCofactorCmd::exec	bddCmd.cpp	/^BCofactorCmd::exec(const string& option)$/;"	f	class:BCofactorCmd	signature:(const string& option)
+BCofactorCmd::help	bddCmd.cpp	/^BCofactorCmd::help() const$/;"	f	class:BCofactorCmd	signature:() const
+BCofactorCmd::usage	bddCmd.cpp	/^BCofactorCmd::usage(const bool& verbose) const$/;"	f	class:BCofactorCmd	signature:(const bool& verbose) const
+BCompareCmd::exec	bddCmd.cpp	/^BCompareCmd::exec(const string& option)$/;"	f	class:BCompareCmd	signature:(const string& option)
+BCompareCmd::help	bddCmd.cpp	/^BCompareCmd::help() const$/;"	f	class:BCompareCmd	signature:() const
+BCompareCmd::usage	bddCmd.cpp	/^BCompareCmd::usage(const bool& verbose) const$/;"	f	class:BCompareCmd	signature:(const bool& verbose) const
+BConstructCmd::exec	bddCmd.cpp	/^BConstructCmd::exec(const string& option)$/;"	f	class:BConstructCmd	signature:(const string& option)
+BConstructCmd::help	bddCmd.cpp	/^BConstructCmd::help() const$/;"	f	class:BConstructCmd	signature:() const
+BConstructCmd::usage	bddCmd.cpp	/^BConstructCmd::usage(const bool& verbose) const$/;"	f	class:BConstructCmd	signature:(const bool& verbose) const
+BDD_CMD_H	bddCmd.h	10;"	d
+BDD_EDGEV_BITS	bddNodeV.h	18;"	d
+BDD_EDGEV_BITS	test/bddNodeV.h	18;"	d
+BDD_EDGEV_DUMMY	bddNodeV.h	/^   BDD_EDGEV_DUMMY  \/\/ dummy end$/;"	e	enum:BDD_EDGEV_FLAG
+BDD_EDGEV_DUMMY	test/bddNodeV.h	/^   BDD_EDGEV_DUMMY  \/\/ dummy end$/;"	e	enum:BDD_EDGEV_FLAG
+BDD_EDGEV_FLAG	bddNodeV.h	/^enum BDD_EDGEV_FLAG$/;"	g
+BDD_EDGEV_FLAG	test/bddNodeV.h	/^enum BDD_EDGEV_FLAG$/;"	g
+BDD_MGRV_H	bddMgrV.h	10;"	d
+BDD_MGRV_H	test/bddMgrV.h	10;"	d
+BDD_NEG_EDGEV	bddNodeV.h	/^   BDD_NEG_EDGEV = 1,$/;"	e	enum:BDD_EDGEV_FLAG
+BDD_NEG_EDGEV	test/bddNodeV.h	/^   BDD_NEG_EDGEV = 1,$/;"	e	enum:BDD_EDGEV_FLAG
+BDD_NODEV_H	bddNodeV.h	10;"	d
+BDD_NODEV_H	test/bddNodeV.h	10;"	d
+BDD_NODE_PTR_MASKV	bddNodeV.h	20;"	d
+BDD_NODE_PTR_MASKV	test/bddNodeV.h	20;"	d
+BDD_POS_EDGEV	bddNodeV.h	/^   BDD_POS_EDGEV = 0,$/;"	e	enum:BDD_EDGEV_FLAG
+BDD_POS_EDGEV	test/bddNodeV.h	/^   BDD_POS_EDGEV = 0,$/;"	e	enum:BDD_EDGEV_FLAG
+BDrawCmd::exec	bddCmd.cpp	/^BDrawCmd::exec(const string& option)$/;"	f	class:BDrawCmd	signature:(const string& option)
+BDrawCmd::help	bddCmd.cpp	/^BDrawCmd::help() const$/;"	f	class:BDrawCmd	signature:() const
+BDrawCmd::usage	bddCmd.cpp	/^BDrawCmd::usage(const bool& verbose) const$/;"	f	class:BDrawCmd	signature:(const bool& verbose) const
+BExistCmd::exec	bddCmd.cpp	/^BExistCmd::exec(const string& option)$/;"	f	class:BExistCmd	signature:(const string& option)
+BExistCmd::help	bddCmd.cpp	/^BExistCmd::help() const$/;"	f	class:BExistCmd	signature:() const
+BExistCmd::usage	bddCmd.cpp	/^BExistCmd::usage(const bool& verbose) const$/;"	f	class:BExistCmd	signature:(const bool& verbose) const
+BInvCmd::exec	bddCmd.cpp	/^BInvCmd::exec(const string& option)$/;"	f	class:BInvCmd	signature:(const string& option)
+BInvCmd::help	bddCmd.cpp	/^BInvCmd::help() const$/;"	f	class:BInvCmd	signature:() const
+BInvCmd::usage	bddCmd.cpp	/^BInvCmd::usage(const bool& verbose) const$/;"	f	class:BInvCmd	signature:(const bool& verbose) const
+BNandCmd::exec	bddCmd.cpp	/^BNandCmd::exec(const string& option)$/;"	f	class:BNandCmd	signature:(const string& option)
+BNandCmd::help	bddCmd.cpp	/^BNandCmd::help() const$/;"	f	class:BNandCmd	signature:() const
+BNandCmd::usage	bddCmd.cpp	/^BNandCmd::usage(const bool& verbose) const$/;"	f	class:BNandCmd	signature:(const bool& verbose) const
+BNorCmd::exec	bddCmd.cpp	/^BNorCmd::exec(const string& option)$/;"	f	class:BNorCmd	signature:(const string& option)
+BNorCmd::help	bddCmd.cpp	/^BNorCmd::help() const$/;"	f	class:BNorCmd	signature:() const
+BNorCmd::usage	bddCmd.cpp	/^BNorCmd::usage(const bool& verbose) const$/;"	f	class:BNorCmd	signature:(const bool& verbose) const
+BOrCmd::exec	bddCmd.cpp	/^BOrCmd::exec(const string& option)$/;"	f	class:BOrCmd	signature:(const string& option)
+BOrCmd::help	bddCmd.cpp	/^BOrCmd::help() const$/;"	f	class:BOrCmd	signature:() const
+BOrCmd::usage	bddCmd.cpp	/^BOrCmd::usage(const bool& verbose) const$/;"	f	class:BOrCmd	signature:(const bool& verbose) const
+BReportCmd::exec	bddCmd.cpp	/^BReportCmd::exec(const string& option)$/;"	f	class:BReportCmd	signature:(const string& option)
+BReportCmd::help	bddCmd.cpp	/^BReportCmd::help() const$/;"	f	class:BReportCmd	signature:() const
+BReportCmd::usage	bddCmd.cpp	/^BReportCmd::usage(const bool& verbose) const$/;"	f	class:BReportCmd	signature:(const bool& verbose) const
+BResetCmd::exec	bddCmd.cpp	/^BResetCmd::exec(const string& option)$/;"	f	class:BResetCmd	signature:(const string& option)
+BResetCmd::help	bddCmd.cpp	/^BResetCmd::help() const$/;"	f	class:BResetCmd	signature:() const
+BResetCmd::usage	bddCmd.cpp	/^BResetCmd::usage(const bool& verbose) const$/;"	f	class:BResetCmd	signature:(const bool& verbose) const
+BSetOrderCmd::exec	bddCmd.cpp	/^BSetOrderCmd::exec(const string& option)$/;"	f	class:BSetOrderCmd	signature:(const string& option)
+BSetOrderCmd::help	bddCmd.cpp	/^BSetOrderCmd::help() const$/;"	f	class:BSetOrderCmd	signature:() const
+BSetOrderCmd::usage	bddCmd.cpp	/^BSetOrderCmd::usage(const bool& verbose) const$/;"	f	class:BSetOrderCmd	signature:(const bool& verbose) const
+BSetVarCmd::exec	bddCmd.cpp	/^BSetVarCmd::exec(const string& option)$/;"	f	class:BSetVarCmd	signature:(const string& option)
+BSetVarCmd::help	bddCmd.cpp	/^BSetVarCmd::help() const$/;"	f	class:BSetVarCmd	signature:() const
+BSetVarCmd::usage	bddCmd.cpp	/^BSetVarCmd::usage(const bool& verbose) const$/;"	f	class:BSetVarCmd	signature:(const bool& verbose) const
+BSimulateCmd::exec	bddCmd.cpp	/^BSimulateCmd::exec(const string& option)$/;"	f	class:BSimulateCmd	signature:(const string& option)
+BSimulateCmd::help	bddCmd.cpp	/^BSimulateCmd::help() const$/;"	f	class:BSimulateCmd	signature:() const
+BSimulateCmd::usage	bddCmd.cpp	/^BSimulateCmd::usage(const bool& verbose) const$/;"	f	class:BSimulateCmd	signature:(const bool& verbose) const
+BXnorCmd::exec	bddCmd.cpp	/^BXnorCmd::exec(const string& option)$/;"	f	class:BXnorCmd	signature:(const string& option)
+BXnorCmd::help	bddCmd.cpp	/^BXnorCmd::help() const$/;"	f	class:BXnorCmd	signature:() const
+BXnorCmd::usage	bddCmd.cpp	/^BXnorCmd::usage(const bool& verbose) const$/;"	f	class:BXnorCmd	signature:(const bool& verbose) const
+BXorCmd::exec	bddCmd.cpp	/^BXorCmd::exec(const string& option)$/;"	f	class:BXorCmd	signature:(const string& option)
+BXorCmd::help	bddCmd.cpp	/^BXorCmd::help() const$/;"	f	class:BXorCmd	signature:() const
+BXorCmd::usage	bddCmd.cpp	/^BXorCmd::usage(const bool& verbose) const$/;"	f	class:BXorCmd	signature:(const bool& verbose) const
+BddArr	bddMgrV.h	/^typedef vector<size_t>                        BddArr;$/;"	t
+BddArr	test/bddMgrV.h	/^typedef vector<size_t>                        BddArr;$/;"	t
+BddCache	bddMgrV.h	/^typedef Cache<BddCacheKeyV, size_t>    BddCache;$/;"	t	class:BddMgrV	access:private
+BddCache	test/bddMgrV.h	/^typedef Cache<BddCacheKeyV, size_t>    BddCache;$/;"	t	class:BddMgrV	access:private
+BddCacheKeyV	bddMgrV.h	/^   BddCacheKeyV() {}$/;"	f	class:BddCacheKeyV	access:public	signature:()
+BddCacheKeyV	bddMgrV.h	/^   BddCacheKeyV(size_t f, size_t g, size_t h) : _f(f), _g(g), _h(h) {}$/;"	f	class:BddCacheKeyV	access:public	signature:(size_t f, size_t g, size_t h)
+BddCacheKeyV	bddMgrV.h	/^class BddCacheKeyV$/;"	c
+BddCacheKeyV	test/bddMgrV.h	/^   BddCacheKeyV() {}$/;"	f	class:BddCacheKeyV	access:public	signature:()
+BddCacheKeyV	test/bddMgrV.h	/^   BddCacheKeyV(size_t f, size_t g, size_t h) : _f(f), _g(g), _h(h) {}$/;"	f	class:BddCacheKeyV	access:public	signature:(size_t f, size_t g, size_t h)
+BddCacheKeyV	test/bddMgrV.h	/^class BddCacheKeyV$/;"	c
+BddCacheKeyV::BddCacheKeyV	bddMgrV.h	/^   BddCacheKeyV() {}$/;"	f	class:BddCacheKeyV	access:public	signature:()
+BddCacheKeyV::BddCacheKeyV	bddMgrV.h	/^   BddCacheKeyV(size_t f, size_t g, size_t h) : _f(f), _g(g), _h(h) {}$/;"	f	class:BddCacheKeyV	access:public	signature:(size_t f, size_t g, size_t h)
+BddCacheKeyV::BddCacheKeyV	test/bddMgrV.h	/^   BddCacheKeyV() {}$/;"	f	class:BddCacheKeyV	access:public	signature:()
+BddCacheKeyV::BddCacheKeyV	test/bddMgrV.h	/^   BddCacheKeyV(size_t f, size_t g, size_t h) : _f(f), _g(g), _h(h) {}$/;"	f	class:BddCacheKeyV	access:public	signature:(size_t f, size_t g, size_t h)
+BddCacheKeyV::_f	bddMgrV.h	/^   size_t       _f;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::_f	test/bddMgrV.h	/^   size_t       _f;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::_g	bddMgrV.h	/^   size_t       _g;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::_g	test/bddMgrV.h	/^   size_t       _g;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::_h	bddMgrV.h	/^   size_t       _h;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::_h	test/bddMgrV.h	/^   size_t       _h;$/;"	m	class:BddCacheKeyV	access:private
+BddCacheKeyV::operator ()	bddMgrV.h	/^   size_t operator() () const { return ((_f << 3)+(_g << 3)+(_h << 3)); }$/;"	f	class:BddCacheKeyV	access:public	signature:() const
+BddCacheKeyV::operator ()	test/bddMgrV.h	/^   size_t operator() () const { return ((_f << 3)+(_g << 3)+(_h << 3)); }$/;"	f	class:BddCacheKeyV	access:public	signature:() const
+BddCacheKeyV::operator ==	bddMgrV.h	/^   bool operator == (const BddCacheKeyV& k) const {$/;"	f	class:BddCacheKeyV	access:public	signature:(const BddCacheKeyV& k) const
+BddCacheKeyV::operator ==	test/bddMgrV.h	/^   bool operator == (const BddCacheKeyV& k) const {$/;"	f	class:BddCacheKeyV	access:public	signature:(const BddCacheKeyV& k) const
+BddHash	bddMgrV.h	/^typedef Hash<BddHashKeyV, BddNodeVInt*> BddHash;$/;"	t	class:BddMgrV	access:private
+BddHash	test/bddMgrV.h	/^typedef Hash<BddHashKeyV, BddNodeVInt*> BddHash;$/;"	t	class:BddMgrV	access:private
+BddHashKeyV	bddMgrV.h	/^   BddHashKeyV(size_t l, size_t r, unsigned i) : _l(l), _r(r), _i(i) {}$/;"	f	class:BddHashKeyV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddHashKeyV	bddMgrV.h	/^class BddHashKeyV$/;"	c
+BddHashKeyV	test/bddMgrV.h	/^   BddHashKeyV(size_t l, size_t r, unsigned i) : _l(l), _r(r), _i(i) {}$/;"	f	class:BddHashKeyV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddHashKeyV	test/bddMgrV.h	/^class BddHashKeyV$/;"	c
+BddHashKeyV::BddHashKeyV	bddMgrV.h	/^   BddHashKeyV(size_t l, size_t r, unsigned i) : _l(l), _r(r), _i(i) {}$/;"	f	class:BddHashKeyV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddHashKeyV::BddHashKeyV	test/bddMgrV.h	/^   BddHashKeyV(size_t l, size_t r, unsigned i) : _l(l), _r(r), _i(i) {}$/;"	f	class:BddHashKeyV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddHashKeyV::_i	bddMgrV.h	/^   unsigned   _i;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::_i	test/bddMgrV.h	/^   unsigned   _i;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::_l	bddMgrV.h	/^   size_t     _l;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::_l	test/bddMgrV.h	/^   size_t     _l;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::_r	bddMgrV.h	/^   size_t     _r;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::_r	test/bddMgrV.h	/^   size_t     _r;$/;"	m	class:BddHashKeyV	access:private
+BddHashKeyV::operator ()	bddMgrV.h	/^   size_t operator() () const { return ((_l << 3) + (_r << 3) + _i); }$/;"	f	class:BddHashKeyV	access:public	signature:() const
+BddHashKeyV::operator ()	test/bddMgrV.h	/^   size_t operator() () const { return ((_l << 3) + (_r << 3) + _i); }$/;"	f	class:BddHashKeyV	access:public	signature:() const
+BddHashKeyV::operator ==	bddMgrV.h	/^   bool operator == (const BddHashKeyV& k) {$/;"	f	class:BddHashKeyV	access:public	signature:(const BddHashKeyV& k)
+BddHashKeyV::operator ==	test/bddMgrV.h	/^   bool operator == (const BddHashKeyV& k) {$/;"	f	class:BddHashKeyV	access:public	signature:(const BddHashKeyV& k)
+BddMap	bddMgrV.h	/^typedef map<string, size_t>                   BddMap;$/;"	t
+BddMap	test/bddMgrV.h	/^typedef map<string, size_t>                   BddMap;$/;"	t
+BddMapConstIter	bddMgrV.h	/^typedef map<string, size_t>::const_iterator   BddMapConstIter;$/;"	t
+BddMapConstIter	test/bddMgrV.h	/^typedef map<string, size_t>::const_iterator   BddMapConstIter;$/;"	t
+BddMapPair	bddMgrV.h	/^typedef pair<string, size_t>                  BddMapPair;$/;"	t
+BddMapPair	test/bddMgrV.h	/^typedef pair<string, size_t>                  BddMapPair;$/;"	t
+BddMgrV	bddMgrV.h	/^   BddMgrV(size_t nin = 64, size_t h = 8009, size_t c = 30011)$/;"	f	class:BddMgrV	access:public	signature:(size_t nin = 64, size_t h = 8009, size_t c = 30011)
+BddMgrV	bddMgrV.h	/^class BddMgrV$/;"	c
+BddMgrV	test/bddMgrV.h	/^   BddMgrV(size_t nin = 64, size_t h = 8009, size_t c = 30011)$/;"	f	class:BddMgrV	access:public	signature:(size_t nin = 64, size_t h = 8009, size_t c = 30011)
+BddMgrV	test/bddMgrV.h	/^class BddMgrV$/;"	c
+BddMgrV::BddCache	bddMgrV.h	/^typedef Cache<BddCacheKeyV, size_t>    BddCache;$/;"	t	class:BddMgrV	access:private
+BddMgrV::BddCache	test/bddMgrV.h	/^typedef Cache<BddCacheKeyV, size_t>    BddCache;$/;"	t	class:BddMgrV	access:private
+BddMgrV::BddHash	bddMgrV.h	/^typedef Hash<BddHashKeyV, BddNodeVInt*> BddHash;$/;"	t	class:BddMgrV	access:private
+BddMgrV::BddHash	test/bddMgrV.h	/^typedef Hash<BddHashKeyV, BddNodeVInt*> BddHash;$/;"	t	class:BddMgrV	access:private
+BddMgrV::BddMgrV	bddMgrV.h	/^   BddMgrV(size_t nin = 64, size_t h = 8009, size_t c = 30011)$/;"	f	class:BddMgrV	access:public	signature:(size_t nin = 64, size_t h = 8009, size_t c = 30011)
+BddMgrV::BddMgrV	test/bddMgrV.h	/^   BddMgrV(size_t nin = 64, size_t h = 8009, size_t c = 30011)$/;"	f	class:BddMgrV	access:public	signature:(size_t nin = 64, size_t h = 8009, size_t c = 30011)
+BddMgrV::_bddArr	bddMgrV.h	/^   BddArr           _bddArr;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_bddArr	test/bddMgrV.h	/^   BddArr           _bddArr;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_bddMap	bddMgrV.h	/^   BddMap           _bddMap;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_bddMap	test/bddMgrV.h	/^   BddMap           _bddMap;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_computedTable	bddMgrV.h	/^   BddCache         _computedTable;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_computedTable	test/bddMgrV.h	/^   BddCache         _computedTable;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_initState	bddMgrV.h	/^   BddNodeV         _initState;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_initState	test/bddMgrV.h	/^   BddNodeV         _initState;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_isFixed	bddMgrV.h	/^   bool             _isFixed;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_isFixed	test/bddMgrV.h	/^   bool             _isFixed;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_reachStates	bddMgrV.h	/^   vector<BddNodeV> _reachStates;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_reachStates	test/bddMgrV.h	/^   vector<BddNodeV> _reachStates;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_supports	bddMgrV.h	/^   vector<BddNodeV> _supports;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_supports	test/bddMgrV.h	/^   vector<BddNodeV> _supports;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_tr	bddMgrV.h	/^   BddNodeV         _tr;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_tr	test/bddMgrV.h	/^   BddNodeV         _tr;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_tri	bddMgrV.h	/^   BddNodeV         _tri;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_tri	test/bddMgrV.h	/^   BddNodeV         _tri;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_uniqueTable	bddMgrV.h	/^   BddHash          _uniqueTable;$/;"	m	class:BddMgrV	access:private
+BddMgrV::_uniqueTable	test/bddMgrV.h	/^   BddHash          _uniqueTable;$/;"	m	class:BddMgrV	access:private
+BddMgrV::addBddNodeV	bddMgrV.cpp	/^BddMgrV::addBddNodeV(const string& str, size_t n)$/;"	f	class:BddMgrV	signature:(const string& str, size_t n)
+BddMgrV::addBddNodeV	bddMgrV.cpp	/^BddMgrV::addBddNodeV(unsigned id, size_t n)$/;"	f	class:BddMgrV	signature:(unsigned id, size_t n)
+BddMgrV::addBddNodeV	bddMgrV.h	/^   bool addBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+BddMgrV::addBddNodeV	bddMgrV.h	/^   bool addBddNodeV(unsigned id, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(unsigned id, size_t nodeV)
+BddMgrV::addBddNodeV	test/bddMgrV.h	/^   bool addBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+BddMgrV::addBddNodeV	test/bddMgrV.h	/^   bool addBddNodeV(unsigned id, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(unsigned id, size_t nodeV)
+BddMgrV::buildPImage	bddMgrV.h	/^   void buildPImage( int level );$/;"	p	class:BddMgrV	access:public	signature:( int level )
+BddMgrV::buildPImage	test/bddMgrV.h	/^   void buildPImage( int level );$/;"	p	class:BddMgrV	access:public	signature:( int level )
+BddMgrV::buildPInitialState	bddMgrV.h	/^   void buildPInitialState();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::buildPInitialState	test/bddMgrV.h	/^   void buildPInitialState();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::buildPTransRelation	bddMgrV.h	/^   void buildPTransRelation();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::buildPTransRelation	test/bddMgrV.h	/^   void buildPTransRelation();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::checkIteTerminal	bddMgrV.cpp	/^BddMgrV::checkIteTerminal$/;"	f	class:BddMgrV	signature:(const BddNodeV& f, const BddNodeV& g, const BddNodeV& h, BddNodeV& n)
+BddMgrV::checkIteTerminal	bddMgrV.h	/^   bool checkIteTerminal(const BddNodeV&, const BddNodeV&, const BddNodeV&,$/;"	p	class:BddMgrV	access:private	signature:(const BddNodeV&, const BddNodeV&, const BddNodeV&, BddNodeV&)
+BddMgrV::checkIteTerminal	test/bddMgrV.h	/^   bool checkIteTerminal(const BddNodeV&, const BddNodeV&, const BddNodeV&,$/;"	p	class:BddMgrV	access:private	signature:(const BddNodeV&, const BddNodeV&, const BddNodeV&, BddNodeV&)
+BddMgrV::drawBdd	bddMgrV.cpp	/^BddMgrV::drawBdd(const string& name, const string& fileName) const$/;"	f	class:BddMgrV	signature:(const string& name, const string& fileName) const
+BddMgrV::drawBdd	bddMgrV.h	/^   bool drawBdd(const string& nodeName, const string& dotFile) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, const string& dotFile) const
+BddMgrV::drawBdd	test/bddMgrV.h	/^   bool drawBdd(const string& nodeName, const string& dotFile) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, const string& dotFile) const
+BddMgrV::evalCube	bddMgrV.cpp	/^BddMgrV::evalCube(const BddNodeV& node, const string& pattern) const$/;"	f	class:BddMgrV	signature:(const BddNodeV& node, const string& pattern) const
+BddMgrV::evalCube	bddMgrV.h	/^   int evalCube(const BddNodeV& node, const string& vector) const;$/;"	p	class:BddMgrV	access:public	signature:(const BddNodeV& node, const string& vector) const
+BddMgrV::evalCube	test/bddMgrV.h	/^   int evalCube(const BddNodeV& node, const string& vector) const;$/;"	p	class:BddMgrV	access:public	signature:(const BddNodeV& node, const string& vector) const
+BddMgrV::forceAddBddNodeV	bddMgrV.cpp	/^BddMgrV::forceAddBddNodeV(const string& str, size_t n)$/;"	f	class:BddMgrV	signature:(const string& str, size_t n)
+BddMgrV::forceAddBddNodeV	bddMgrV.h	/^   void forceAddBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+BddMgrV::forceAddBddNodeV	test/bddMgrV.h	/^   void forceAddBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+BddMgrV::getBddNodeV	bddMgrV.cpp	/^BddMgrV::getBddNodeV(const string& name) const$/;"	f	class:BddMgrV	signature:(const string& name) const
+BddMgrV::getBddNodeV	bddMgrV.cpp	/^BddMgrV::getBddNodeV(unsigned id) const$/;"	f	class:BddMgrV	signature:(unsigned id) const
+BddMgrV::getBddNodeV	bddMgrV.h	/^   BddNodeV getBddNodeV(const string& nodeName) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName) const
+BddMgrV::getBddNodeV	bddMgrV.h	/^   BddNodeV getBddNodeV(unsigned id) const;$/;"	p	class:BddMgrV	access:public	signature:(unsigned id) const
+BddMgrV::getBddNodeV	test/bddMgrV.h	/^   BddNodeV getBddNodeV(const string& nodeName) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName) const
+BddMgrV::getBddNodeV	test/bddMgrV.h	/^   BddNodeV getBddNodeV(unsigned id) const;$/;"	p	class:BddMgrV	access:public	signature:(unsigned id) const
+BddMgrV::getNumSupports	bddMgrV.h	/^   size_t getNumSupports() const { return _supports.size(); }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getNumSupports	test/bddMgrV.h	/^   size_t getNumSupports() const { return _supports.size(); }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPInitState	bddMgrV.h	/^   BddNodeV getPInitState() const { return _initState; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPInitState	test/bddMgrV.h	/^   BddNodeV getPInitState() const { return _initState; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPReachState	bddMgrV.h	/^   BddNodeV getPReachState() const { $/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPReachState	test/bddMgrV.h	/^   BddNodeV getPReachState() const { $/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPTr	bddMgrV.h	/^   BddNodeV getPTr() const { return _tr; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPTr	test/bddMgrV.h	/^   BddNodeV getPTr() const { return _tr; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPTri	bddMgrV.h	/^   BddNodeV getPTri() const { return _tri; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getPTri	test/bddMgrV.h	/^   BddNodeV getPTri() const { return _tri; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::getSupport	bddMgrV.h	/^   const BddNodeV& getSupport(size_t i) const { return _supports[i]; }$/;"	f	class:BddMgrV	access:public	signature:(size_t i) const
+BddMgrV::getSupport	test/bddMgrV.h	/^   const BddNodeV& getSupport(size_t i) const { return _supports[i]; }$/;"	f	class:BddMgrV	access:public	signature:(size_t i) const
+BddMgrV::init	bddMgrV.cpp	/^BddMgrV::init(size_t nin, size_t h, size_t c)$/;"	f	class:BddMgrV	signature:(size_t nin, size_t h, size_t c)
+BddMgrV::init	bddMgrV.h	/^   void init(size_t nin, size_t h, size_t c);$/;"	p	class:BddMgrV	access:public	signature:(size_t nin, size_t h, size_t c)
+BddMgrV::init	test/bddMgrV.h	/^   void init(size_t nin, size_t h, size_t c);$/;"	p	class:BddMgrV	access:public	signature:(size_t nin, size_t h, size_t c)
+BddMgrV::isPFixed	bddMgrV.h	/^   bool isPFixed() const { return _isFixed; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::isPFixed	test/bddMgrV.h	/^   bool isPFixed() const { return _isFixed; }$/;"	f	class:BddMgrV	access:public	signature:() const
+BddMgrV::ite	bddMgrV.cpp	/^BddMgrV::ite(BddNodeV f, BddNodeV g, BddNodeV h)$/;"	f	class:BddMgrV	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+BddMgrV::ite	bddMgrV.h	/^   BddNodeV ite(BddNodeV f, BddNodeV g, BddNodeV h);$/;"	p	class:BddMgrV	access:public	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+BddMgrV::ite	test/bddMgrV.h	/^   BddNodeV ite(BddNodeV f, BddNodeV g, BddNodeV h);$/;"	p	class:BddMgrV	access:public	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+BddMgrV::reset	bddMgrV.cpp	/^BddMgrV::reset()$/;"	f	class:BddMgrV	signature:()
+BddMgrV::reset	bddMgrV.h	/^   void reset();$/;"	p	class:BddMgrV	access:private	signature:()
+BddMgrV::reset	test/bddMgrV.h	/^   void reset();$/;"	p	class:BddMgrV	access:private	signature:()
+BddMgrV::resetProof	bddMgrV.h	/^   void resetProof() {}$/;"	f	class:BddMgrV	access:public	signature:()
+BddMgrV::resetProof	test/bddMgrV.h	/^   void resetProof() {}$/;"	f	class:BddMgrV	access:public	signature:()
+BddMgrV::restart	bddMgrV.cpp	/^BddMgrV::restart()$/;"	f	class:BddMgrV	signature:()
+BddMgrV::restart	bddMgrV.h	/^   void restart();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::restart	test/bddMgrV.h	/^   void restart();$/;"	p	class:BddMgrV	access:public	signature:()
+BddMgrV::runPCheckProperty	bddMgrV.h	/^   void runPCheckProperty( const string &name, BddNodeV property );$/;"	p	class:BddMgrV	access:public	signature:( const string &name, BddNodeV property )
+BddMgrV::runPCheckProperty	test/bddMgrV.h	/^   void runPCheckProperty( const string &name, BddNodeV property );$/;"	p	class:BddMgrV	access:public	signature:( const string &name, BddNodeV property )
+BddMgrV::standardize	bddMgrV.cpp	/^BddMgrV::standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)$/;"	f	class:BddMgrV	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+BddMgrV::standardize	bddMgrV.h	/^   void standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge);$/;"	p	class:BddMgrV	access:private	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+BddMgrV::standardize	test/bddMgrV.h	/^   void standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge);$/;"	p	class:BddMgrV	access:private	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+BddMgrV::uniquify	bddMgrV.cpp	/^BddMgrV::uniquify(size_t l, size_t r, unsigned i)$/;"	f	class:BddMgrV	signature:(size_t l, size_t r, unsigned i)
+BddMgrV::uniquify	bddMgrV.h	/^   BddNodeVInt* uniquify(size_t l, size_t r, unsigned i);$/;"	p	class:BddMgrV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddMgrV::uniquify	test/bddMgrV.h	/^   BddNodeVInt* uniquify(size_t l, size_t r, unsigned i);$/;"	p	class:BddMgrV	access:public	signature:(size_t l, size_t r, unsigned i)
+BddMgrV::~BddMgrV	bddMgrV.h	/^   ~BddMgrV() { reset(); }$/;"	f	class:BddMgrV	access:public	signature:()
+BddMgrV::~BddMgrV	test/bddMgrV.h	/^   ~BddMgrV() { reset(); }$/;"	f	class:BddMgrV	access:public	signature:()
+BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f)$/;"	f	class:BddNodeV	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f)
+BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(const BddNodeV& n) : _nodeV(n._nodeV)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f)$/;"	f	class:BddNodeV	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f)
+BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(size_t v) : _nodeV(v)$/;"	f	class:BddNodeV	signature:(size_t v)
+BddNodeV	bddNodeV.h	/^   BddNodeV() : _nodeV(0) {}$/;"	f	class:BddNodeV	access:public	signature:()
+BddNodeV	bddNodeV.h	/^   BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV	bddNodeV.h	/^   BddNodeV(const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV	bddNodeV.h	/^   BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV	bddNodeV.h	/^   BddNodeV(size_t v);$/;"	p	class:BddNodeV	access:public	signature:(size_t v)
+BddNodeV	bddNodeV.h	/^class BddNodeV$/;"	c
+BddNodeV	test/bddNodeV.h	/^   BddNodeV() : _nodeV(0) {}$/;"	f	class:BddNodeV	access:public	signature:()
+BddNodeV	test/bddNodeV.h	/^   BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV	test/bddNodeV.h	/^   BddNodeV(const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV	test/bddNodeV.h	/^   BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV	test/bddNodeV.h	/^   BddNodeV(size_t v);$/;"	p	class:BddNodeV	access:public	signature:(size_t v)
+BddNodeV	test/bddNodeV.h	/^class BddNodeV$/;"	c
+BddNodeV::BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f)$/;"	f	class:BddNodeV	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f)
+BddNodeV::BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(const BddNodeV& n) : _nodeV(n._nodeV)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV::BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f)$/;"	f	class:BddNodeV	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f)
+BddNodeV::BddNodeV	bddNodeV.cpp	/^BddNodeV::BddNodeV(size_t v) : _nodeV(v)$/;"	f	class:BddNodeV	signature:(size_t v)
+BddNodeV::BddNodeV	bddNodeV.h	/^   BddNodeV() : _nodeV(0) {}$/;"	f	class:BddNodeV	access:public	signature:()
+BddNodeV::BddNodeV	bddNodeV.h	/^   BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV::BddNodeV	bddNodeV.h	/^   BddNodeV(const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::BddNodeV	bddNodeV.h	/^   BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV::BddNodeV	bddNodeV.h	/^   BddNodeV(size_t v);$/;"	p	class:BddNodeV	access:public	signature:(size_t v)
+BddNodeV::BddNodeV	test/bddNodeV.h	/^   BddNodeV() : _nodeV(0) {}$/;"	f	class:BddNodeV	access:public	signature:()
+BddNodeV::BddNodeV	test/bddNodeV.h	/^   BddNodeV(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(BddNodeVInt* n, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV::BddNodeV	test/bddNodeV.h	/^   BddNodeV(const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::BddNodeV	test/bddNodeV.h	/^   BddNodeV(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV);$/;"	p	class:BddNodeV	access:public	signature:(size_t l, size_t r, size_t i, BDD_EDGEV_FLAG f = BDD_POS_EDGEV)
+BddNodeV::BddNodeV	test/bddNodeV.h	/^   BddNodeV(size_t v);$/;"	p	class:BddNodeV	access:public	signature:(size_t v)
+BddNodeV::_BddMgrV	bddNodeV.cpp	/^BddMgrV* BddNodeV::_BddMgrV = 0;$/;"	m	class:BddNodeV	file:
+BddNodeV::_BddMgrV	bddNodeV.h	/^   static BddMgrV*          _BddMgrV;$/;"	m	class:BddNodeV	access:private
+BddNodeV::_BddMgrV	test/bddNodeV.h	/^   static BddMgrV*          _BddMgrV;$/;"	m	class:BddNodeV	access:private
+BddNodeV::_debugBddAddr	bddNodeV.cpp	/^bool BddNodeV::_debugBddAddr = false;$/;"	m	class:BddNodeV	file:
+BddNodeV::_debugBddAddr	bddNodeV.h	/^   static bool             _debugBddAddr;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_debugBddAddr	test/bddNodeV.h	/^   static bool             _debugBddAddr;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_debugRefCount	bddNodeV.cpp	/^bool BddNodeV::_debugRefCount = false;$/;"	m	class:BddNodeV	file:
+BddNodeV::_debugRefCount	bddNodeV.h	/^   static bool             _debugRefCount;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_debugRefCount	test/bddNodeV.h	/^   static bool             _debugRefCount;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_nodeV	bddNodeV.h	/^   size_t                  _nodeV;$/;"	m	class:BddNodeV	access:private
+BddNodeV::_nodeV	test/bddNodeV.h	/^   size_t                  _nodeV;$/;"	m	class:BddNodeV	access:private
+BddNodeV::_one	bddNodeV.cpp	/^BddNodeV BddNodeV::_one;$/;"	m	class:BddNodeV	file:
+BddNodeV::_one	bddNodeV.h	/^   static BddNodeV          _one;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_one	test/bddNodeV.h	/^   static BddNodeV          _one;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_zero	bddNodeV.cpp	/^BddNodeV BddNodeV::_zero;$/;"	m	class:BddNodeV	file:
+BddNodeV::_zero	bddNodeV.h	/^   static BddNodeV          _zero;$/;"	m	class:BddNodeV	access:public
+BddNodeV::_zero	test/bddNodeV.h	/^   static BddNodeV          _zero;$/;"	m	class:BddNodeV	access:public
+BddNodeV::containNode	bddNodeV.cpp	/^BddNodeV::containNode(unsigned bLevel, unsigned eLevel) const$/;"	f	class:BddNodeV	signature:(unsigned bLevel, unsigned eLevel) const
+BddNodeV::containNode	bddNodeV.h	/^   bool containNode(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+BddNodeV::containNode	test/bddNodeV.h	/^   bool containNode(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+BddNodeV::containNodeRecur	bddNodeV.cpp	/^BddNodeV::containNodeRecur(unsigned bLevel, unsigned eLevel) const$/;"	f	class:BddNodeV	signature:(unsigned bLevel, unsigned eLevel) const
+BddNodeV::containNodeRecur	bddNodeV.h	/^   bool containNodeRecur(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+BddNodeV::containNodeRecur	test/bddNodeV.h	/^   bool containNodeRecur(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+BddNodeV::countCube	bddNodeV.cpp	/^BddNodeV::countCube() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::countCube	bddNodeV.h	/^   size_t countCube() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::countCube	test/bddNodeV.h	/^   size_t countCube() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::countCubeRecur	bddNodeV.cpp	/^BddNodeV::countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const$/;"	f	class:BddNodeV	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+BddNodeV::countCubeRecur	bddNodeV.h	/^   size_t countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const;$/;"	p	class:BddNodeV	access:private	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+BddNodeV::countCubeRecur	test/bddNodeV.h	/^   size_t countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const;$/;"	p	class:BddNodeV	access:private	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+BddNodeV::drawBdd	bddNodeV.cpp	/^BddNodeV::drawBdd(const string& name, ofstream& ofile) const$/;"	f	class:BddNodeV	signature:(const string& name, ofstream& ofile) const
+BddNodeV::drawBdd	bddNodeV.h	/^   void drawBdd(const string&, ofstream&) const;$/;"	p	class:BddNodeV	access:public	signature:(const string&, ofstream&) const
+BddNodeV::drawBdd	test/bddNodeV.h	/^   void drawBdd(const string&, ofstream&) const;$/;"	p	class:BddNodeV	access:public	signature:(const string&, ofstream&) const
+BddNodeV::drawBddRecur	bddNodeV.cpp	/^BddNodeV::drawBddRecur(ofstream& ofile) const$/;"	f	class:BddNodeV	signature:(ofstream& ofile) const
+BddNodeV::drawBddRecur	bddNodeV.h	/^   void drawBddRecur(ofstream&) const;$/;"	p	class:BddNodeV	access:private	signature:(ofstream&) const
+BddNodeV::drawBddRecur	test/bddNodeV.h	/^   void drawBddRecur(ofstream&) const;$/;"	p	class:BddNodeV	access:private	signature:(ofstream&) const
+BddNodeV::exist	bddNodeV.cpp	/^BddNodeV::exist(unsigned l) const$/;"	f	class:BddNodeV	signature:(unsigned l) const
+BddNodeV::exist	bddNodeV.h	/^   BddNodeV exist(unsigned l) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned l) const
+BddNodeV::exist	test/bddNodeV.h	/^   BddNodeV exist(unsigned l) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned l) const
+BddNodeV::existRecur	bddNodeV.cpp	/^BddNodeV::existRecur(unsigned l, map<size_t, size_t>& existMap) const$/;"	f	class:BddNodeV	signature:(unsigned l, map<size_t, size_t>& existMap) const
+BddNodeV::existRecur	bddNodeV.h	/^   BddNodeV existRecur(unsigned l, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned l, map<size_t, size_t>&) const
+BddNodeV::existRecur	test/bddNodeV.h	/^   BddNodeV existRecur(unsigned l, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned l, map<size_t, size_t>&) const
+BddNodeV::getAllCubes	bddNodeV.cpp	/^BddNodeV::getAllCubes() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getAllCubes	bddNodeV.h	/^   vector<BddNodeV> getAllCubes() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getAllCubes	test/bddNodeV.h	/^   vector<BddNodeV> getAllCubes() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getAllCubesRecur	bddNodeV.cpp	/^BddNodeV::getAllCubesRecur$/;"	f	class:BddNodeV	signature:(bool phase, BddNodeV& cube, vector<BddNodeV>& allCubes) const
+BddNodeV::getAllCubesRecur	bddNodeV.h	/^   void getAllCubesRecur(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const
+BddNodeV::getAllCubesRecur	test/bddNodeV.h	/^   void getAllCubesRecur(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const
+BddNodeV::getBddNodeVInt	bddNodeV.h	/^   BddNodeVInt* getBddNodeVInt() const {$/;"	f	class:BddNodeV	access:private	signature:() const
+BddNodeV::getBddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt* getBddNodeVInt() const {$/;"	f	class:BddNodeV	access:private	signature:() const
+BddNodeV::getCube	bddNodeV.cpp	/^BddNodeV::getCube(size_t ith) const$/;"	f	class:BddNodeV	signature:(size_t ith) const
+BddNodeV::getCube	bddNodeV.h	/^   BddNodeV getCube(size_t ith=0) const;$/;"	p	class:BddNodeV	access:public	signature:(size_t ith=0) const
+BddNodeV::getCube	test/bddNodeV.h	/^   BddNodeV getCube(size_t ith=0) const;$/;"	p	class:BddNodeV	access:public	signature:(size_t ith=0) const
+BddNodeV::getCubeRecur	bddNodeV.cpp	/^BddNodeV::getCubeRecur$/;"	f	class:BddNodeV	signature:(bool phase, size_t& ith, size_t target, BddNodeV& res) const
+BddNodeV::getCubeRecur	bddNodeV.h	/^   bool getCubeRecur(bool p, size_t& ith, size_t target, BddNodeV& res) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, size_t& ith, size_t target, BddNodeV& res) const
+BddNodeV::getCubeRecur	test/bddNodeV.h	/^   bool getCubeRecur(bool p, size_t& ith, size_t target, BddNodeV& res) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, size_t& ith, size_t target, BddNodeV& res) const
+BddNodeV::getLabel	bddNodeV.cpp	/^BddNodeV::getLabel() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getLabel	bddNodeV.h	/^   string getLabel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getLabel	test/bddNodeV.h	/^   string getLabel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getLeft	bddNodeV.cpp	/^BddNodeV::getLeft() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getLeft	bddNodeV.h	/^   const BddNodeV& getLeft() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getLeft	test/bddNodeV.h	/^   const BddNodeV& getLeft() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getLeftCofactor	bddNodeV.cpp	/^BddNodeV::getLeftCofactor(unsigned i) const$/;"	f	class:BddNodeV	signature:(unsigned i) const
+BddNodeV::getLeftCofactor	bddNodeV.h	/^   BddNodeV getLeftCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+BddNodeV::getLeftCofactor	test/bddNodeV.h	/^   BddNodeV getLeftCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+BddNodeV::getLevel	bddNodeV.cpp	/^BddNodeV::getLevel() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getLevel	bddNodeV.h	/^   unsigned getLevel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getLevel	test/bddNodeV.h	/^   unsigned getLevel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getRefCount	bddNodeV.cpp	/^BddNodeV::getRefCount() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getRefCount	bddNodeV.h	/^   unsigned getRefCount() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getRefCount	test/bddNodeV.h	/^   unsigned getRefCount() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getRight	bddNodeV.cpp	/^BddNodeV::getRight() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::getRight	bddNodeV.h	/^   const BddNodeV& getRight() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getRight	test/bddNodeV.h	/^   const BddNodeV& getRight() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::getRightCofactor	bddNodeV.cpp	/^BddNodeV::getRightCofactor(unsigned i) const$/;"	f	class:BddNodeV	signature:(unsigned i) const
+BddNodeV::getRightCofactor	bddNodeV.h	/^   BddNodeV getRightCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+BddNodeV::getRightCofactor	test/bddNodeV.h	/^   BddNodeV getRightCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+BddNodeV::isNegEdge	bddNodeV.h	/^   bool isNegEdge() const { return (_nodeV & BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::isNegEdge	test/bddNodeV.h	/^   bool isNegEdge() const { return (_nodeV & BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::isPosEdge	bddNodeV.h	/^   bool isPosEdge() const { return !isNegEdge(); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::isPosEdge	test/bddNodeV.h	/^   bool isPosEdge() const { return !isNegEdge(); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::isTerminal	bddNodeV.cpp	/^BddNodeV::isTerminal() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::isTerminal	bddNodeV.h	/^   bool isTerminal() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+BddNodeV::isTerminal	test/bddNodeV.h	/^   bool isTerminal() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+BddNodeV::nodeMove	bddNodeV.cpp	/^BddNodeV::nodeMove(unsigned fromLevel, unsigned toLevel, bool& isMoved) const$/;"	f	class:BddNodeV	signature:(unsigned fromLevel, unsigned toLevel, bool& isMoved) const
+BddNodeV::nodeMove	bddNodeV.h	/^   BddNodeV nodeMove(unsigned fLevel, unsigned tLevel, bool& isMoved) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned fLevel, unsigned tLevel, bool& isMoved) const
+BddNodeV::nodeMove	test/bddNodeV.h	/^   BddNodeV nodeMove(unsigned fLevel, unsigned tLevel, bool& isMoved) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned fLevel, unsigned tLevel, bool& isMoved) const
+BddNodeV::nodeMoveRecur	bddNodeV.cpp	/^BddNodeV::nodeMoveRecur$/;"	f	class:BddNodeV	signature:(unsigned fromLevel, unsigned toLevel, map<size_t, size_t>& moveMap) const
+BddNodeV::nodeMoveRecur	bddNodeV.h	/^   BddNodeV nodeMoveRecur(unsigned f, unsigned t, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned f, unsigned t, map<size_t, size_t>&) const
+BddNodeV::nodeMoveRecur	test/bddNodeV.h	/^   BddNodeV nodeMoveRecur(unsigned f, unsigned t, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned f, unsigned t, map<size_t, size_t>&) const
+BddNodeV::operator !=	bddNodeV.h	/^   bool operator != (const BddNodeV& n) const { return (_nodeV != n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator !=	test/bddNodeV.h	/^   bool operator != (const BddNodeV& n) const { return (_nodeV != n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator &	bddNodeV.cpp	/^BddNodeV::operator & (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+BddNodeV::operator &	bddNodeV.h	/^   BddNodeV operator & (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator &	test/bddNodeV.h	/^   BddNodeV operator & (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator &=	bddNodeV.cpp	/^BddNodeV::operator &= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV::operator &=	bddNodeV.h	/^   BddNodeV& operator &= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator &=	test/bddNodeV.h	/^   BddNodeV& operator &= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator ()	bddNodeV.h	/^   size_t operator () () const { return _nodeV; }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::operator ()	test/bddNodeV.h	/^   size_t operator () () const { return _nodeV; }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::operator <	bddNodeV.cpp	/^BddNodeV::operator < (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+BddNodeV::operator <	bddNodeV.h	/^   bool operator < (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator <	test/bddNodeV.h	/^   bool operator < (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator <<	bddNodeV.h	/^   friend ostream& operator << (ostream& os, const BddNodeV& n);$/;"	p	class:BddNodeV	access:friend	signature:(ostream& os, const BddNodeV& n)
+BddNodeV::operator <<	test/bddNodeV.h	/^   friend ostream& operator << (ostream& os, const BddNodeV& n);$/;"	p	class:BddNodeV	access:friend	signature:(ostream& os, const BddNodeV& n)
+BddNodeV::operator <=	bddNodeV.cpp	/^BddNodeV::operator <= (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+BddNodeV::operator <=	bddNodeV.h	/^   bool operator <= (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator <=	test/bddNodeV.h	/^   bool operator <= (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator =	bddNodeV.cpp	/^BddNodeV::operator = (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV::operator =	bddNodeV.h	/^   BddNodeV& operator = (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator =	test/bddNodeV.h	/^   BddNodeV& operator = (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator ==	bddNodeV.h	/^   bool operator == (const BddNodeV& n) const { return (_nodeV == n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator ==	test/bddNodeV.h	/^   bool operator == (const BddNodeV& n) const { return (_nodeV == n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator >	bddNodeV.h	/^   bool operator > (const BddNodeV& n) const { return !((*this) <= n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator >	test/bddNodeV.h	/^   bool operator > (const BddNodeV& n) const { return !((*this) <= n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator >=	bddNodeV.h	/^   bool operator >= (const BddNodeV& n) const { return !((*this) < n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator >=	test/bddNodeV.h	/^   bool operator >= (const BddNodeV& n) const { return !((*this) < n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator ^	bddNodeV.cpp	/^BddNodeV::operator ^ (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+BddNodeV::operator ^	bddNodeV.h	/^   BddNodeV operator ^ (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator ^	test/bddNodeV.h	/^   BddNodeV operator ^ (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator ^=	bddNodeV.cpp	/^BddNodeV::operator ^= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV::operator ^=	bddNodeV.h	/^   BddNodeV& operator ^= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator ^=	test/bddNodeV.h	/^   BddNodeV& operator ^= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator |	bddNodeV.cpp	/^BddNodeV::operator | (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+BddNodeV::operator |	bddNodeV.h	/^   BddNodeV operator | (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator |	test/bddNodeV.h	/^   BddNodeV operator | (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+BddNodeV::operator |=	bddNodeV.cpp	/^BddNodeV::operator |= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+BddNodeV::operator |=	bddNodeV.h	/^   BddNodeV& operator |= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator |=	test/bddNodeV.h	/^   BddNodeV& operator |= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+BddNodeV::operator ~	bddNodeV.h	/^   BddNodeV operator ~ () const { return (_nodeV ^ BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::operator ~	test/bddNodeV.h	/^   BddNodeV operator ~ () const { return (_nodeV ^ BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+BddNodeV::print	bddNodeV.cpp	/^BddNodeV::print(ostream& os, size_t indent, size_t& nNodes) const$/;"	f	class:BddNodeV	signature:(ostream& os, size_t indent, size_t& nNodes) const
+BddNodeV::print	bddNodeV.h	/^   void print(ostream&, size_t, size_t&) const;$/;"	p	class:BddNodeV	access:private	signature:(ostream&, size_t, size_t&) const
+BddNodeV::print	test/bddNodeV.h	/^   void print(ostream&, size_t, size_t&) const;$/;"	p	class:BddNodeV	access:private	signature:(ostream&, size_t, size_t&) const
+BddNodeV::setBddMgrV	bddNodeV.h	/^   static void setBddMgrV(BddMgrV* m) { _BddMgrV = m; }$/;"	f	class:BddNodeV	access:public	signature:(BddMgrV* m)
+BddNodeV::setBddMgrV	test/bddNodeV.h	/^   static void setBddMgrV(BddMgrV* m) { _BddMgrV = m; }$/;"	f	class:BddNodeV	access:public	signature:(BddMgrV* m)
+BddNodeV::toString	bddNodeV.cpp	/^BddNodeV::toString() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::toString	bddNodeV.h	/^   string toString() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::toString	test/bddNodeV.h	/^   string toString() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+BddNodeV::toStringRecur	bddNodeV.cpp	/^BddNodeV::toStringRecur(bool phase, string& str) const$/;"	f	class:BddNodeV	signature:(bool phase, string& str) const
+BddNodeV::toStringRecur	bddNodeV.h	/^   bool toStringRecur(bool p, string& str) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, string& str) const
+BddNodeV::toStringRecur	test/bddNodeV.h	/^   bool toStringRecur(bool p, string& str) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, string& str) const
+BddNodeV::unsetVisitedRecur	bddNodeV.cpp	/^BddNodeV::unsetVisitedRecur() const$/;"	f	class:BddNodeV	signature:() const
+BddNodeV::unsetVisitedRecur	bddNodeV.h	/^   void unsetVisitedRecur() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+BddNodeV::unsetVisitedRecur	test/bddNodeV.h	/^   void unsetVisitedRecur() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+BddNodeV::~BddNodeV	bddNodeV.cpp	/^BddNodeV::~BddNodeV()$/;"	f	class:BddNodeV	signature:()
+BddNodeV::~BddNodeV	bddNodeV.h	/^   ~BddNodeV();$/;"	p	class:BddNodeV	access:public	signature:()
+BddNodeV::~BddNodeV	test/bddNodeV.h	/^   ~BddNodeV();$/;"	p	class:BddNodeV	access:public	signature:()
+BddNodeVInt	bddNodeV.h	/^   BddNodeVInt() : _level(0), _refCount(0), _visited(0) {}$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt	bddNodeV.h	/^   BddNodeVInt(size_t l, size_t r, unsigned ll)$/;"	f	class:BddNodeVInt	access:private	signature:(size_t l, size_t r, unsigned ll)
+BddNodeVInt	bddNodeV.h	/^class BddNodeVInt$/;"	c
+BddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt() : _level(0), _refCount(0), _visited(0) {}$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt(size_t l, size_t r, unsigned ll)$/;"	f	class:BddNodeVInt	access:private	signature:(size_t l, size_t r, unsigned ll)
+BddNodeVInt	test/bddNodeV.h	/^class BddNodeVInt$/;"	c
+BddNodeVInt::BddNodeVInt	bddNodeV.h	/^   BddNodeVInt() : _level(0), _refCount(0), _visited(0) {}$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::BddNodeVInt	bddNodeV.h	/^   BddNodeVInt(size_t l, size_t r, unsigned ll)$/;"	f	class:BddNodeVInt	access:private	signature:(size_t l, size_t r, unsigned ll)
+BddNodeVInt::BddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt() : _level(0), _refCount(0), _visited(0) {}$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::BddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt(size_t l, size_t r, unsigned ll)$/;"	f	class:BddNodeVInt	access:private	signature:(size_t l, size_t r, unsigned ll)
+BddNodeVInt::_left	bddNodeV.h	/^   BddNodeV              _left;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::_left	test/bddNodeV.h	/^   BddNodeV              _left;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::_right	bddNodeV.h	/^   BddNodeV              _right;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::_right	test/bddNodeV.h	/^   BddNodeV              _right;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::_terminal	bddNodeV.cpp	/^BddNodeVInt* BddNodeVInt::_terminal = 0;$/;"	m	class:BddNodeVInt	file:
+BddNodeVInt::_terminal	bddNodeV.h	/^   static BddNodeVInt*   _terminal;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::_terminal	test/bddNodeV.h	/^   static BddNodeVInt*   _terminal;$/;"	m	class:BddNodeVInt	access:private
+BddNodeVInt::decRefCount	bddNodeV.h	/^   void decRefCount() { --_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::decRefCount	test/bddNodeV.h	/^   void decRefCount() { --_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::getLeft	bddNodeV.h	/^   const BddNodeV& getLeft() const { return _left; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getLeft	test/bddNodeV.h	/^   const BddNodeV& getLeft() const { return _left; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getLevel	bddNodeV.h	/^   unsigned getLevel() const { return _level; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getLevel	test/bddNodeV.h	/^   unsigned getLevel() const { return _level; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getRefCount	bddNodeV.h	/^   unsigned getRefCount() const { return _refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getRefCount	test/bddNodeV.h	/^   unsigned getRefCount() const { return _refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getRight	bddNodeV.h	/^   const BddNodeV& getRight() const { return _right; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::getRight	test/bddNodeV.h	/^   const BddNodeV& getRight() const { return _right; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::incRefCount	bddNodeV.h	/^   void incRefCount() { ++_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::incRefCount	test/bddNodeV.h	/^   void incRefCount() { ++_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::isVisited	bddNodeV.h	/^   bool isVisited() const { return (_visited == 1); }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::isVisited	test/bddNodeV.h	/^   bool isVisited() const { return (_visited == 1); }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+BddNodeVInt::setVisited	bddNodeV.h	/^   void setVisited() { _visited = 1; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::setVisited	test/bddNodeV.h	/^   void setVisited() { _visited = 1; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::unsetVisited	bddNodeV.h	/^   void unsetVisited() { _visited = 0; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+BddNodeVInt::unsetVisited	test/bddNodeV.h	/^   void unsetVisited() { _visited = 0; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+CFLAGS	test/Makefile	/^CFLAGS    = -O3 -Wall$/;"	m
+CFLAGS	test/Makefile	/^CFLAGS    = -g -Wall$/;"	m
+CHDRS	test/Makefile	/^CHDRS     = $(wildcard *.h)$/;"	m
+COBJS	test/Makefile	/^COBJS     = $(addsuffix .o, $(basename $(CSRCS)))$/;"	m
+CSRCS	test/Makefile	/^CSRCS     = $(wildcard *.cpp) $(wildcard *.c)$/;"	m
+CXX	test/Makefile	/^CXX       = g++$/;"	m
+CXX	test/Makefile	/^CXX       = g++_new$/;"	m
+Cache	myHash.h	/^   Cache() : _size(0), _cache(0) {}$/;"	f	class:Cache	access:public	signature:()
+Cache	myHash.h	/^   Cache(size_t s) : _size(0), _cache(0) { init(s); }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache	myHash.h	/^class Cache$/;"	c
+Cache	test/myHash.h	/^   Cache() : _size(0), _cache(0) {}$/;"	f	class:Cache	access:public	signature:()
+Cache	test/myHash.h	/^   Cache(size_t s) : _size(0), _cache(0) { init(s); }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache	test/myHash.h	/^class Cache$/;"	c
+Cache::Cache	myHash.h	/^   Cache() : _size(0), _cache(0) {}$/;"	f	class:Cache	access:public	signature:()
+Cache::Cache	myHash.h	/^   Cache(size_t s) : _size(0), _cache(0) { init(s); }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache::Cache	test/myHash.h	/^   Cache() : _size(0), _cache(0) {}$/;"	f	class:Cache	access:public	signature:()
+Cache::Cache	test/myHash.h	/^   Cache(size_t s) : _size(0), _cache(0) { init(s); }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache::CacheNode	myHash.h	/^typedef pair<CacheKey, CacheData> CacheNode;$/;"	t	class:Cache	access:private
+Cache::CacheNode	test/myHash.h	/^typedef pair<CacheKey, CacheData> CacheNode;$/;"	t	class:Cache	access:private
+Cache::_cache	myHash.h	/^   CacheNode*     _cache;$/;"	m	class:Cache	access:private
+Cache::_cache	test/myHash.h	/^   CacheNode*     _cache;$/;"	m	class:Cache	access:private
+Cache::_size	myHash.h	/^   size_t         _size;$/;"	m	class:Cache	access:private
+Cache::_size	test/myHash.h	/^   size_t         _size;$/;"	m	class:Cache	access:private
+Cache::init	myHash.h	/^   void init(size_t s) { reset(); _size = s; _cache = new CacheNode[s]; }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache::init	test/myHash.h	/^   void init(size_t s) { reset(); _size = s; _cache = new CacheNode[s]; }$/;"	f	class:Cache	access:public	signature:(size_t s)
+Cache::operator []	myHash.h	/^   CacheNode& operator [] (size_t i) { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i)
+Cache::operator []	myHash.h	/^   const CacheNode& operator [](size_t i) const { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i) const
+Cache::operator []	test/myHash.h	/^   CacheNode& operator [] (size_t i) { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i)
+Cache::operator []	test/myHash.h	/^   const CacheNode& operator [](size_t i) const { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i) const
+Cache::read	myHash.h	/^   bool read(const CacheKey& k, CacheData& d) const {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, CacheData& d) const
+Cache::read	test/myHash.h	/^   bool read(const CacheKey& k, CacheData& d) const {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, CacheData& d) const
+Cache::reset	myHash.h	/^   void reset() { _size = 0; if (_cache) { delete [] _cache; _cache = 0; } }$/;"	f	class:Cache	access:public	signature:()
+Cache::reset	test/myHash.h	/^   void reset() { _size = 0; if (_cache) { delete [] _cache; _cache = 0; } }$/;"	f	class:Cache	access:public	signature:()
+Cache::size	myHash.h	/^   size_t size() const { return _size; }$/;"	f	class:Cache	access:public	signature:() const
+Cache::size	test/myHash.h	/^   size_t size() const { return _size; }$/;"	f	class:Cache	access:public	signature:() const
+Cache::write	myHash.h	/^   void write(const CacheKey& k, const CacheData& d) {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, const CacheData& d)
+Cache::write	test/myHash.h	/^   void write(const CacheKey& k, const CacheData& d) {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, const CacheData& d)
+Cache::~Cache	myHash.h	/^   ~Cache() { reset(); }$/;"	f	class:Cache	access:public	signature:()
+Cache::~Cache	test/myHash.h	/^   ~Cache() { reset(); }$/;"	f	class:Cache	access:public	signature:()
+CacheNode	myHash.h	/^typedef pair<CacheKey, CacheData> CacheNode;$/;"	t	class:Cache	access:private
+CacheNode	test/myHash.h	/^typedef pair<CacheKey, CacheData> CacheNode;$/;"	t	class:Cache	access:private
+DO_STD_ITE	bddMgrV.cpp	104;"	d	file:
+EXEC	test/Makefile	/^EXEC      = testBdd$/;"	m
+EXTHDRS	Makefile	/^EXTHDRS   = bddMgrV.h bddNodeV.h myHash.h$/;"	m
+EXTINCDIR	test/Makefile	/^EXTINCDIR = ..\/..\/..\/include$/;"	m
+Hash	myHash.h	/^   Hash() : _numBuckets(0), _buckets(0) {}$/;"	f	class:Hash	access:public	signature:()
+Hash	myHash.h	/^   Hash(size_t b) : _numBuckets(0), _buckets(0) { init(b); }$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash	myHash.h	/^class Hash$/;"	c
+Hash	test/myHash.h	/^   Hash() : _numBuckets(0), _buckets(0) {}$/;"	f	class:Hash	access:public	signature:()
+Hash	test/myHash.h	/^   Hash(size_t b) : _numBuckets(0), _buckets(0) { init(b); }$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash	test/myHash.h	/^class Hash$/;"	c
+Hash::Hash	myHash.h	/^   Hash() : _numBuckets(0), _buckets(0) {}$/;"	f	class:Hash	access:public	signature:()
+Hash::Hash	myHash.h	/^   Hash(size_t b) : _numBuckets(0), _buckets(0) { init(b); }$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash::Hash	test/myHash.h	/^   Hash() : _numBuckets(0), _buckets(0) {}$/;"	f	class:Hash	access:public	signature:()
+Hash::Hash	test/myHash.h	/^   Hash(size_t b) : _numBuckets(0), _buckets(0) { init(b); }$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash::HashNode	myHash.h	/^typedef pair<HashKey, HashData> HashNode;$/;"	t	class:Hash	access:private
+Hash::HashNode	test/myHash.h	/^typedef pair<HashKey, HashData> HashNode;$/;"	t	class:Hash	access:private
+Hash::_buckets	myHash.h	/^   vector<HashNode>*        _buckets;$/;"	m	class:Hash	access:private
+Hash::_buckets	test/myHash.h	/^   vector<HashNode>*        _buckets;$/;"	m	class:Hash	access:private
+Hash::_numBuckets	myHash.h	/^   size_t                   _numBuckets;$/;"	m	class:Hash	access:private
+Hash::_numBuckets	test/myHash.h	/^   size_t                   _numBuckets;$/;"	m	class:Hash	access:private
+Hash::begin	myHash.h	/^   iterator begin() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::begin	test/myHash.h	/^   iterator begin() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::bucketNum	myHash.h	/^   size_t bucketNum(const HashKey& k) const {$/;"	f	class:Hash	access:private	signature:(const HashKey& k) const
+Hash::bucketNum	test/myHash.h	/^   size_t bucketNum(const HashKey& k) const {$/;"	f	class:Hash	access:private	signature:(const HashKey& k) const
+Hash::check	myHash.h	/^   bool check(const HashKey& k, HashData& n) const {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, HashData& n) const
+Hash::check	test/myHash.h	/^   bool check(const HashKey& k, HashData& n) const {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, HashData& n) const
+Hash::empty	myHash.h	/^   bool empty() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::empty	test/myHash.h	/^   bool empty() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::end	myHash.h	/^   iterator end() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::end	test/myHash.h	/^   iterator end() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::forceInsert	myHash.h	/^   void forceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::forceInsert	test/myHash.h	/^   void forceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::init	myHash.h	/^   void init(size_t b) {$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash::init	test/myHash.h	/^   void init(size_t b) {$/;"	f	class:Hash	access:public	signature:(size_t b)
+Hash::insert	myHash.h	/^   bool insert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::insert	test/myHash.h	/^   bool insert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::iterator	myHash.h	/^   class iterator$/;"	c	class:Hash	access:public
+Hash::iterator	test/myHash.h	/^   class iterator$/;"	c	class:Hash	access:public
+Hash::iterator::_bId	myHash.h	/^      size_t                     _bId;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::_bId	test/myHash.h	/^      size_t                     _bId;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::_bnId	myHash.h	/^      size_t                     _bnId;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::_bnId	test/myHash.h	/^      size_t                     _bnId;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::_hash	myHash.h	/^      Hash<HashKey, HashData>*   _hash;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::_hash	test/myHash.h	/^      Hash<HashKey, HashData>*   _hash;$/;"	m	class:Hash::iterator	access:private
+Hash::iterator::iterator	myHash.h	/^      iterator(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)$/;"	f	class:Hash::iterator	access:public	signature:(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)
+Hash::iterator::iterator	myHash.h	/^      iterator(const iterator& i)$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+Hash::iterator::iterator	test/myHash.h	/^      iterator(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)$/;"	f	class:Hash::iterator	access:public	signature:(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)
+Hash::iterator::iterator	test/myHash.h	/^      iterator(const iterator& i)$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+Hash::iterator::operator !=	myHash.h	/^      bool operator != (const iterator& i) const { return !(*this == i); }$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+Hash::iterator::operator !=	test/myHash.h	/^      bool operator != (const iterator& i) const { return !(*this == i); }$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+Hash::iterator::operator *	myHash.h	/^      HashNode& operator * () { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator *	myHash.h	/^      const HashNode& operator * () const { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:() const
+Hash::iterator::operator *	test/myHash.h	/^      HashNode& operator * () { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator *	test/myHash.h	/^      const HashNode& operator * () const { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:() const
+Hash::iterator::operator ++	myHash.h	/^      iterator operator ++ (int) { iterator li=(*this); ++(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+Hash::iterator::operator ++	myHash.h	/^      iterator& operator ++ () {$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator ++	test/myHash.h	/^      iterator operator ++ (int) { iterator li=(*this); ++(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+Hash::iterator::operator ++	test/myHash.h	/^      iterator& operator ++ () {$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator --	myHash.h	/^      iterator operator -- (int) { iterator li=(*this); --(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+Hash::iterator::operator --	myHash.h	/^      iterator& operator -- () {$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator --	test/myHash.h	/^      iterator operator -- (int) { iterator li=(*this); --(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+Hash::iterator::operator --	test/myHash.h	/^      iterator& operator -- () {$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::operator =	myHash.h	/^      iterator& operator = (const iterator& i) {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+Hash::iterator::operator =	test/myHash.h	/^      iterator& operator = (const iterator& i) {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+Hash::iterator::operator ==	myHash.h	/^      bool operator == (const iterator& i) const {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+Hash::iterator::operator ==	test/myHash.h	/^      bool operator == (const iterator& i) const {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+Hash::iterator::~iterator	myHash.h	/^      ~iterator() {} \/\/ Should NOT delete HashData$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::iterator::~iterator	test/myHash.h	/^      ~iterator() {} \/\/ Should NOT delete HashData$/;"	f	class:Hash::iterator	access:public	signature:()
+Hash::numBuckets	myHash.h	/^   size_t numBuckets() const { return _numBuckets; }$/;"	f	class:Hash	access:public	signature:() const
+Hash::numBuckets	test/myHash.h	/^   size_t numBuckets() const { return _numBuckets; }$/;"	f	class:Hash	access:public	signature:() const
+Hash::operator []	myHash.h	/^   const vector<HashNode>& operator [](size_t i) const { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i) const
+Hash::operator []	myHash.h	/^   vector<HashNode>& operator [] (size_t i) { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i)
+Hash::operator []	test/myHash.h	/^   const vector<HashNode>& operator [](size_t i) const { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i) const
+Hash::operator []	test/myHash.h	/^   vector<HashNode>& operator [] (size_t i) { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i)
+Hash::replaceInsert	myHash.h	/^   bool replaceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::replaceInsert	test/myHash.h	/^   bool replaceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+Hash::reset	myHash.h	/^   void reset() {$/;"	f	class:Hash	access:public	signature:()
+Hash::reset	test/myHash.h	/^   void reset() {$/;"	f	class:Hash	access:public	signature:()
+Hash::size	myHash.h	/^   size_t size() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::size	test/myHash.h	/^   size_t size() const {$/;"	f	class:Hash	access:public	signature:() const
+Hash::~Hash	myHash.h	/^   ~Hash() { reset(); }$/;"	f	class:Hash	access:public	signature:()
+Hash::~Hash	test/myHash.h	/^   ~Hash() { reset(); }$/;"	f	class:Hash	access:public	signature:()
+HashNode	myHash.h	/^typedef pair<HashKey, HashData> HashNode;$/;"	t	class:Hash	access:private
+HashNode	test/myHash.h	/^typedef pair<HashKey, HashData> HashNode;$/;"	t	class:Hash	access:private
+LIBDIR	test/Makefile	/^LIBDIR    = ..\/..\/..\/lib$/;"	m
+MY_HASH_H	myHash.h	10;"	d
+MY_HASH_H	test/myHash.h	10;"	d
+PKGFLAG	Makefile	/^PKGFLAG   =$/;"	m
+V3_STR_UTIL_C	test/v3StrUtil.cpp	10;"	d	file:
+_BddMgrV	bddNodeV.cpp	/^BddMgrV* BddNodeV::_BddMgrV = 0;$/;"	m	class:BddNodeV	file:
+_BddMgrV	bddNodeV.h	/^   static BddMgrV*          _BddMgrV;$/;"	m	class:BddNodeV	access:private
+_BddMgrV	test/bddNodeV.h	/^   static BddMgrV*          _BddMgrV;$/;"	m	class:BddNodeV	access:private
+_bId	myHash.h	/^      size_t                     _bId;$/;"	m	class:Hash::iterator	access:private
+_bId	test/myHash.h	/^      size_t                     _bId;$/;"	m	class:Hash::iterator	access:private
+_bddArr	bddMgrV.h	/^   BddArr           _bddArr;$/;"	m	class:BddMgrV	access:private
+_bddArr	test/bddMgrV.h	/^   BddArr           _bddArr;$/;"	m	class:BddMgrV	access:private
+_bddMap	bddMgrV.h	/^   BddMap           _bddMap;$/;"	m	class:BddMgrV	access:private
+_bddMap	test/bddMgrV.h	/^   BddMap           _bddMap;$/;"	m	class:BddMgrV	access:private
+_bnId	myHash.h	/^      size_t                     _bnId;$/;"	m	class:Hash::iterator	access:private
+_bnId	test/myHash.h	/^      size_t                     _bnId;$/;"	m	class:Hash::iterator	access:private
+_buckets	myHash.h	/^   vector<HashNode>*        _buckets;$/;"	m	class:Hash	access:private
+_buckets	test/myHash.h	/^   vector<HashNode>*        _buckets;$/;"	m	class:Hash	access:private
+_cache	myHash.h	/^   CacheNode*     _cache;$/;"	m	class:Cache	access:private
+_cache	test/myHash.h	/^   CacheNode*     _cache;$/;"	m	class:Cache	access:private
+_computedTable	bddMgrV.h	/^   BddCache         _computedTable;$/;"	m	class:BddMgrV	access:private
+_computedTable	test/bddMgrV.h	/^   BddCache         _computedTable;$/;"	m	class:BddMgrV	access:private
+_debugBddAddr	bddNodeV.cpp	/^bool BddNodeV::_debugBddAddr = false;$/;"	m	class:BddNodeV	file:
+_debugBddAddr	bddNodeV.h	/^   static bool             _debugBddAddr;$/;"	m	class:BddNodeV	access:public
+_debugBddAddr	test/bddNodeV.h	/^   static bool             _debugBddAddr;$/;"	m	class:BddNodeV	access:public
+_debugRefCount	bddNodeV.cpp	/^bool BddNodeV::_debugRefCount = false;$/;"	m	class:BddNodeV	file:
+_debugRefCount	bddNodeV.h	/^   static bool             _debugRefCount;$/;"	m	class:BddNodeV	access:public
+_debugRefCount	test/bddNodeV.h	/^   static bool             _debugRefCount;$/;"	m	class:BddNodeV	access:public
+_f	bddMgrV.h	/^   size_t       _f;$/;"	m	class:BddCacheKeyV	access:private
+_f	test/bddMgrV.h	/^   size_t       _f;$/;"	m	class:BddCacheKeyV	access:private
+_g	bddMgrV.h	/^   size_t       _g;$/;"	m	class:BddCacheKeyV	access:private
+_g	test/bddMgrV.h	/^   size_t       _g;$/;"	m	class:BddCacheKeyV	access:private
+_h	bddMgrV.h	/^   size_t       _h;$/;"	m	class:BddCacheKeyV	access:private
+_h	test/bddMgrV.h	/^   size_t       _h;$/;"	m	class:BddCacheKeyV	access:private
+_hash	myHash.h	/^      Hash<HashKey, HashData>*   _hash;$/;"	m	class:Hash::iterator	access:private
+_hash	test/myHash.h	/^      Hash<HashKey, HashData>*   _hash;$/;"	m	class:Hash::iterator	access:private
+_i	bddMgrV.h	/^   unsigned   _i;$/;"	m	class:BddHashKeyV	access:private
+_i	test/bddMgrV.h	/^   unsigned   _i;$/;"	m	class:BddHashKeyV	access:private
+_initState	bddMgrV.h	/^   BddNodeV         _initState;$/;"	m	class:BddMgrV	access:private
+_initState	test/bddMgrV.h	/^   BddNodeV         _initState;$/;"	m	class:BddMgrV	access:private
+_isFixed	bddMgrV.h	/^   bool             _isFixed;$/;"	m	class:BddMgrV	access:private
+_isFixed	test/bddMgrV.h	/^   bool             _isFixed;$/;"	m	class:BddMgrV	access:private
+_l	bddMgrV.h	/^   size_t     _l;$/;"	m	class:BddHashKeyV	access:private
+_l	test/bddMgrV.h	/^   size_t     _l;$/;"	m	class:BddHashKeyV	access:private
+_left	bddNodeV.h	/^   BddNodeV              _left;$/;"	m	class:BddNodeVInt	access:private
+_left	test/bddNodeV.h	/^   BddNodeV              _left;$/;"	m	class:BddNodeVInt	access:private
+_nodeV	bddNodeV.h	/^   size_t                  _nodeV;$/;"	m	class:BddNodeV	access:private
+_nodeV	test/bddNodeV.h	/^   size_t                  _nodeV;$/;"	m	class:BddNodeV	access:private
+_numBuckets	myHash.h	/^   size_t                   _numBuckets;$/;"	m	class:Hash	access:private
+_numBuckets	test/myHash.h	/^   size_t                   _numBuckets;$/;"	m	class:Hash	access:private
+_one	bddNodeV.cpp	/^BddNodeV BddNodeV::_one;$/;"	m	class:BddNodeV	file:
+_one	bddNodeV.h	/^   static BddNodeV          _one;$/;"	m	class:BddNodeV	access:public
+_one	test/bddNodeV.h	/^   static BddNodeV          _one;$/;"	m	class:BddNodeV	access:public
+_r	bddMgrV.h	/^   size_t     _r;$/;"	m	class:BddHashKeyV	access:private
+_r	test/bddMgrV.h	/^   size_t     _r;$/;"	m	class:BddHashKeyV	access:private
+_reachStates	bddMgrV.h	/^   vector<BddNodeV> _reachStates;$/;"	m	class:BddMgrV	access:private
+_reachStates	test/bddMgrV.h	/^   vector<BddNodeV> _reachStates;$/;"	m	class:BddMgrV	access:private
+_right	bddNodeV.h	/^   BddNodeV              _right;$/;"	m	class:BddNodeVInt	access:private
+_right	test/bddNodeV.h	/^   BddNodeV              _right;$/;"	m	class:BddNodeVInt	access:private
+_size	myHash.h	/^   size_t         _size;$/;"	m	class:Cache	access:private
+_size	test/myHash.h	/^   size_t         _size;$/;"	m	class:Cache	access:private
+_supports	bddMgrV.h	/^   vector<BddNodeV> _supports;$/;"	m	class:BddMgrV	access:private
+_supports	test/bddMgrV.h	/^   vector<BddNodeV> _supports;$/;"	m	class:BddMgrV	access:private
+_terminal	bddNodeV.cpp	/^BddNodeVInt* BddNodeVInt::_terminal = 0;$/;"	m	class:BddNodeVInt	file:
+_terminal	bddNodeV.h	/^   static BddNodeVInt*   _terminal;$/;"	m	class:BddNodeVInt	access:private
+_terminal	test/bddNodeV.h	/^   static BddNodeVInt*   _terminal;$/;"	m	class:BddNodeVInt	access:private
+_tr	bddMgrV.h	/^   BddNodeV         _tr;$/;"	m	class:BddMgrV	access:private
+_tr	test/bddMgrV.h	/^   BddNodeV         _tr;$/;"	m	class:BddMgrV	access:private
+_tri	bddMgrV.h	/^   BddNodeV         _tri;$/;"	m	class:BddMgrV	access:private
+_tri	test/bddMgrV.h	/^   BddNodeV         _tri;$/;"	m	class:BddMgrV	access:private
+_uniqueTable	bddMgrV.h	/^   BddHash          _uniqueTable;$/;"	m	class:BddMgrV	access:private
+_uniqueTable	test/bddMgrV.h	/^   BddHash          _uniqueTable;$/;"	m	class:BddMgrV	access:private
+_zero	bddNodeV.cpp	/^BddNodeV BddNodeV::_zero;$/;"	m	class:BddNodeV	file:
+_zero	bddNodeV.h	/^   static BddNodeV          _zero;$/;"	m	class:BddNodeV	access:public
+_zero	test/bddNodeV.h	/^   static BddNodeV          _zero;$/;"	m	class:BddNodeV	access:public
+addBddNodeV	bddMgrV.cpp	/^BddMgrV::addBddNodeV(const string& str, size_t n)$/;"	f	class:BddMgrV	signature:(const string& str, size_t n)
+addBddNodeV	bddMgrV.cpp	/^BddMgrV::addBddNodeV(unsigned id, size_t n)$/;"	f	class:BddMgrV	signature:(unsigned id, size_t n)
+addBddNodeV	bddMgrV.h	/^   bool addBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+addBddNodeV	bddMgrV.h	/^   bool addBddNodeV(unsigned id, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(unsigned id, size_t nodeV)
+addBddNodeV	test/bddMgrV.h	/^   bool addBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+addBddNodeV	test/bddMgrV.h	/^   bool addBddNodeV(unsigned id, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(unsigned id, size_t nodeV)
+begin	myHash.h	/^   iterator begin() const {$/;"	f	class:Hash	access:public	signature:() const
+begin	test/myHash.h	/^   iterator begin() const {$/;"	f	class:Hash	access:public	signature:() const
+bucketNum	myHash.h	/^   size_t bucketNum(const HashKey& k) const {$/;"	f	class:Hash	access:private	signature:(const HashKey& k) const
+bucketNum	test/myHash.h	/^   size_t bucketNum(const HashKey& k) const {$/;"	f	class:Hash	access:private	signature:(const HashKey& k) const
+buildPImage	bddMgrV.h	/^   void buildPImage( int level );$/;"	p	class:BddMgrV	access:public	signature:( int level )
+buildPImage	test/bddMgrV.h	/^   void buildPImage( int level );$/;"	p	class:BddMgrV	access:public	signature:( int level )
+buildPInitialState	bddMgrV.h	/^   void buildPInitialState();$/;"	p	class:BddMgrV	access:public	signature:()
+buildPInitialState	test/bddMgrV.h	/^   void buildPInitialState();$/;"	p	class:BddMgrV	access:public	signature:()
+buildPTransRelation	bddMgrV.h	/^   void buildPTransRelation();$/;"	p	class:BddMgrV	access:public	signature:()
+buildPTransRelation	test/bddMgrV.h	/^   void buildPTransRelation();$/;"	p	class:BddMgrV	access:public	signature:()
+check	myHash.h	/^   bool check(const HashKey& k, HashData& n) const {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, HashData& n) const
+check	test/myHash.h	/^   bool check(const HashKey& k, HashData& n) const {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, HashData& n) const
+checkIteTerminal	bddMgrV.cpp	/^BddMgrV::checkIteTerminal$/;"	f	class:BddMgrV	signature:(const BddNodeV& f, const BddNodeV& g, const BddNodeV& h, BddNodeV& n)
+checkIteTerminal	bddMgrV.h	/^   bool checkIteTerminal(const BddNodeV&, const BddNodeV&, const BddNodeV&,$/;"	p	class:BddMgrV	access:private	signature:(const BddNodeV&, const BddNodeV&, const BddNodeV&, BddNodeV&)
+checkIteTerminal	test/bddMgrV.h	/^   bool checkIteTerminal(const BddNodeV&, const BddNodeV&, const BddNodeV&,$/;"	p	class:BddMgrV	access:private	signature:(const BddNodeV&, const BddNodeV&, const BddNodeV&, BddNodeV&)
+containNode	bddNodeV.cpp	/^BddNodeV::containNode(unsigned bLevel, unsigned eLevel) const$/;"	f	class:BddNodeV	signature:(unsigned bLevel, unsigned eLevel) const
+containNode	bddNodeV.h	/^   bool containNode(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+containNode	test/bddNodeV.h	/^   bool containNode(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+containNodeRecur	bddNodeV.cpp	/^BddNodeV::containNodeRecur(unsigned bLevel, unsigned eLevel) const$/;"	f	class:BddNodeV	signature:(unsigned bLevel, unsigned eLevel) const
+containNodeRecur	bddNodeV.h	/^   bool containNodeRecur(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+containNodeRecur	test/bddNodeV.h	/^   bool containNodeRecur(unsigned b, unsigned e) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned b, unsigned e) const
+countCube	bddNodeV.cpp	/^BddNodeV::countCube() const$/;"	f	class:BddNodeV	signature:() const
+countCube	bddNodeV.h	/^   size_t countCube() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+countCube	test/bddNodeV.h	/^   size_t countCube() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+countCubeRecur	bddNodeV.cpp	/^BddNodeV::countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const$/;"	f	class:BddNodeV	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+countCubeRecur	bddNodeV.h	/^   size_t countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const;$/;"	p	class:BddNodeV	access:private	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+countCubeRecur	test/bddNodeV.h	/^   size_t countCubeRecur(bool phase, map<size_t, size_t>& numCubeMap) const;$/;"	p	class:BddNodeV	access:private	signature:(bool phase, map<size_t, size_t>& numCubeMap) const
+decRefCount	bddNodeV.h	/^   void decRefCount() { --_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+decRefCount	test/bddNodeV.h	/^   void decRefCount() { --_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+drawBdd	bddMgrV.cpp	/^BddMgrV::drawBdd(const string& name, const string& fileName) const$/;"	f	class:BddMgrV	signature:(const string& name, const string& fileName) const
+drawBdd	bddMgrV.h	/^   bool drawBdd(const string& nodeName, const string& dotFile) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, const string& dotFile) const
+drawBdd	bddNodeV.cpp	/^BddNodeV::drawBdd(const string& name, ofstream& ofile) const$/;"	f	class:BddNodeV	signature:(const string& name, ofstream& ofile) const
+drawBdd	bddNodeV.h	/^   void drawBdd(const string&, ofstream&) const;$/;"	p	class:BddNodeV	access:public	signature:(const string&, ofstream&) const
+drawBdd	test/bddMgrV.h	/^   bool drawBdd(const string& nodeName, const string& dotFile) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, const string& dotFile) const
+drawBdd	test/bddNodeV.h	/^   void drawBdd(const string&, ofstream&) const;$/;"	p	class:BddNodeV	access:public	signature:(const string&, ofstream&) const
+drawBddRecur	bddNodeV.cpp	/^BddNodeV::drawBddRecur(ofstream& ofile) const$/;"	f	class:BddNodeV	signature:(ofstream& ofile) const
+drawBddRecur	bddNodeV.h	/^   void drawBddRecur(ofstream&) const;$/;"	p	class:BddNodeV	access:private	signature:(ofstream&) const
+drawBddRecur	test/bddNodeV.h	/^   void drawBddRecur(ofstream&) const;$/;"	p	class:BddNodeV	access:private	signature:(ofstream&) const
+empty	myHash.h	/^   bool empty() const {$/;"	f	class:Hash	access:public	signature:() const
+empty	test/myHash.h	/^   bool empty() const {$/;"	f	class:Hash	access:public	signature:() const
+end	myHash.h	/^   iterator end() const {$/;"	f	class:Hash	access:public	signature:() const
+end	test/myHash.h	/^   iterator end() const {$/;"	f	class:Hash	access:public	signature:() const
+evalCube	bddMgrV.cpp	/^BddMgrV::evalCube(const BddNodeV& node, const string& pattern) const$/;"	f	class:BddMgrV	signature:(const BddNodeV& node, const string& pattern) const
+evalCube	bddMgrV.h	/^   int evalCube(const BddNodeV& node, const string& vector) const;$/;"	p	class:BddMgrV	access:public	signature:(const BddNodeV& node, const string& vector) const
+evalCube	test/bddMgrV.h	/^   int evalCube(const BddNodeV& node, const string& vector) const;$/;"	p	class:BddMgrV	access:public	signature:(const BddNodeV& node, const string& vector) const
+exec	bddCmd.cpp	/^BAndCmd::exec(const string& option)$/;"	f	class:BAndCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BCofactorCmd::exec(const string& option)$/;"	f	class:BCofactorCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BCompareCmd::exec(const string& option)$/;"	f	class:BCompareCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BConstructCmd::exec(const string& option)$/;"	f	class:BConstructCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BDrawCmd::exec(const string& option)$/;"	f	class:BDrawCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BExistCmd::exec(const string& option)$/;"	f	class:BExistCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BInvCmd::exec(const string& option)$/;"	f	class:BInvCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BNandCmd::exec(const string& option)$/;"	f	class:BNandCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BNorCmd::exec(const string& option)$/;"	f	class:BNorCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BOrCmd::exec(const string& option)$/;"	f	class:BOrCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BReportCmd::exec(const string& option)$/;"	f	class:BReportCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BResetCmd::exec(const string& option)$/;"	f	class:BResetCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BSetOrderCmd::exec(const string& option)$/;"	f	class:BSetOrderCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BSetVarCmd::exec(const string& option)$/;"	f	class:BSetVarCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BSimulateCmd::exec(const string& option)$/;"	f	class:BSimulateCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BXnorCmd::exec(const string& option)$/;"	f	class:BXnorCmd	signature:(const string& option)
+exec	bddCmd.cpp	/^BXorCmd::exec(const string& option)$/;"	f	class:BXorCmd	signature:(const string& option)
+exist	bddNodeV.cpp	/^BddNodeV::exist(unsigned l) const$/;"	f	class:BddNodeV	signature:(unsigned l) const
+exist	bddNodeV.h	/^   BddNodeV exist(unsigned l) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned l) const
+exist	test/bddNodeV.h	/^   BddNodeV exist(unsigned l) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned l) const
+existRecur	bddNodeV.cpp	/^BddNodeV::existRecur(unsigned l, map<size_t, size_t>& existMap) const$/;"	f	class:BddNodeV	signature:(unsigned l, map<size_t, size_t>& existMap) const
+existRecur	bddNodeV.h	/^   BddNodeV existRecur(unsigned l, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned l, map<size_t, size_t>&) const
+existRecur	test/bddNodeV.h	/^   BddNodeV existRecur(unsigned l, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned l, map<size_t, size_t>&) const
+forceAddBddNodeV	bddMgrV.cpp	/^BddMgrV::forceAddBddNodeV(const string& str, size_t n)$/;"	f	class:BddMgrV	signature:(const string& str, size_t n)
+forceAddBddNodeV	bddMgrV.h	/^   void forceAddBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+forceAddBddNodeV	test/bddMgrV.h	/^   void forceAddBddNodeV(const string& nodeName, size_t nodeV);$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName, size_t nodeV)
+forceInsert	myHash.h	/^   void forceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+forceInsert	test/myHash.h	/^   void forceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+getAllCubes	bddNodeV.cpp	/^BddNodeV::getAllCubes() const$/;"	f	class:BddNodeV	signature:() const
+getAllCubes	bddNodeV.h	/^   vector<BddNodeV> getAllCubes() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getAllCubes	test/bddNodeV.h	/^   vector<BddNodeV> getAllCubes() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getAllCubesRecur	bddNodeV.cpp	/^BddNodeV::getAllCubesRecur$/;"	f	class:BddNodeV	signature:(bool phase, BddNodeV& cube, vector<BddNodeV>& allCubes) const
+getAllCubesRecur	bddNodeV.h	/^   void getAllCubesRecur(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const
+getAllCubesRecur	test/bddNodeV.h	/^   void getAllCubesRecur(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, BddNodeV& c, vector<BddNodeV>& aCubes) const
+getBddNodeV	bddCmd.cpp	/^extern BddNodeV getBddNodeV(const string& bddName);$/;"	p	file:	signature:(const string& bddName)
+getBddNodeV	bddMgrV.cpp	/^BddMgrV::getBddNodeV(const string& name) const$/;"	f	class:BddMgrV	signature:(const string& name) const
+getBddNodeV	bddMgrV.cpp	/^BddMgrV::getBddNodeV(unsigned id) const$/;"	f	class:BddMgrV	signature:(unsigned id) const
+getBddNodeV	bddMgrV.cpp	/^BddNodeV getBddNodeV(const string& bddName)$/;"	f	signature:(const string& bddName)
+getBddNodeV	bddMgrV.h	/^   BddNodeV getBddNodeV(const string& nodeName) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName) const
+getBddNodeV	bddMgrV.h	/^   BddNodeV getBddNodeV(unsigned id) const;$/;"	p	class:BddMgrV	access:public	signature:(unsigned id) const
+getBddNodeV	test/bddMgrV.h	/^   BddNodeV getBddNodeV(const string& nodeName) const;$/;"	p	class:BddMgrV	access:public	signature:(const string& nodeName) const
+getBddNodeV	test/bddMgrV.h	/^   BddNodeV getBddNodeV(unsigned id) const;$/;"	p	class:BddMgrV	access:public	signature:(unsigned id) const
+getBddNodeVInt	bddNodeV.h	/^   BddNodeVInt* getBddNodeVInt() const {$/;"	f	class:BddNodeV	access:private	signature:() const
+getBddNodeVInt	test/bddNodeV.h	/^   BddNodeVInt* getBddNodeVInt() const {$/;"	f	class:BddNodeV	access:private	signature:() const
+getCube	bddNodeV.cpp	/^BddNodeV::getCube(size_t ith) const$/;"	f	class:BddNodeV	signature:(size_t ith) const
+getCube	bddNodeV.h	/^   BddNodeV getCube(size_t ith=0) const;$/;"	p	class:BddNodeV	access:public	signature:(size_t ith=0) const
+getCube	test/bddNodeV.h	/^   BddNodeV getCube(size_t ith=0) const;$/;"	p	class:BddNodeV	access:public	signature:(size_t ith=0) const
+getCubeRecur	bddNodeV.cpp	/^BddNodeV::getCubeRecur$/;"	f	class:BddNodeV	signature:(bool phase, size_t& ith, size_t target, BddNodeV& res) const
+getCubeRecur	bddNodeV.h	/^   bool getCubeRecur(bool p, size_t& ith, size_t target, BddNodeV& res) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, size_t& ith, size_t target, BddNodeV& res) const
+getCubeRecur	test/bddNodeV.h	/^   bool getCubeRecur(bool p, size_t& ith, size_t target, BddNodeV& res) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, size_t& ith, size_t target, BddNodeV& res) const
+getLabel	bddNodeV.cpp	/^BddNodeV::getLabel() const$/;"	f	class:BddNodeV	signature:() const
+getLabel	bddNodeV.h	/^   string getLabel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getLabel	test/bddNodeV.h	/^   string getLabel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getLeft	bddNodeV.cpp	/^BddNodeV::getLeft() const$/;"	f	class:BddNodeV	signature:() const
+getLeft	bddNodeV.h	/^   const BddNodeV& getLeft() const { return _left; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getLeft	bddNodeV.h	/^   const BddNodeV& getLeft() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getLeft	test/bddNodeV.h	/^   const BddNodeV& getLeft() const { return _left; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getLeft	test/bddNodeV.h	/^   const BddNodeV& getLeft() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getLeftCofactor	bddNodeV.cpp	/^BddNodeV::getLeftCofactor(unsigned i) const$/;"	f	class:BddNodeV	signature:(unsigned i) const
+getLeftCofactor	bddNodeV.h	/^   BddNodeV getLeftCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+getLeftCofactor	test/bddNodeV.h	/^   BddNodeV getLeftCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+getLevel	bddNodeV.cpp	/^BddNodeV::getLevel() const$/;"	f	class:BddNodeV	signature:() const
+getLevel	bddNodeV.h	/^   unsigned getLevel() const { return _level; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getLevel	bddNodeV.h	/^   unsigned getLevel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getLevel	test/bddNodeV.h	/^   unsigned getLevel() const { return _level; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getLevel	test/bddNodeV.h	/^   unsigned getLevel() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getNumSupports	bddMgrV.h	/^   size_t getNumSupports() const { return _supports.size(); }$/;"	f	class:BddMgrV	access:public	signature:() const
+getNumSupports	test/bddMgrV.h	/^   size_t getNumSupports() const { return _supports.size(); }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPInitState	bddMgrV.h	/^   BddNodeV getPInitState() const { return _initState; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPInitState	test/bddMgrV.h	/^   BddNodeV getPInitState() const { return _initState; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPReachState	bddMgrV.h	/^   BddNodeV getPReachState() const { $/;"	f	class:BddMgrV	access:public	signature:() const
+getPReachState	test/bddMgrV.h	/^   BddNodeV getPReachState() const { $/;"	f	class:BddMgrV	access:public	signature:() const
+getPTr	bddMgrV.h	/^   BddNodeV getPTr() const { return _tr; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPTr	test/bddMgrV.h	/^   BddNodeV getPTr() const { return _tr; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPTri	bddMgrV.h	/^   BddNodeV getPTri() const { return _tri; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getPTri	test/bddMgrV.h	/^   BddNodeV getPTri() const { return _tri; }$/;"	f	class:BddMgrV	access:public	signature:() const
+getRefCount	bddNodeV.cpp	/^BddNodeV::getRefCount() const$/;"	f	class:BddNodeV	signature:() const
+getRefCount	bddNodeV.h	/^   unsigned getRefCount() const { return _refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getRefCount	bddNodeV.h	/^   unsigned getRefCount() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getRefCount	test/bddNodeV.h	/^   unsigned getRefCount() const { return _refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getRefCount	test/bddNodeV.h	/^   unsigned getRefCount() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getRight	bddNodeV.cpp	/^BddNodeV::getRight() const$/;"	f	class:BddNodeV	signature:() const
+getRight	bddNodeV.h	/^   const BddNodeV& getRight() const { return _right; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getRight	bddNodeV.h	/^   const BddNodeV& getRight() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getRight	test/bddNodeV.h	/^   const BddNodeV& getRight() const { return _right; }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+getRight	test/bddNodeV.h	/^   const BddNodeV& getRight() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+getRightCofactor	bddNodeV.cpp	/^BddNodeV::getRightCofactor(unsigned i) const$/;"	f	class:BddNodeV	signature:(unsigned i) const
+getRightCofactor	bddNodeV.h	/^   BddNodeV getRightCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+getRightCofactor	test/bddNodeV.h	/^   BddNodeV getRightCofactor(unsigned i) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned i) const
+getSupport	bddMgrV.h	/^   const BddNodeV& getSupport(size_t i) const { return _supports[i]; }$/;"	f	class:BddMgrV	access:public	signature:(size_t i) const
+getSupport	test/bddMgrV.h	/^   const BddNodeV& getSupport(size_t i) const { return _supports[i]; }$/;"	f	class:BddMgrV	access:public	signature:(size_t i) const
+help	bddCmd.cpp	/^BAndCmd::help() const$/;"	f	class:BAndCmd	signature:() const
+help	bddCmd.cpp	/^BCofactorCmd::help() const$/;"	f	class:BCofactorCmd	signature:() const
+help	bddCmd.cpp	/^BCompareCmd::help() const$/;"	f	class:BCompareCmd	signature:() const
+help	bddCmd.cpp	/^BConstructCmd::help() const$/;"	f	class:BConstructCmd	signature:() const
+help	bddCmd.cpp	/^BDrawCmd::help() const$/;"	f	class:BDrawCmd	signature:() const
+help	bddCmd.cpp	/^BExistCmd::help() const$/;"	f	class:BExistCmd	signature:() const
+help	bddCmd.cpp	/^BInvCmd::help() const$/;"	f	class:BInvCmd	signature:() const
+help	bddCmd.cpp	/^BNandCmd::help() const$/;"	f	class:BNandCmd	signature:() const
+help	bddCmd.cpp	/^BNorCmd::help() const$/;"	f	class:BNorCmd	signature:() const
+help	bddCmd.cpp	/^BOrCmd::help() const$/;"	f	class:BOrCmd	signature:() const
+help	bddCmd.cpp	/^BReportCmd::help() const$/;"	f	class:BReportCmd	signature:() const
+help	bddCmd.cpp	/^BResetCmd::help() const$/;"	f	class:BResetCmd	signature:() const
+help	bddCmd.cpp	/^BSetOrderCmd::help() const$/;"	f	class:BSetOrderCmd	signature:() const
+help	bddCmd.cpp	/^BSetVarCmd::help() const$/;"	f	class:BSetVarCmd	signature:() const
+help	bddCmd.cpp	/^BSimulateCmd::help() const$/;"	f	class:BSimulateCmd	signature:() const
+help	bddCmd.cpp	/^BXnorCmd::help() const$/;"	f	class:BXnorCmd	signature:() const
+help	bddCmd.cpp	/^BXorCmd::help() const$/;"	f	class:BXorCmd	signature:() const
+incRefCount	bddNodeV.h	/^   void incRefCount() { ++_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+incRefCount	test/bddNodeV.h	/^   void incRefCount() { ++_refCount; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+init	bddMgrV.cpp	/^BddMgrV::init(size_t nin, size_t h, size_t c)$/;"	f	class:BddMgrV	signature:(size_t nin, size_t h, size_t c)
+init	bddMgrV.h	/^   void init(size_t nin, size_t h, size_t c);$/;"	p	class:BddMgrV	access:public	signature:(size_t nin, size_t h, size_t c)
+init	myHash.h	/^   void init(size_t b) {$/;"	f	class:Hash	access:public	signature:(size_t b)
+init	myHash.h	/^   void init(size_t s) { reset(); _size = s; _cache = new CacheNode[s]; }$/;"	f	class:Cache	access:public	signature:(size_t s)
+init	test/bddMgrV.h	/^   void init(size_t nin, size_t h, size_t c);$/;"	p	class:BddMgrV	access:public	signature:(size_t nin, size_t h, size_t c)
+init	test/myHash.h	/^   void init(size_t b) {$/;"	f	class:Hash	access:public	signature:(size_t b)
+init	test/myHash.h	/^   void init(size_t s) { reset(); _size = s; _cache = new CacheNode[s]; }$/;"	f	class:Cache	access:public	signature:(size_t s)
+initBdd	test/testBdd.cpp	/^initBdd(size_t nin, size_t h, size_t c)$/;"	f	file:	signature:(size_t nin, size_t h, size_t c)
+initBdd	test/testBdd.cpp	/^static void initBdd(size_t nSupports, size_t hashSize, size_t cacheSize);$/;"	p	file:	signature:(size_t nSupports, size_t hashSize, size_t cacheSize)
+initBddCmd	bddCmd.cpp	/^initBddCmd() {$/;"	f	signature:()
+insert	myHash.h	/^   bool insert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+insert	test/myHash.h	/^   bool insert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+isNegEdge	bddNodeV.h	/^   bool isNegEdge() const { return (_nodeV & BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+isNegEdge	test/bddNodeV.h	/^   bool isNegEdge() const { return (_nodeV & BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+isPFixed	bddMgrV.h	/^   bool isPFixed() const { return _isFixed; }$/;"	f	class:BddMgrV	access:public	signature:() const
+isPFixed	test/bddMgrV.h	/^   bool isPFixed() const { return _isFixed; }$/;"	f	class:BddMgrV	access:public	signature:() const
+isPosEdge	bddNodeV.h	/^   bool isPosEdge() const { return !isNegEdge(); }$/;"	f	class:BddNodeV	access:public	signature:() const
+isPosEdge	test/bddNodeV.h	/^   bool isPosEdge() const { return !isNegEdge(); }$/;"	f	class:BddNodeV	access:public	signature:() const
+isTerminal	bddNodeV.cpp	/^BddNodeV::isTerminal() const$/;"	f	class:BddNodeV	signature:() const
+isTerminal	bddNodeV.h	/^   bool isTerminal() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+isTerminal	test/bddNodeV.h	/^   bool isTerminal() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+isValidBddName	bddCmd.cpp	/^static bool isValidBddName(const string& str)$/;"	f	file:	signature:(const string& str)
+isValidVarName	bddCmd.cpp	/^static bool isValidVarName(const string& str) {$/;"	f	file:	signature:(const string& str)
+isVisited	bddNodeV.h	/^   bool isVisited() const { return (_visited == 1); }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+isVisited	test/bddNodeV.h	/^   bool isVisited() const { return (_visited == 1); }$/;"	f	class:BddNodeVInt	access:private	signature:() const
+ite	bddMgrV.cpp	/^BddMgrV::ite(BddNodeV f, BddNodeV g, BddNodeV h)$/;"	f	class:BddMgrV	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+ite	bddMgrV.h	/^   BddNodeV ite(BddNodeV f, BddNodeV g, BddNodeV h);$/;"	p	class:BddMgrV	access:public	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+ite	test/bddMgrV.h	/^   BddNodeV ite(BddNodeV f, BddNodeV g, BddNodeV h);$/;"	p	class:BddMgrV	access:public	signature:(BddNodeV f, BddNodeV g, BddNodeV h)
+iterator	myHash.h	/^      iterator(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)$/;"	f	class:Hash::iterator	access:public	signature:(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)
+iterator	myHash.h	/^      iterator(const iterator& i)$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+iterator	myHash.h	/^   class iterator$/;"	c	class:Hash	access:public
+iterator	test/myHash.h	/^      iterator(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)$/;"	f	class:Hash::iterator	access:public	signature:(Hash<HashKey, HashData>* h = 0, size_t b = 0, size_t bn = 0)
+iterator	test/myHash.h	/^      iterator(const iterator& i)$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+iterator	test/myHash.h	/^   class iterator$/;"	c	class:Hash	access:public
+main	test/testBdd.cpp	/^main()$/;"	f	signature:()
+nodeMove	bddNodeV.cpp	/^BddNodeV::nodeMove(unsigned fromLevel, unsigned toLevel, bool& isMoved) const$/;"	f	class:BddNodeV	signature:(unsigned fromLevel, unsigned toLevel, bool& isMoved) const
+nodeMove	bddNodeV.h	/^   BddNodeV nodeMove(unsigned fLevel, unsigned tLevel, bool& isMoved) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned fLevel, unsigned tLevel, bool& isMoved) const
+nodeMove	test/bddNodeV.h	/^   BddNodeV nodeMove(unsigned fLevel, unsigned tLevel, bool& isMoved) const;$/;"	p	class:BddNodeV	access:public	signature:(unsigned fLevel, unsigned tLevel, bool& isMoved) const
+nodeMoveRecur	bddNodeV.cpp	/^BddNodeV::nodeMoveRecur$/;"	f	class:BddNodeV	signature:(unsigned fromLevel, unsigned toLevel, map<size_t, size_t>& moveMap) const
+nodeMoveRecur	bddNodeV.h	/^   BddNodeV nodeMoveRecur(unsigned f, unsigned t, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned f, unsigned t, map<size_t, size_t>&) const
+nodeMoveRecur	test/bddNodeV.h	/^   BddNodeV nodeMoveRecur(unsigned f, unsigned t, map<size_t, size_t>&) const;$/;"	p	class:BddNodeV	access:private	signature:(unsigned f, unsigned t, map<size_t, size_t>&) const
+numBuckets	myHash.h	/^   size_t numBuckets() const { return _numBuckets; }$/;"	f	class:Hash	access:public	signature:() const
+numBuckets	test/myHash.h	/^   size_t numBuckets() const { return _numBuckets; }$/;"	f	class:Hash	access:public	signature:() const
+operator !=	bddNodeV.h	/^   bool operator != (const BddNodeV& n) const { return (_nodeV != n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator !=	myHash.h	/^      bool operator != (const iterator& i) const { return !(*this == i); }$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+operator !=	test/bddNodeV.h	/^   bool operator != (const BddNodeV& n) const { return (_nodeV != n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator !=	test/myHash.h	/^      bool operator != (const iterator& i) const { return !(*this == i); }$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+operator &	bddNodeV.cpp	/^BddNodeV::operator & (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+operator &	bddNodeV.h	/^   BddNodeV operator & (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator &	test/bddNodeV.h	/^   BddNodeV operator & (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator &=	bddNodeV.cpp	/^BddNodeV::operator &= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+operator &=	bddNodeV.h	/^   BddNodeV& operator &= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator &=	test/bddNodeV.h	/^   BddNodeV& operator &= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator ()	bddMgrV.h	/^   size_t operator() () const { return ((_f << 3)+(_g << 3)+(_h << 3)); }$/;"	f	class:BddCacheKeyV	access:public	signature:() const
+operator ()	bddMgrV.h	/^   size_t operator() () const { return ((_l << 3) + (_r << 3) + _i); }$/;"	f	class:BddHashKeyV	access:public	signature:() const
+operator ()	bddNodeV.h	/^   size_t operator () () const { return _nodeV; }$/;"	f	class:BddNodeV	access:public	signature:() const
+operator ()	test/bddMgrV.h	/^   size_t operator() () const { return ((_f << 3)+(_g << 3)+(_h << 3)); }$/;"	f	class:BddCacheKeyV	access:public	signature:() const
+operator ()	test/bddMgrV.h	/^   size_t operator() () const { return ((_l << 3) + (_r << 3) + _i); }$/;"	f	class:BddHashKeyV	access:public	signature:() const
+operator ()	test/bddNodeV.h	/^   size_t operator () () const { return _nodeV; }$/;"	f	class:BddNodeV	access:public	signature:() const
+operator *	myHash.h	/^      HashNode& operator * () { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:()
+operator *	myHash.h	/^      const HashNode& operator * () const { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:() const
+operator *	test/myHash.h	/^      HashNode& operator * () { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:()
+operator *	test/myHash.h	/^      const HashNode& operator * () const { return (*_hash)[_bId][_bnId]; }$/;"	f	class:Hash::iterator	access:public	signature:() const
+operator ++	myHash.h	/^      iterator operator ++ (int) { iterator li=(*this); ++(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+operator ++	myHash.h	/^      iterator& operator ++ () {$/;"	f	class:Hash::iterator	access:public	signature:()
+operator ++	test/myHash.h	/^      iterator operator ++ (int) { iterator li=(*this); ++(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+operator ++	test/myHash.h	/^      iterator& operator ++ () {$/;"	f	class:Hash::iterator	access:public	signature:()
+operator --	myHash.h	/^      iterator operator -- (int) { iterator li=(*this); --(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+operator --	myHash.h	/^      iterator& operator -- () {$/;"	f	class:Hash::iterator	access:public	signature:()
+operator --	test/myHash.h	/^      iterator operator -- (int) { iterator li=(*this); --(*this); return li; }$/;"	f	class:Hash::iterator	access:public	signature:(int)
+operator --	test/myHash.h	/^      iterator& operator -- () {$/;"	f	class:Hash::iterator	access:public	signature:()
+operator <	bddNodeV.cpp	/^BddNodeV::operator < (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+operator <	bddNodeV.h	/^   bool operator < (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator <	test/bddNodeV.h	/^   bool operator < (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator <<	bddNodeV.cpp	/^operator << (ostream& os, const BddNodeV& n)$/;"	f	signature:(ostream& os, const BddNodeV& n)
+operator <<	bddNodeV.h	/^   friend ostream& operator << (ostream& os, const BddNodeV& n);$/;"	p	class:BddNodeV	access:friend	signature:(ostream& os, const BddNodeV& n)
+operator <<	test/bddNodeV.h	/^   friend ostream& operator << (ostream& os, const BddNodeV& n);$/;"	p	class:BddNodeV	access:friend	signature:(ostream& os, const BddNodeV& n)
+operator <=	bddNodeV.cpp	/^BddNodeV::operator <= (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+operator <=	bddNodeV.h	/^   bool operator <= (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator <=	test/bddNodeV.h	/^   bool operator <= (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator =	bddNodeV.cpp	/^BddNodeV::operator = (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+operator =	bddNodeV.h	/^   BddNodeV& operator = (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator =	myHash.h	/^      iterator& operator = (const iterator& i) {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+operator =	test/bddNodeV.h	/^   BddNodeV& operator = (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator =	test/myHash.h	/^      iterator& operator = (const iterator& i) {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i)
+operator ==	bddMgrV.h	/^   bool operator == (const BddCacheKeyV& k) const {$/;"	f	class:BddCacheKeyV	access:public	signature:(const BddCacheKeyV& k) const
+operator ==	bddMgrV.h	/^   bool operator == (const BddHashKeyV& k) {$/;"	f	class:BddHashKeyV	access:public	signature:(const BddHashKeyV& k)
+operator ==	bddNodeV.h	/^   bool operator == (const BddNodeV& n) const { return (_nodeV == n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator ==	myHash.h	/^      bool operator == (const iterator& i) const {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+operator ==	test/bddMgrV.h	/^   bool operator == (const BddCacheKeyV& k) const {$/;"	f	class:BddCacheKeyV	access:public	signature:(const BddCacheKeyV& k) const
+operator ==	test/bddMgrV.h	/^   bool operator == (const BddHashKeyV& k) {$/;"	f	class:BddHashKeyV	access:public	signature:(const BddHashKeyV& k)
+operator ==	test/bddNodeV.h	/^   bool operator == (const BddNodeV& n) const { return (_nodeV == n._nodeV); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator ==	test/myHash.h	/^      bool operator == (const iterator& i) const {$/;"	f	class:Hash::iterator	access:public	signature:(const iterator& i) const
+operator >	bddNodeV.h	/^   bool operator > (const BddNodeV& n) const { return !((*this) <= n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator >	test/bddNodeV.h	/^   bool operator > (const BddNodeV& n) const { return !((*this) <= n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator >=	bddNodeV.h	/^   bool operator >= (const BddNodeV& n) const { return !((*this) < n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator >=	test/bddNodeV.h	/^   bool operator >= (const BddNodeV& n) const { return !((*this) < n); }$/;"	f	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator []	myHash.h	/^   CacheNode& operator [] (size_t i) { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i)
+operator []	myHash.h	/^   const CacheNode& operator [](size_t i) const { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i) const
+operator []	myHash.h	/^   const vector<HashNode>& operator [](size_t i) const { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i) const
+operator []	myHash.h	/^   vector<HashNode>& operator [] (size_t i) { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i)
+operator []	test/myHash.h	/^   CacheNode& operator [] (size_t i) { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i)
+operator []	test/myHash.h	/^   const CacheNode& operator [](size_t i) const { return _cache[i]; }$/;"	f	class:Cache	access:public	signature:(size_t i) const
+operator []	test/myHash.h	/^   const vector<HashNode>& operator [](size_t i) const { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i) const
+operator []	test/myHash.h	/^   vector<HashNode>& operator [] (size_t i) { return _buckets[i]; }$/;"	f	class:Hash	access:public	signature:(size_t i)
+operator ^	bddNodeV.cpp	/^BddNodeV::operator ^ (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+operator ^	bddNodeV.h	/^   BddNodeV operator ^ (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator ^	test/bddNodeV.h	/^   BddNodeV operator ^ (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator ^=	bddNodeV.cpp	/^BddNodeV::operator ^= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+operator ^=	bddNodeV.h	/^   BddNodeV& operator ^= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator ^=	test/bddNodeV.h	/^   BddNodeV& operator ^= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator |	bddNodeV.cpp	/^BddNodeV::operator | (const BddNodeV& n) const$/;"	f	class:BddNodeV	signature:(const BddNodeV& n) const
+operator |	bddNodeV.h	/^   BddNodeV operator | (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator |	test/bddNodeV.h	/^   BddNodeV operator | (const BddNodeV& n) const;$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n) const
+operator |=	bddNodeV.cpp	/^BddNodeV::operator |= (const BddNodeV& n)$/;"	f	class:BddNodeV	signature:(const BddNodeV& n)
+operator |=	bddNodeV.h	/^   BddNodeV& operator |= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator |=	test/bddNodeV.h	/^   BddNodeV& operator |= (const BddNodeV& n);$/;"	p	class:BddNodeV	access:public	signature:(const BddNodeV& n)
+operator ~	bddNodeV.h	/^   BddNodeV operator ~ () const { return (_nodeV ^ BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+operator ~	test/bddNodeV.h	/^   BddNodeV operator ~ () const { return (_nodeV ^ BDD_NEG_EDGEV); }$/;"	f	class:BddNodeV	access:public	signature:() const
+print	bddNodeV.cpp	/^BddNodeV::print(ostream& os, size_t indent, size_t& nNodes) const$/;"	f	class:BddNodeV	signature:(ostream& os, size_t indent, size_t& nNodes) const
+print	bddNodeV.h	/^   void print(ostream&, size_t, size_t&) const;$/;"	p	class:BddNodeV	access:private	signature:(ostream&, size_t, size_t&) const
+print	test/bddNodeV.h	/^   void print(ostream&, size_t, size_t&) const;$/;"	p	class:BddNodeV	access:private	signature:(ostream&, size_t, size_t&) const
+read	myHash.h	/^   bool read(const CacheKey& k, CacheData& d) const {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, CacheData& d) const
+read	test/myHash.h	/^   bool read(const CacheKey& k, CacheData& d) const {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, CacheData& d) const
+replaceInsert	myHash.h	/^   bool replaceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+replaceInsert	test/myHash.h	/^   bool replaceInsert(const HashKey& k, const HashData& d) {$/;"	f	class:Hash	access:public	signature:(const HashKey& k, const HashData& d)
+reset	bddMgrV.cpp	/^BddMgrV::reset()$/;"	f	class:BddMgrV	signature:()
+reset	bddMgrV.h	/^   void reset();$/;"	p	class:BddMgrV	access:private	signature:()
+reset	myHash.h	/^   void reset() { _size = 0; if (_cache) { delete [] _cache; _cache = 0; } }$/;"	f	class:Cache	access:public	signature:()
+reset	myHash.h	/^   void reset() {$/;"	f	class:Hash	access:public	signature:()
+reset	test/bddMgrV.h	/^   void reset();$/;"	p	class:BddMgrV	access:private	signature:()
+reset	test/myHash.h	/^   void reset() { _size = 0; if (_cache) { delete [] _cache; _cache = 0; } }$/;"	f	class:Cache	access:public	signature:()
+reset	test/myHash.h	/^   void reset() {$/;"	f	class:Hash	access:public	signature:()
+resetProof	bddMgrV.h	/^   void resetProof() {}$/;"	f	class:BddMgrV	access:public	signature:()
+resetProof	test/bddMgrV.h	/^   void resetProof() {}$/;"	f	class:BddMgrV	access:public	signature:()
+restart	bddMgrV.cpp	/^BddMgrV::restart()$/;"	f	class:BddMgrV	signature:()
+restart	bddMgrV.h	/^   void restart();$/;"	p	class:BddMgrV	access:public	signature:()
+restart	test/bddMgrV.h	/^   void restart();$/;"	p	class:BddMgrV	access:public	signature:()
+runPCheckProperty	bddMgrV.h	/^   void runPCheckProperty( const string &name, BddNodeV property );$/;"	p	class:BddMgrV	access:public	signature:( const string &name, BddNodeV property )
+runPCheckProperty	test/bddMgrV.h	/^   void runPCheckProperty( const string &name, BddNodeV property );$/;"	p	class:BddMgrV	access:public	signature:( const string &name, BddNodeV property )
+setBddMgrV	bddNodeV.h	/^   static void setBddMgrV(BddMgrV* m) { _BddMgrV = m; }$/;"	f	class:BddNodeV	access:public	signature:(BddMgrV* m)
+setBddMgrV	test/bddNodeV.h	/^   static void setBddMgrV(BddMgrV* m) { _BddMgrV = m; }$/;"	f	class:BddNodeV	access:public	signature:(BddMgrV* m)
+setBddOrder	bddCmd.cpp	/^bool                       setBddOrder = false;$/;"	v
+setVisited	bddNodeV.h	/^   void setVisited() { _visited = 1; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+setVisited	test/bddNodeV.h	/^   void setVisited() { _visited = 1; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+size	myHash.h	/^   size_t size() const { return _size; }$/;"	f	class:Cache	access:public	signature:() const
+size	myHash.h	/^   size_t size() const {$/;"	f	class:Hash	access:public	signature:() const
+size	test/myHash.h	/^   size_t size() const { return _size; }$/;"	f	class:Cache	access:public	signature:() const
+size	test/myHash.h	/^   size_t size() const {$/;"	f	class:Hash	access:public	signature:() const
+standardize	bddMgrV.cpp	/^BddMgrV::standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)$/;"	f	class:BddMgrV	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+standardize	bddMgrV.h	/^   void standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge);$/;"	p	class:BddMgrV	access:private	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+standardize	test/bddMgrV.h	/^   void standardize(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge);$/;"	p	class:BddMgrV	access:private	signature:(BddNodeV &f, BddNodeV &g, BddNodeV &h, bool &isNegEdge)
+swapBddNodeV	bddMgrV.cpp	/^static void swapBddNodeV(BddNodeV& f, BddNodeV& g)$/;"	f	file:	signature:(BddNodeV& f, BddNodeV& g)
+toString	bddNodeV.cpp	/^BddNodeV::toString() const$/;"	f	class:BddNodeV	signature:() const
+toString	bddNodeV.h	/^   string toString() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+toString	test/bddNodeV.h	/^   string toString() const;$/;"	p	class:BddNodeV	access:public	signature:() const
+toStringRecur	bddNodeV.cpp	/^BddNodeV::toStringRecur(bool phase, string& str) const$/;"	f	class:BddNodeV	signature:(bool phase, string& str) const
+toStringRecur	bddNodeV.h	/^   bool toStringRecur(bool p, string& str) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, string& str) const
+toStringRecur	test/bddNodeV.h	/^   bool toStringRecur(bool p, string& str) const;$/;"	p	class:BddNodeV	access:private	signature:(bool p, string& str) const
+uniquify	bddMgrV.cpp	/^BddMgrV::uniquify(size_t l, size_t r, unsigned i)$/;"	f	class:BddMgrV	signature:(size_t l, size_t r, unsigned i)
+uniquify	bddMgrV.h	/^   BddNodeVInt* uniquify(size_t l, size_t r, unsigned i);$/;"	p	class:BddMgrV	access:public	signature:(size_t l, size_t r, unsigned i)
+uniquify	test/bddMgrV.h	/^   BddNodeVInt* uniquify(size_t l, size_t r, unsigned i);$/;"	p	class:BddMgrV	access:public	signature:(size_t l, size_t r, unsigned i)
+unsetVisited	bddNodeV.h	/^   void unsetVisited() { _visited = 0; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+unsetVisited	test/bddNodeV.h	/^   void unsetVisited() { _visited = 0; }$/;"	f	class:BddNodeVInt	access:private	signature:()
+unsetVisitedRecur	bddNodeV.cpp	/^BddNodeV::unsetVisitedRecur() const$/;"	f	class:BddNodeV	signature:() const
+unsetVisitedRecur	bddNodeV.h	/^   void unsetVisitedRecur() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+unsetVisitedRecur	test/bddNodeV.h	/^   void unsetVisitedRecur() const;$/;"	p	class:BddNodeV	access:private	signature:() const
+usage	bddCmd.cpp	/^BAndCmd::usage(const bool& verbose) const$/;"	f	class:BAndCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BCofactorCmd::usage(const bool& verbose) const$/;"	f	class:BCofactorCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BCompareCmd::usage(const bool& verbose) const$/;"	f	class:BCompareCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BConstructCmd::usage(const bool& verbose) const$/;"	f	class:BConstructCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BDrawCmd::usage(const bool& verbose) const$/;"	f	class:BDrawCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BExistCmd::usage(const bool& verbose) const$/;"	f	class:BExistCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BInvCmd::usage(const bool& verbose) const$/;"	f	class:BInvCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BNandCmd::usage(const bool& verbose) const$/;"	f	class:BNandCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BNorCmd::usage(const bool& verbose) const$/;"	f	class:BNorCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BOrCmd::usage(const bool& verbose) const$/;"	f	class:BOrCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BReportCmd::usage(const bool& verbose) const$/;"	f	class:BReportCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BResetCmd::usage(const bool& verbose) const$/;"	f	class:BResetCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BSetOrderCmd::usage(const bool& verbose) const$/;"	f	class:BSetOrderCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BSetVarCmd::usage(const bool& verbose) const$/;"	f	class:BSetVarCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BSimulateCmd::usage(const bool& verbose) const$/;"	f	class:BSimulateCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BXnorCmd::usage(const bool& verbose) const$/;"	f	class:BXnorCmd	signature:(const bool& verbose) const
+usage	bddCmd.cpp	/^BXorCmd::usage(const bool& verbose) const$/;"	f	class:BXorCmd	signature:(const bool& verbose) const
+v3Int2Str	test/v3StrUtil.cpp	/^v3Int2Str(const int& num, const uint32_t& width) {$/;"	f	signature:(const int& num, const uint32_t& width)
+v3Str2BVExpr	test/v3StrUtil.cpp	/^v3Str2BVExpr(const string& expr, uint32_t& start, uint32_t& end) {$/;"	f	signature:(const string& expr, uint32_t& start, uint32_t& end)
+v3Str2Int	test/v3StrUtil.cpp	/^v3Str2Int(const string& str, int& num) {$/;"	f	signature:(const string& str, int& num)
+v3Str2UInt	test/v3StrUtil.cpp	/^v3Str2UInt(const string& str, uint32_t& num) {$/;"	f	signature:(const string& str, uint32_t& num)
+v3StrGetTok	test/v3StrUtil.cpp	/^v3StrGetTok(const string& str, string& tok, const size_t& pos, const char del) {$/;"	f	signature:(const string& str, string& tok, const size_t& pos, const char del)
+v3StrNCmp	test/v3StrUtil.cpp	/^v3StrNCmp(const string& s1, const string& s2, const uint32_t& n) {$/;"	f	signature:(const string& s1, const string& s2, const uint32_t& n)
+v3StrRemoveSpaces	test/v3StrUtil.cpp	/^v3StrRemoveSpaces(const string str) {$/;"	f	signature:(const string str)
+valid	bddCmd.cpp	/^static bool valid()$/;"	f	file:	signature:()
+write	myHash.h	/^   void write(const CacheKey& k, const CacheData& d) {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, const CacheData& d)
+write	test/myHash.h	/^   void write(const CacheKey& k, const CacheData& d) {$/;"	f	class:Cache	access:public	signature:(const CacheKey& k, const CacheData& d)
+~BddMgrV	bddMgrV.h	/^   ~BddMgrV() { reset(); }$/;"	f	class:BddMgrV	access:public	signature:()
+~BddMgrV	test/bddMgrV.h	/^   ~BddMgrV() { reset(); }$/;"	f	class:BddMgrV	access:public	signature:()
+~BddNodeV	bddNodeV.cpp	/^BddNodeV::~BddNodeV()$/;"	f	class:BddNodeV	signature:()
+~BddNodeV	bddNodeV.h	/^   ~BddNodeV();$/;"	p	class:BddNodeV	access:public	signature:()
+~BddNodeV	test/bddNodeV.h	/^   ~BddNodeV();$/;"	p	class:BddNodeV	access:public	signature:()
+~Cache	myHash.h	/^   ~Cache() { reset(); }$/;"	f	class:Cache	access:public	signature:()
+~Cache	test/myHash.h	/^   ~Cache() { reset(); }$/;"	f	class:Cache	access:public	signature:()
+~Hash	myHash.h	/^   ~Hash() { reset(); }$/;"	f	class:Hash	access:public	signature:()
+~Hash	test/myHash.h	/^   ~Hash() { reset(); }$/;"	f	class:Hash	access:public	signature:()
+~iterator	myHash.h	/^      ~iterator() {} \/\/ Should NOT delete HashData$/;"	f	class:Hash::iterator	access:public	signature:()
+~iterator	test/myHash.h	/^      ~iterator() {} \/\/ Should NOT delete HashData$/;"	f	class:Hash::iterator	access:public	signature:()

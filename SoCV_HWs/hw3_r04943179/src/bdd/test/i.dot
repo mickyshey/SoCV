@@ -1,0 +1,20 @@
+digraph {
+   node [shape = plaintext];
+   4 -> 3 -> 2 -> 1 -> 0 [style = invis];
+   { rank = source; "i"; }
+   node [shape = ellipse];
+   "i" -> "0xc564b0" [color = blue];
+   { rank = same; 4; "0xc564b0"; }
+   "0xc564b0" -> "0xc563c0";
+   "0xc564b0" -> "0xc56460"[style = dotted ] [color=red];
+   { rank = same; 2; "0xc563c0"; }
+   "0xc563c0" -> "0xc56230";
+   "0xc563c0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 1; "0xc56230"; }
+   "0xc56230" -> "One";
+   "0xc56230" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 3; "0xc56460"; }
+   "0xc56460" -> "0xc563c0";
+   "0xc56460" -> "0xc563c0"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 0; "One"; }
+}

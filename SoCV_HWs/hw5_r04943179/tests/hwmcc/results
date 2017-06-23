@@ -1,0 +1,8 @@
+ref:
+			a		b		c		sat			unsat		vending_abs
+			0.05	4.72	0		180			92.5		0.44
+
+
+my:		a					b						c						sat			unsat    vending_abs
+ 			0.04				5.16					0						138			130.9		0.25
+			all safe			p3 violate: 42		z1:5, z2:6										all safe

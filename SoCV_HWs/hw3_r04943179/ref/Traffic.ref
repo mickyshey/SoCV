@@ -1,0 +1,66 @@
+v3> read rtl tests/Traffic.v
+
+v3> blast ntk
+
+v3> bsetorder -file
+
+v3> bconstruct -all
+
+v3> pinit init
+
+v3> ptrans
+
+v3> pimage -next 10
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 9
+
+v3> pcheckp -o 10
+
+v3> pimage -next 10
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 9
+
+v3> pcheckp -o 10
+
+v3> pimage -next 10
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 9
+
+v3> pcheckp -o 10
+
+v3> pimage -next 10
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 9
+
+v3> pcheckp -o 10
+
+v3> pimage -next 10
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 9
+
+v3> pcheckp -o 10
+
+v3> pimage -next 50
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 10
+
+v3> pimage -next 50
+
+v3> pcheckp -o 8
+
+v3> pcheckp -o 10
+
+v3> quit -f
+

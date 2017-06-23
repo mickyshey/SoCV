@@ -1,0 +1,12 @@
+10
+LessThan(1, 2)
+Assign(8, 5)
+Adjacent(3, 9)
+AdjacentNot(0, 2)
+LessThan(4, 9)
+AssignNot(6, 0)
+AdjacentNot(4, 9)
+AssignNot(4, 0)
+LessThan(2, 4)
+Adjacent(8, 1) 
+Assign(9, 9)

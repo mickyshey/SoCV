@@ -1,0 +1,33 @@
+(1)
+
+p = initialized && (serviceTypeOut == `SERVICE_OFF) && (outExchange + cost != inputValue),
+where cost is the corressponding cost of the item we want.
+
+This is more general than the original assertion p.
+If no item comes out, the cost is 0, then the assertion is the same as the original one.
+If we get an item, the outExchange should be inputValue - cost.
+
+(2)
+
+q = initialized && (serviceTypeOut == `SERVICE_BUSY) && exchangeReady && (outExchange + serviceValue != inputValue - cost)
+
+This assertion tells that when the vending machine is in the exchanging process, the total value to be exchanged is inputValue - cost,
+which should be exactly the same as the current exchanged value + the remaining should-be-exchanged value.
+
+(3)
+
+r = initialized && (serviceTypeOut == `SERVICE_ON) && (coinOutNTD_50 || coinOutNTD_10 || coinOutNTD_5 || coinOutNTD_1 || serviceValue)
+
+This assertion tells that when the vending machine is at stand-by-state, there should be no coins coming out, and the serviceValue should also be 0.
+
+
+Some input patterns I add:
+
+a. 10000010001
+b. 01000001001
+c. 11110010011 
+
+The output patterns corresspond to all input patterns pass the above assertions.
+
+
+With these three assertions, covering all states with basic functionality, I think this modified vending machine might not have bugs.

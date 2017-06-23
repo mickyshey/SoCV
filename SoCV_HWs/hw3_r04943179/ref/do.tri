@@ -1,0 +1,11 @@
+read rtl ../tests/a.v
+blast ntk
+BSETORDER -rf
+BCONSTRUCT -all
+PINIT init
+BREPORT init
+PTRA tri tr
+BREPORT tri
+BREPORT tr
+q -f
+

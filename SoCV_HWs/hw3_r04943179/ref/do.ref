@@ -1,0 +1,45 @@
+v3> read rtl ../tests/a.v
+
+v3> blast ntk
+
+v3> bsetorder -file
+Set BDD Variable Order Succeed !!
+
+v3> bconstruct -all
+
+v3> pinit init
+
+v3> ptrans ti t
+
+v3> pimage img_0
+Computing reachable state (time : 0 )...                                                  
+v3> pimage img_1
+Computing reachable state (time : 1 )...                                                  
+v3> pimage img_2
+Computing reachable state (time : 2 )...                                                  
+v3> pimage img_3
+Computing reachable state (time : 3 )...                                                  
+v3> pimage img_4
+Computing reachable state (time : 4 )...                                                  
+v3> pimage img_5
+Computing reachable state (time : 5 )...                                                  
+v3> pimage img_6
+Computing reachable state (time : 6 )...                                                  
+v3> pimage img_7
+Computing reachable state (time : 7 )...                                                  
+v3> pimage img_8
+Computing reachable state (time : 8 )...                                                  
+v3> pimage img_9
+Computing reachable state (time : 9 )...                                                  
+v3> pimage img_10
+Computing reachable state (time : 10 )...                                                  
+v3> pimage img_11
+Computing reachable state (time : 11 )...                                                  
+v3> pimage img_12
+Computing reachable state (time : 12 )...                                                  Fixed point is reached (time : 12)
+
+v3> pimage img_13
+Computing reachable state (time : 12 )...                                                  Fixed point is reached (time : 12)
+
+v3> q -f
+

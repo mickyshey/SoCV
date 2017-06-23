@@ -1,0 +1,13 @@
+read rtl vending_abs.v
+blast ntk
+bseto -f
+bconst -all
+pinit init
+ptran tri tr
+usage
+pimage -n 30
+usage
+pcheckp -o 0
+pcheckp -o 1
+pcheckp -o 2
+q -f

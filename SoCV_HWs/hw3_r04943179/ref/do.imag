@@ -1,0 +1,21 @@
+read rtl ../tests/a.v
+blast ntk
+bsetorder -file
+bconstruct -all
+pinit init
+ptrans ti t
+pimage img_0
+pimage img_1
+pimage img_2
+pimage img_3
+pimage img_4
+pimage img_5
+pimage img_6
+pimage img_7
+pimage img_8
+pimage img_9
+pimage img_10
+pimage img_11
+pimage img_12
+pimage img_13
+q -f

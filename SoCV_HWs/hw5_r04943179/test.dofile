@@ -1,0 +1,4 @@
+read rtl tests/basic/a.v
+blast ntk
+satv itp -o 0
+q -f

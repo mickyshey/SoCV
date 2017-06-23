@@ -1,0 +1,15 @@
+The assertion p tells that when no item comes out, the vending machine should give back the input value.
+
+I noticed that there are two conditions to result in this scenario, which are (1 the input value is not enough for the corressponding item, and 
+(2 there are no certain number of coins for the exchange value.
+
+For the first condition, I give an input pattern 10100001001, which means I insert 10x1 + 1x2 to get itemB(cost = 15). The corressponding output pattern is 00000100000010000,
+and no violation occurs.
+
+For the second condition, I first calculate the number of coins remaining in the vending machine after the given input patterns, which is 50: 3, 10: 1, 5: 3, 1: 2.
+To trigger the violation, I give an input pattern 11001101001, which means I insert 10x1 + 5x3 to get itemC(cost = 22). For the exchange value, the vending machine should return 1x3,
+and obviously there are no enough 1's. The corressponding output pattern is 00000000000000001 !
+
+I find out that when the second condition occurs, the original vending.v change the state to `SERVICE_OFF immediately(line 236), so the process of giving back the input value is blocked.
+
+After I comment out line 236, the serviceTypeOut will remain in `SERVICE_BUSY, and keep on giving back the input value, which is correct !

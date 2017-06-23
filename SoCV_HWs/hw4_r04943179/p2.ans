@@ -1,0 +1,135 @@
+(a)	f <- 0
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {a}
+
+	b:	watched pins: {b, j}
+		watching-0: {}
+		watching-1:	{b, c}
+		watching-known: {}
+
+	c:	watched pins: {c, b}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(b)	b <- 1
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {a}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {c, g}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(c) e <- 0	
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {a}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {c, g}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(d) a <- 1
+	
+	a:	watched pins: {a, d}	<==== indirect implication: a = 1, e = 0, f = 0, b = 1 -> d = 0
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {c, g}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(e) l <- 1
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}
+
+	b:	watched pins: {j, k}	<==== direct implication: l = 1 -> b = 1, no conflict since b already assigned to 1
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {c, g}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(f) j <- 0
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {c, g}
+		watching-0: {c}
+		watching-1: {}
+		watching-known: {}	
+
+(g) g <- 0
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {h, i}	<==== direct implication: g = 0 -> c = 0
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}	
+
+(h) h <- 1
+	
+	a:	watched pins: {a, d}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}
+
+	b:	watched pins: {j, k}
+		watching-0: {}
+		watching-1:	{}
+		watching-known: {}
+
+	c:	watched pins: {h, i}
+		watching-0: {}
+		watching-1: {}
+		watching-known: {}	

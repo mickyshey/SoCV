@@ -1,0 +1,4 @@
+read aig oski3ub2i.aig
+satv pdr -o 0
+usage
+q -f

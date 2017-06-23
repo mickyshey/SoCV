@@ -1,0 +1,6 @@
+read rtl ../tests/a.v
+blast ntk
+BSETORDER -f
+BCONSTRuct -all
+BREPort 200
+q -f
